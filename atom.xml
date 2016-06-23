@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gareth Williams</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="RandomSyntax.Net/"/>
+  <updated>2016-06-23T12:19:34.000Z</updated>
+  <id>RandomSyntax.Net/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Gone to have a baby!</title>
+    <link href="RandomSyntax.Net/gone-to-have-a-baby/"/>
+    <id>RandomSyntax.Net/gone-to-have-a-baby/</id>
+    <published>2014-12-01T16:13:48.000Z</published>
+    <updated>2016-06-23T12:19:34.000Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Gone-to-have-a-baby&quot;&gt;&lt;a href=&quot;#Gone-to-have-a-baby&quot; class=&quot;headerlink&quot; title=&quot;Gone to have a baby!&quot;&gt;&lt;/a&gt;Gone to have a baby!&lt;/h4&gt;&lt;p&gt;Back in 30 years.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Gone-to-have-a-baby&quot;&gt;&lt;a href=&quot;#Gone-to-have-a-baby&quot; class=&quot;headerlink&quot; title=&quot;Gone to have a baby!&quot;&gt;&lt;/a&gt;Gone to have a baby!&lt;/h4&gt;&lt;p&gt;
+    
+    </summary>
+    
+      <category term="Uncategorized" scheme="RandomSyntax.Net/categories/Uncategorized/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>3D Printing</title>
+    <link href="RandomSyntax.Net/3d-printing/"/>
+    <id>RandomSyntax.Net/3d-printing/</id>
+    <published>2014-08-07T13:35:54.000Z</published>
+    <updated>2016-06-22T21:27:16.372Z</updated>
+    
+    <content type="html">&lt;p&gt;I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer&lt;/p&gt;
+&lt;h2 id=&quot;Calibration-Cube&quot;&gt;&lt;a href=&quot;#Calibration-Cube&quot; class=&quot;headerlink&quot; title=&quot;Calibration Cube.&quot;&gt;&lt;/a&gt;Calibration Cube.&lt;/h2&gt;&lt;p&gt;As you can see the auto leveling has now stopped my prints from leaning to one side:&lt;/p&gt;
+
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/cube_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/cube_a.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/cube_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/cube_b.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/cube_c.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/cube_c.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+&lt;h2 id=&quot;Elephant&quot;&gt;&lt;a href=&quot;#Elephant&quot; class=&quot;headerlink&quot; title=&quot;Elephant.&quot;&gt;&lt;/a&gt;Elephant.&lt;/h2&gt;
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/elephant_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/elephant_a.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/elephant_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/elephant_b.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+&lt;h2 id=&quot;Octopus&quot;&gt;&lt;a href=&quot;#Octopus&quot; class=&quot;headerlink&quot; title=&quot;Octopus&quot;&gt;&lt;/a&gt;Octopus&lt;/h2&gt;
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/octopus_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/octopus_a.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/octopus_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/octopus_b.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printing/octopus_c.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/octopus_c.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer&lt;/p&gt;
+&lt;h2 id=&quot;Calibratio
+    
+    </summary>
+    
+      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+    
+    
+      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Auto Bed Levelling</title>
+    <link href="RandomSyntax.Net/auto-bed-levelling/"/>
+    <id>RandomSyntax.Net/auto-bed-levelling/</id>
+    <published>2014-06-19T12:43:03.000Z</published>
+    <updated>2016-06-22T21:16:52.176Z</updated>
+    
+    <content type="html">&lt;p&gt;Video of the G29 command.&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/98630132&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;This process involves using 3 Force Sense Resistors (FSR’s) in order to use the actual print head as the z-probe.&lt;/p&gt;
+&lt;p&gt;Code can be found in Johan’s Github Branch:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jcrocholl/Marlin/tree/fsr&quot; title=&quot;https://github.com/jcrocholl/Marlin/tree/fsr&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github.com/jcrocholl/Marlin/tree/fsr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are some images of how the sensors are attached to the printer (under the bed):&lt;/p&gt;
+
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/auto-bed-levelling/fsr_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/fsr_a.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/auto-bed-levelling/fsr_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/fsr_b.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/auto-bed-levelling/electronics_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/electronics_a.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/auto-bed-levelling/electronics_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/electronics_b.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Video of the G29 command.&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/9863
+    
+    </summary>
+    
+      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+    
+    
+      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Conky Config</title>
+    <link href="RandomSyntax.Net/conky-config/"/>
+    <id>RandomSyntax.Net/conky-config/</id>
+    <published>2014-05-05T13:44:08.000Z</published>
+    <updated>2016-06-22T21:37:47.527Z</updated>
+    
+    <content type="html">&lt;p&gt;I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/conky-config/Conky_Config.png&quot; title=&quot;&quot;&gt;&lt;img src=&quot;/content/images/conky-config/Conky_Config_thumb.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+&lt;p&gt;In order to recreate this config you will need the following:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://aur.archlinux.org/packages/conky-colors/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://aur.archlinux.org/packages/conky-colors/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://aur.archlinux.org/packages/conky-nvidia/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://aur.archlinux.org/packages/conky-nvidia/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.archlinux.org/packages/?name=lm_sensors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.archlinux.org/packages/?name=lm_sensors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is the conky config file (feel free to copy as needed):&lt;/p&gt;
+&lt;div style=&quot;color: #222222; height: 300px; overflow: auto;&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;figcaption&gt;&lt;span&gt;.conkyrc&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;84&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;85&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;86&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;87&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;88&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;89&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;90&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;91&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;92&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;93&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;94&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;95&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;96&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;97&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;98&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;99&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;100&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;101&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;102&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;103&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;104&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;105&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;106&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;107&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;108&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;109&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;110&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;111&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;112&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;113&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;114&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;115&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;116&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;117&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;118&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;119&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;120&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;121&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;122&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;123&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;124&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;125&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;126&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;######################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Conky settings - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;######################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;update_interval 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total_run_&lt;span class=&quot;built_in&quot;&gt;times&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net_avg_samples 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cpu_avg_samples 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;imlib_cache_size 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;double_buffer yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;no_buffers yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#####################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Text settings - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#####################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;use_xft yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;xftfont Ubuntu:size=8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override_utf8_locale yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;text_buffer_size 2048&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#############################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Window specifications - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#############################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_class Conky&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_&lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt; normal&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_transparent yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;alignment top_right&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gap_x 25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gap_y 40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;minimum_size 182 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;maximum_width 182&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;default_bar_size 60 8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#########################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Graphics settings - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#########################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;draw_shades no&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;default_color cccccc&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;color0 white&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;color1 E07A1F&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;color2 white&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;TEXT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;SYSTEM &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolorslogos:size=32&amp;#125;&lt;/span&gt;a&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 55&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -25&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$machine&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 55&amp;#125;&lt;/span&gt;Kernel: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;kernel&amp;#125;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CPU Freq &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;E&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;Frequency: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;freq_g (1)&amp;#125;&lt;/span&gt; GHz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CPU Usage &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU1: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu1&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU2: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu2&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU3: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu3&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU4: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu4&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU5: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu5&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU6: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu6&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU7: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu7&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU8: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu8&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CPU Temperatures &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;Core0:&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;color #FCAF3E&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;execi 30 sensors | grep &#39;Core 0&#39; | awk &#39;&amp;#123;print $3&amp;#125;&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;c$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Core1:$&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;execi 30 sensors | grep &#39;&lt;/span&gt;Core 1&lt;span class=&quot;string&quot;&gt;&#39; | awk &#39;&lt;/span&gt;&amp;#123;&lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$3&lt;/span&gt;&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;c$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Core2:$&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;execi 30 sensors | grep &#39;&lt;/span&gt;Core 2&lt;span class=&quot;string&quot;&gt;&#39; | awk &#39;&lt;/span&gt;&amp;#123;&lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$3&lt;/span&gt;&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;c$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Core3:$&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;execi 30 sensors | grep &#39;&lt;/span&gt;Core 3&lt;span class=&quot;string&quot;&gt;&#39; | awk &#39;&lt;/span&gt;&amp;#123;&lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$3&lt;/span&gt;&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Misc Info $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;d$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;GPU Temp: $&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;exec nvidia-settings -q GPUCoreTemp | grep Attribute | cut -d &#39;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39; -f 6 | cut -c 1-2&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;g$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Memory: $&amp;#123;mem&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;membar 8,60&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Disk: $&amp;#123;diskio&amp;#125;$&amp;#123;alignr&amp;#125;$&amp;#123;diskiograph 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Swap: $swapperc% $&amp;#123;alignr&amp;#125;$&amp;#123;swapbar 8,60&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;o$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Uptime: $&amp;#123;alignr&amp;#125;$&amp;#123;uptime&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;C$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Processes: $&amp;#123;alignr&amp;#125;$processes ($running_processes running)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 7.5&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font Poky:size=15&amp;#125;a$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -10&amp;#125;Highest: $&amp;#123;alignr 13&amp;#125;CPU$&amp;#123;alignr&amp;#125;RAM&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -5.5&amp;#125;$&amp;#123;hr 1&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 1&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 1&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 1&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 2&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 2&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 3&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 3&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 3&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 4&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 4&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 4&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#Time &amp;amp;amp; Date $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#$&amp;#123;font Arial Black:size=26&amp;#125;$&amp;#123;alignc&amp;#125;$&amp;#123;time %H:%M&amp;#125;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#$&amp;#123;alignc&amp;#125;$&amp;#123;time %A, %B %d, %Y&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;HDD $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125; $&amp;#123;voffset -5&amp;#125;File System&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;fs_free /&amp;#125;/$&amp;#123;fs_size /&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;fs_bar 8,60 /&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125; $&amp;#123;voffset -5&amp;#125;Home&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;fs_free /home&amp;#125;/$&amp;#123;fs_size /home&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;fs_bar 8,60 /home&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Battery: $&amp;#123;alignr&amp;#125;$&amp;#123;battery&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;battery_bar&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Network $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;if_up wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;font conkycolors:size=14&amp;#125;k$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -8&amp;#125;SSID: $&amp;#123;wireless_essid wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Signal: $&amp;#123;wireless_link_qual wlp4s0&amp;#125;% $&amp;#123;alignr&amp;#125;$&amp;#123;wireless_link_bar 8,60 wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;x$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Up: $&amp;#123;upspeed wlp4s0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;upspeedgraph wlp4s0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totalup wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;u$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Down: $&amp;#123;downspeed wlp4s0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;downspeedgraph wlp4s0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totaldown wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=13&amp;#125;A$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -8&amp;#125;Local IP: $&amp;#123;alignr&amp;#125;$&amp;#123;addr wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# |--enp3s0f0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;else&amp;#125;$&amp;#123;if_up enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -13&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;x$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Up: $&amp;#123;upspeed enp3s0f0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;upspeedgraph enp3s0f0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totalup enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;u$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Down: $&amp;#123;downspeed enp3s0f0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;downspeedgraph enp3s0f0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totaldown enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font conkycolors:size=13&amp;#125;A$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -4&amp;#125;Local IP: $&amp;#123;alignr&amp;#125;$&amp;#123;addr enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# |--PPP0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;endif&amp;#125;$&amp;#123;else&amp;#125;$&amp;#123;if_up ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -13&amp;#125;$&amp;#123;font conkycolors Solid:size=14&amp;#125;q$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Up: $&amp;#123;upspeed ppp0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;upspeedgraph ppp0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totalup ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font conkycolors Solid:size=14&amp;#125;Q$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Down: $&amp;#123;downspeed ppp0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;downspeedgraph ppp0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totaldown ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font Poky:size=13&amp;#125;w$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -4&amp;#125;Local IP: $&amp;#123;alignr&amp;#125;$&amp;#123;addr ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;endif&amp;#125;$&amp;#123;else&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font PizzaDude Bullets:size=12&amp;#125;4$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;Network Unavailable$&amp;#123;endif&amp;#125;$&amp;#123;endif&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;wlp4s0&lt;/strong&gt; and &lt;strong&gt;enp3s0f0&lt;/strong&gt; are the network device IDS, so you will need to substitute your own.&lt;/p&gt;
+&lt;p&gt;If you would like to modify the icons then theres lots of them in the ttf:&lt;br&gt;&lt;a href=&quot;https://github.com/helmuthdu/conky_colors/tree/master/fonts/conkycolors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/helmuthdu/conky_colo … onkycolors&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;PLEASE-NOTE&quot;&gt;&lt;a href=&quot;#PLEASE-NOTE&quot; class=&quot;headerlink&quot; title=&quot;PLEASE NOTE:&quot;&gt;&lt;/a&gt;PLEASE NOTE:&lt;/h4&gt;&lt;p&gt;I’m sure there’s a better way of getting the CPU temps.  Please let me know if this is the case.&lt;br&gt;I’m not sure that the Ethernet if else statements are working correctly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;FURTHER-READING&quot;&gt;&lt;a href=&quot;#FURTHER-READING&quot; class=&quot;headerlink&quot; title=&quot;FURTHER READING:&quot;&gt;&lt;/a&gt;FURTHER READING:&lt;/h4&gt;&lt;p&gt;Here’s some lovelly looking conky-colors stuff:&lt;br&gt;&lt;a href=&quot;http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180&lt;/a&gt;&lt;br&gt;And the conky Git pagee if you want to see the source and who made it:&lt;br&gt;&lt;a href=&quot;https://github.com/helmuthdu/conky_colors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/helmuthdu/conky_colors&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; hr
+    
+    </summary>
+    
+      <category term="Misc" scheme="RandomSyntax.Net/categories/Misc/"/>
+    
+    
+      <category term="config" scheme="RandomSyntax.Net/tags/config/"/>
+    
+      <category term="conky" scheme="RandomSyntax.Net/tags/conky/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3D Printer Calibration</title>
+    <link href="RandomSyntax.Net/3d-printer-calibration/"/>
+    <id>RandomSyntax.Net/3d-printer-calibration/</id>
+    <published>2014-02-18T15:31:50.000Z</published>
+    <updated>2016-06-22T21:42:06.627Z</updated>
+    
+    <content type="html">&lt;p&gt;Here is a video of my printer doing a calibration.&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/86994938&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;Calibrating the print head height is proving to be quite difficult. A good article on this can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://minow.blogspot.co.uk/index.html#4918805519571907051&quot; title=&quot;Minow - Calibrating a Delta 3D Printer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Minow - Calibrating a Delta 3D Printer&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Delta-Printers-Only&quot;&gt;&lt;a href=&quot;#Delta-Printers-Only&quot; class=&quot;headerlink&quot; title=&quot;Delta Printers Only&quot;&gt;&lt;/a&gt;Delta Printers Only&lt;/h4&gt;&lt;p&gt;This calibration process is for a delta style printers only (like my 3DR)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see the prints are getting significantly better.&lt;/p&gt;
+
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-calibration/calibration_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_a.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-calibration/calibration_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_b.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-calibration/calibration_c.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_c.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+&lt;p&gt;Its not quite there, but I would say its close.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here is a video of my printer doing a calibration.&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//pl
+    
+    </summary>
+    
+      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+    
+    
+      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A week with Arch</title>
+    <link href="RandomSyntax.Net/a-week-with-arch/"/>
+    <id>RandomSyntax.Net/a-week-with-arch/</id>
+    <published>2014-02-16T16:13:54.000Z</published>
+    <updated>2016-06-22T19:51:06.231Z</updated>
+    
+    <content type="html">&lt;p&gt;After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.&lt;/p&gt;
+&lt;p&gt;Here is what I finally have (I went for XFCE because it is lightweight).&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/a_week_with_arch/arch_desktop.png&quot; title=&quot;I am happy with the results&quot;&gt;&lt;img src=&quot;/content/images/a_week_with_arch/arch_desktop_thumbnail.png&quot; alt=&quot;I am happy with the results&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;What-I-like&quot;&gt;&lt;a href=&quot;#What-I-like&quot; class=&quot;headerlink&quot; title=&quot;What I like&quot;&gt;&lt;/a&gt;What I like&lt;/h2&gt;&lt;p&gt;I’m very happy with the speed and ease of use so far.&lt;/p&gt;
+&lt;p&gt;Arch makes no assumptions, this means you literally have to configure everything.  An example of this is that I could not get thunar to auto mount and add a desktop icon for my USB drives.  After some research (amazing Arch documentation) this was simply a case of enabling the thunar volume manager alongside lxpolkit.&lt;/p&gt;
+&lt;h2 id=&quot;Bottom-Line&quot;&gt;&lt;a href=&quot;#Bottom-Line&quot; class=&quot;headerlink&quot; title=&quot;Bottom Line&quot;&gt;&lt;/a&gt;Bottom Line&lt;/h2&gt;&lt;p&gt;Things may take a little longer to get working and configured.  but this results in no cruft at all in your system, and you leave knowing how things work in much more depth and are then able to problem solve in future.  And when something does’t work you really get to go into the documentation (of which there is ample amounts of information on everything).&lt;/p&gt;
+&lt;p&gt;I would say that I have learnt more on how a linux distribution works in my first week with arch, than I have in around 3 years of Ubuntu and Mint.&lt;/p&gt;
+&lt;p&gt;There is something very satisfying about knowing exactly what is running on your system.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up
+    
+    </summary>
+    
+      <category term="Misc" scheme="RandomSyntax.Net/categories/Misc/"/>
+    
+    
+      <category term="setup" scheme="RandomSyntax.Net/tags/setup/"/>
+    
+      <category term="software" scheme="RandomSyntax.Net/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Arch Linux New Install</title>
+    <link href="RandomSyntax.Net/arch-linux-new-install/"/>
+    <id>RandomSyntax.Net/arch-linux-new-install/</id>
+    <published>2014-02-12T09:27:40.000Z</published>
+    <updated>2016-06-22T21:40:02.665Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Something-New&quot;&gt;&lt;a href=&quot;#Something-New&quot; class=&quot;headerlink&quot; title=&quot;Something New&quot;&gt;&lt;/a&gt;Something New&lt;/h2&gt;&lt;p&gt;I have been contemplating re-installing my main OS.  Currently I’m running &lt;a href=&quot;https://www.linuxmint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mint&lt;/a&gt; ( 14 - Cinnamon) and Windows 7.  I have always wanted to install &lt;a href=&quot;https://www.gentoo.org/get-started/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gentoo&lt;/a&gt;, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.&lt;/p&gt;
+&lt;h2 id=&quot;Arch&quot;&gt;&lt;a href=&quot;#Arch&quot; class=&quot;headerlink&quot; title=&quot;Arch&quot;&gt;&lt;/a&gt;Arch&lt;/h2&gt;&lt;p&gt;I have been looking at &lt;strong&gt;Arch Linux&lt;/strong&gt;, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full &lt;strong&gt;Gentoo&lt;/strong&gt; install.&lt;/p&gt;
+&lt;p&gt;One thing I would like to highlight is that the &lt;a href=&quot;https://wiki.archlinux.org/index.php/Installation_guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;DOCUMENTATION IS AMAZING!&lt;/strong&gt;&lt;/a&gt;, really really helpful, if you need to know it, it’s in there.  Check out the &lt;a href=&quot;https://wiki.archlinux.org/index.php/Beginners&quot; title=&quot;Beginners Guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Beginners Guide&lt;/a&gt; if you need help getting going.&lt;/p&gt;
+&lt;p&gt;After 2 hours of work, here is what I have:&lt;/p&gt;
+&lt;p&gt;(It still needs a lot of work, this is simply the stock xfce, with chromium installed)&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/arch-linux-new-install/arch_initial_screenshot.png&quot; title=&quot;Even after hours of work it looks terrible&quot;&gt;&lt;img src=&quot;/content/images/arch-linux-new-install/arch_initial_screenshot_thumbnail.png&quot; alt=&quot;Even after hours of work it looks terrible&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;p&gt;Something to note is that  my previous install of &lt;strong&gt;Mint&lt;/strong&gt; had encrypted my home folders with &lt;strong&gt;ecryptfs &lt;/strong&gt;(standard ubuntu encryption).  This was easily used with my new install by following the Auto-Mount steps in &lt;a href=&quot;https://wiki.archlinux.org/index.php/ECryptfs&quot; title=&quot;ecryptfs Arch Guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;this guide&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Something-New&quot;&gt;&lt;a href=&quot;#Something-New&quot; class=&quot;headerlink&quot; title=&quot;Something New&quot;&gt;&lt;/a&gt;Something New&lt;/h2&gt;&lt;p&gt;I have been contemplating 
+    
+    </summary>
+    
+      <category term="Misc" scheme="RandomSyntax.Net/categories/Misc/"/>
+    
+    
+      <category term="setup" scheme="RandomSyntax.Net/tags/setup/"/>
+    
+      <category term="software" scheme="RandomSyntax.Net/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3D Printer - Leaking</title>
+    <link href="RandomSyntax.Net/3d-printer-wip-leaking/"/>
+    <id>RandomSyntax.Net/3d-printer-wip-leaking/</id>
+    <published>2014-01-31T00:00:00.000Z</published>
+    <updated>2016-06-23T20:38:25.991Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Too-Hot&quot;&gt;&lt;a href=&quot;#Too-Hot&quot; class=&quot;headerlink&quot; title=&quot;Too Hot&quot;&gt;&lt;/a&gt;Too Hot&lt;/h2&gt;&lt;p&gt;While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.&lt;/p&gt;
+
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-leaking/leaking.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/leaking.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-leaking/disasembly2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/disasembly2.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-leaking/disasembly.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/disasembly.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+&lt;h2 id=&quot;Back-in-business&quot;&gt;&lt;a href=&quot;#Back-in-business&quot; class=&quot;headerlink&quot; title=&quot;Back in business&quot;&gt;&lt;/a&gt;Back in business&lt;/h2&gt;&lt;p&gt;After taking it apart I found that it was due to the inner &lt;a href=&quot;http://reprap.org/wiki/PLA&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PLA&lt;/a&gt; of the &lt;a href=&quot;http://reprap.org/wiki/Jhead&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JHead&lt;/a&gt; slipping a bit inside.  I have now reconstructed the hot end and its clean and tight.&lt;/p&gt;
+
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-leaking/cleaned1.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/cleaned1.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-leaking/cleaned2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/cleaned2.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Too-Hot&quot;&gt;&lt;a href=&quot;#Too-Hot&quot; class=&quot;headerlink&quot; title=&quot;Too Hot&quot;&gt;&lt;/a&gt;Too Hot&lt;/h2&gt;&lt;p&gt;While trying to calibrate my hot end I set my extr
+    
+    </summary>
+    
+      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+    
+    
+      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3D Printer - Build</title>
+    <link href="RandomSyntax.Net/3d-printer-build/"/>
+    <id>RandomSyntax.Net/3d-printer-build/</id>
+    <published>2014-01-23T00:00:00.000Z</published>
+    <updated>2016-06-22T21:38:43.644Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;I was inspired to create this printer after seeing a very informative video by &lt;a href=&quot;http://richrap.blogspot.co.uk/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Richard Horne&lt;/a&gt; on his &lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3DR RepRap Delta Printer&lt;/a&gt; (his tutorial series on the printer is very helpful and covers all aspects of the build process).&lt;br&gt;The printer is a Delta printer (a design made famous by &lt;a href=&quot;https://github.com/jcrocholl&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jcrocholl&lt;/a&gt; and his &lt;a href=&quot;https://github.com/jcrocholl/rostock&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Rostock&lt;/a&gt; printer.&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Links&quot;&gt;&lt;a href=&quot;#Links&quot; class=&quot;headerlink&quot; title=&quot;Links&quot;&gt;&lt;/a&gt;Links&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;RichRap 3DR Firmware&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Assembly Tutorial Series&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;Photos&quot;&gt;&lt;a href=&quot;#Photos&quot; class=&quot;headerlink&quot; title=&quot;Photos&quot;&gt;&lt;/a&gt;Photos&lt;/h2&gt;
+	
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
+				
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/Electronics1.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Electronics1.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/Electronics2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Electronics2.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/Electronics3.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Electronics3.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/base.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/base_with_alu_extrusions.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base_with_alu_extrusions.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/Base_alu_closeup.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Base_alu_closeup.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/base_top_carriage.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base_top_carriage.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/base_top_carriage2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base_top_carriage2.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/carriage.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/carriage.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/carriage_with_wire.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/carriage_with_wire.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/axis_motors.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/axis_motors.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/axis carriage2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/axis carriage2.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/axis_carriage_3.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/axis_carriage_3.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/hotend.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/hotend.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+							&lt;a href=&quot;#&quot; data-featherlight=&quot;/content/images/3d-printer-build/readytoprint.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/readytoprint.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+					
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;I was inspired to create this printer 
+    
+    </summary>
+    
+      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+    
+    
+      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+    
+      <category term="build" scheme="RandomSyntax.Net/tags/build/"/>
+    
+  </entry>
+  
+</feed>

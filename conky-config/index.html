@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gareth Williams - Conky Config</title>      
+    <link rel="icon" type="image/png" href="/images/fa-rocket_16px.png">
+
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/jasny-bootstrap-min.css">
+	<link rel="stylesheet" href="/css/callouts.css">
+    
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+    	
+    <!-- Custom Styles -->
+	<link rel="stylesheet" href="/css/layout.css">    
+	<link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Google Analytics -->
+    
+    
+</head>
+
+<body>    		
+		<!-- Sidebar -->
+		<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-sm">
+	
+	<div class="visible-md visible-lg">
+	
+		<a class="nounderline" href="/">		
+			
+			<div class="site-title">
+				<img class="site-icon" src="/images/fa-rocket_200px.png" height="150px" />
+				Gareth Williams
+			</div>
+			
+		</a>
+					
+		<div class="site-description">
+			RandomSyntax.Net
+		</div>	
+	</div>
+	
+	<ul class="nav navmenu-nav">
+		
+			<li class="">
+				<a href="/">   					
+					<i class="icon fa fa-home"></i>
+					Home     
+				</a>
+			</li>
+		
+			<li class="">
+				<a href="/archives">   					
+					<i class="icon fa fa-archive"></i>
+					Archives     
+				</a>
+			</li>
+		
+			<li class="">
+				<a href="/about">   					
+					<i class="icon fa fa-user"></i>
+					About     
+				</a>
+			</li>
+		
+			<li class="">
+				<a href="/contact">   					
+					<i class="icon fa fa-envelope"></i>
+					Contact     
+				</a>
+			</li>
+		
+			<li class="">
+				<a href="/atom.xml">   					
+					<i class="icon fa fa-rss"></i>
+					RSS     
+				</a>
+			</li>
+		
+	</ul>	
+	
+	<div class="nav btn-list"><i class="icon fa fa-tags"></i>
+     
+        <a href="/tags/hardware/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    hardware		
+            </button>
+        </a>
+     
+        <a href="/tags/build/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    build		
+            </button>
+        </a>
+     
+        <a href="/tags/setup/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    setup		
+            </button>
+        </a>
+     
+        <a href="/tags/software/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    software		
+            </button>
+        </a>
+     
+        <a href="/tags/config/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    config		
+            </button>
+        </a>
+     
+        <a href="/tags/conky/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    conky		
+            </button>
+        </a>
+    
+</div>
+
+</div>
+		
+		<!-- Header -->
+		<div class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg">
+	<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>	
+			
+	<a class="nounderline" href="/">
+		<div class="site-title">
+			<img class="site-icon" src="/images/fa-rocket_200px.png" height="25px" />
+			Gareth Williams
+		</div>
+	</a>
+		
+</div>
+
+				
+		<!-- Page Content -->
+		<div id="wrap">
+			<div id="main" class="container-fluid clear-top">
+				<div class="blog-post">
+
+    <!-- Title -->    
+    <h1 class="post-title page-header"> 
+        Conky Config   
+    </h1>
+
+    <!-- Date and Author -->
+    <p class="blog-post-meta">
+        05-05-2014
+        
+    </p>
+    
+    <!-- Tags and Categories links -->
+    
+
+<div class="blog-categories-container">
+    <span class="fa fa-folder"></span>
+    <a href="/categories/Misc/">Misc</a>
+</div>
+
+    
+
+<div class="blog-tags-container">
+    <span class="fa fa-tags"></span>
+    <a href="/tags/config/">#config</a> <a href="/tags/conky/">#conky</a>
+</div>
+
+    
+    <!-- Content -->
+    <p>I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:</p>
+<a class="image-link" href="/content/images/conky-config/Conky_Config.png" title=""><img src="/content/images/conky-config/Conky_Config_thumb.png" alt=""></a>
+<p>In order to recreate this config you will need the following:</p>
+<p><a href="https://aur.archlinux.org/packages/conky-colors/" target="_blank" rel="external">https://aur.archlinux.org/packages/conky-colors/</a><br><a href="https://aur.archlinux.org/packages/conky-nvidia/" target="_blank" rel="external">https://aur.archlinux.org/packages/conky-nvidia/</a><br><a href="https://www.archlinux.org/packages/?name=lm_sensors" target="_blank" rel="external">https://www.archlinux.org/packages/?name=lm_sensors</a></p>
+<p>Here is the conky config file (feel free to copy as needed):</p>
+<div style="color: #222222; height: 300px; overflow: auto;"><br><figure class="highlight sh"><figcaption><span>.conkyrc</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">######################</span></span><br><span class="line"><span class="comment"># - Conky settings - #</span></span><br><span class="line"><span class="comment">######################</span></span><br><span class="line">update_interval 1</span><br><span class="line">total_run_<span class="built_in">times</span> 0</span><br><span class="line">net_avg_samples 1</span><br><span class="line">cpu_avg_samples 1</span><br><span class="line"></span><br><span class="line">imlib_cache_size 0</span><br><span class="line">double_buffer yes</span><br><span class="line">no_buffers yes</span><br><span class="line"></span><br><span class="line"><span class="comment">#####################</span></span><br><span class="line"><span class="comment"># - Text settings - #</span></span><br><span class="line"><span class="comment">#####################</span></span><br><span class="line">use_xft yes</span><br><span class="line">xftfont Ubuntu:size=8</span><br><span class="line">override_utf8_locale yes</span><br><span class="line">text_buffer_size 2048</span><br><span class="line"></span><br><span class="line"><span class="comment">#############################</span></span><br><span class="line"><span class="comment"># - Window specifications - #</span></span><br><span class="line"><span class="comment">#############################</span></span><br><span class="line">own_window_class Conky</span><br><span class="line">own_window yes</span><br><span class="line">own_window_<span class="built_in">type</span> normal</span><br><span class="line">own_window_transparent yes</span><br><span class="line">own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager</span><br><span class="line"></span><br><span class="line">alignment top_right</span><br><span class="line">gap_x 25</span><br><span class="line">gap_y 40</span><br><span class="line">minimum_size 182 0</span><br><span class="line">maximum_width 182</span><br><span class="line"></span><br><span class="line">default_bar_size 60 8</span><br><span class="line"></span><br><span class="line"><span class="comment">#########################</span></span><br><span class="line"><span class="comment"># - Graphics settings - #</span></span><br><span class="line"><span class="comment">#########################</span></span><br><span class="line">draw_shades no</span><br><span class="line"></span><br><span class="line">default_color cccccc</span><br><span class="line"></span><br><span class="line">color0 white</span><br><span class="line">color1 E07A1F</span><br><span class="line">color2 white</span><br><span class="line"></span><br><span class="line">TEXT</span><br><span class="line">SYSTEM <span class="variable">$&#123;hr 2&#125;</span></span><br><span class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 6&#125;</span><span class="variable">$&#123;font conkycolorslogos:size=32&#125;</span>a<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;goto 55&#125;</span><span class="variable">$&#123;voffset -25&#125;</span><span class="variable">$machine</span></span><br><span class="line"><span class="variable">$&#123;goto 55&#125;</span>Kernel: <span class="variable">$&#123;kernel&#125;</span> </span><br><span class="line"></span><br><span class="line"><span class="variable">$&#123;hr 2&#125;</span></span><br><span class="line"></span><br><span class="line">CPU Freq <span class="variable">$&#123;hr 2&#125;</span></span><br><span class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>E<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>Frequency: <span class="variable">$&#123;alignr&#125;</span><span class="variable">$&#123;freq_g (1)&#125;</span> GHz</span><br><span class="line"></span><br><span class="line">CPU Usage <span class="variable">$&#123;hr 2&#125;</span></span><br><span class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU1: <span class="variable">$&#123;cpu cpu1&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU2: <span class="variable">$&#123;cpu cpu2&#125;</span>%</span><br><span class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU3: <span class="variable">$&#123;cpu cpu3&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU4: <span class="variable">$&#123;cpu cpu4&#125;</span>%</span><br><span class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU5: <span class="variable">$&#123;cpu cpu5&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU6: <span class="variable">$&#123;cpu cpu6&#125;</span>%</span><br><span class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU7: <span class="variable">$&#123;cpu cpu7&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU8: <span class="variable">$&#123;cpu cpu8&#125;</span>%</span><br><span class="line"></span><br><span class="line">CPU Temperatures <span class="variable">$&#123;hr 2&#125;</span></span><br><span class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>Core0:<span class="variable">$&#123;alignr&#125;</span><span class="variable">$&#123;color #FCAF3E&#125;</span><span class="variable">$&#123;execi 30 sensors | grep 'Core 0' | awk '&#123;print $3&#125;</span><span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;c$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Core1:$&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;execi 30 sensors | grep '</span>Core 1<span class="string">' | awk '</span>&#123;<span class="built_in">print</span> <span class="variable">$3</span>&#125;<span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;c$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Core2:$&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;execi 30 sensors | grep '</span>Core 2<span class="string">' | awk '</span>&#123;<span class="built_in">print</span> <span class="variable">$3</span>&#125;<span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;c$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Core3:$&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;execi 30 sensors | grep '</span>Core 3<span class="string">' | awk '</span>&#123;<span class="built_in">print</span> <span class="variable">$3</span>&#125;<span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span><br><span class="line"></span><br><span class="line">Misc Info $&#123;hr 2&#125;</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;d$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;GPU Temp: $&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;exec nvidia-settings -q GPUCoreTemp | grep Attribute | cut -d '</span> <span class="string">' -f 6 | cut -c 1-2&#125; °C$color</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;g$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Memory: $&#123;mem&#125; $&#123;alignr&#125;$&#123;membar 8,60&#125;</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;i$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Disk: $&#123;diskio&#125;$&#123;alignr&#125;$&#123;diskiograph 8,60 F57900 FCAF3E&#125;</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;i$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Swap: $swapperc% $&#123;alignr&#125;$&#123;swapbar 8,60&#125;</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;o$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Uptime: $&#123;alignr&#125;$&#123;uptime&#125;</span><br><span class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;C$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Processes: $&#123;alignr&#125;$processes ($running_processes running)</span><br><span class="line">$&#123;goto 7.5&#125;$&#123;voffset 4&#125;$&#123;font Poky:size=15&#125;a$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -10&#125;Highest: $&#123;alignr 13&#125;CPU$&#123;alignr&#125;RAM</span><br><span class="line">$&#123;goto 32&#125;$&#123;voffset -5.5&#125;$&#123;hr 1&#125;</span><br><span class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 1&#125; $&#123;goto 124&#125;$&#123;top cpu 1&#125;$&#123;alignr &#125;$&#123;top mem 1&#125;</span><br><span class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 2&#125; $&#123;goto 124&#125;$&#123;top cpu 2&#125;$&#123;alignr &#125;$&#123;top mem 2&#125;</span><br><span class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 3&#125; $&#123;goto 124&#125;$&#123;top cpu 3&#125;$&#123;alignr &#125;$&#123;top mem 3&#125;</span><br><span class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 4&#125; $&#123;goto 124&#125;$&#123;top cpu 4&#125;$&#123;alignr &#125;$&#123;top mem 4&#125;</span><br><span class="line"></span><br><span class="line">#Time &amp;amp; Date $&#123;hr 2&#125;</span><br><span class="line">#$&#123;font Arial Black:size=26&#125;$&#123;alignc&#125;$&#123;time %H:%M&#125;$&#123;font&#125;</span><br><span class="line">#$&#123;alignc&#125;$&#123;time %A, %B %d, %Y&#125;</span><br><span class="line"></span><br><span class="line">HDD $&#123;hr 2&#125;</span><br><span class="line">$&#123;font conkycolors:size=16&#125;i$&#123;font&#125; $&#123;voffset -5&#125;File System</span><br><span class="line">$&#123;voffset 4&#125;$&#123;fs_free /&#125;/$&#123;fs_size /&#125; $&#123;alignr&#125;$&#123;fs_bar 8,60 /&#125;</span><br><span class="line">$&#123;font conkycolors:size=16&#125;i$&#123;font&#125; $&#123;voffset -5&#125;Home</span><br><span class="line">$&#123;voffset 4&#125;$&#123;fs_free /home&#125;/$&#123;fs_size /home&#125; $&#123;alignr&#125;$&#123;fs_bar 8,60 /home&#125;</span><br><span class="line"></span><br><span class="line">Battery: $&#123;alignr&#125;$&#123;battery&#125;</span><br><span class="line">$&#123;battery_bar&#125;</span><br><span class="line"></span><br><span class="line">Network $&#123;hr 2&#125;</span><br><span class="line">$&#123;if_up wlp4s0&#125;</span><br><span class="line">$&#123;font conkycolors:size=14&#125;k$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -8&#125;SSID: $&#123;wireless_essid wlp4s0&#125;</span><br><span class="line">$&#123;goto 32&#125;Signal: $&#123;wireless_link_qual wlp4s0&#125;% $&#123;alignr&#125;$&#123;wireless_link_bar 8,60 wlp4s0&#125;</span><br><span class="line">$&#123;voffset 4&#125;$&#123;font conkycolors:size=14&#125;x$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Up: $&#123;upspeed wlp4s0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;upspeedgraph wlp4s0 8,60 F57900 FCAF3E&#125;</span><br><span class="line">$&#123;goto 32&#125;Total: $&#123;totalup wlp4s0&#125;</span><br><span class="line">$&#123;voffset 4&#125;$&#123;font conkycolors:size=14&#125;u$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Down: $&#123;downspeed wlp4s0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;downspeedgraph wlp4s0 8,60 F57900 FCAF3E&#125;</span><br><span class="line">$&#123;goto 32&#125;Total: $&#123;totaldown wlp4s0&#125;</span><br><span class="line">$&#123;voffset 4&#125;$&#123;font conkycolors:size=13&#125;A$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -8&#125;Local IP: $&#123;alignr&#125;$&#123;addr wlp4s0&#125;</span><br><span class="line"></span><br><span class="line"># |--enp3s0f0</span><br><span class="line">$&#123;else&#125;$&#123;if_up enp3s0f0&#125;</span><br><span class="line">$&#123;voffset -13&#125;$&#123;font conkycolors:size=14&#125;x$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Up: $&#123;upspeed enp3s0f0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;upspeedgraph enp3s0f0 8,60 F57900 FCAF3E&#125;</span><br><span class="line">$&#123;goto 32&#125;Total: $&#123;totalup enp3s0f0&#125;</span><br><span class="line">$&#123;voffset -2&#125;$&#123;font conkycolors:size=14&#125;u$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Down: $&#123;downspeed enp3s0f0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;downspeedgraph enp3s0f0 8,60 F57900 FCAF3E&#125;</span><br><span class="line">$&#123;goto 32&#125;Total: $&#123;totaldown enp3s0f0&#125;</span><br><span class="line">$&#123;voffset -2&#125;$&#123;font conkycolors:size=13&#125;A$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -4&#125;Local IP: $&#123;alignr&#125;$&#123;addr enp3s0f0&#125;</span><br><span class="line"></span><br><span class="line"># |--PPP0</span><br><span class="line">$&#123;endif&#125;$&#123;else&#125;$&#123;if_up ppp0&#125;</span><br><span class="line">$&#123;voffset -13&#125;$&#123;font conkycolors Solid:size=14&#125;q$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Up: $&#123;upspeed ppp0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;upspeedgraph ppp0 8,60 F57900 FCAF3E&#125;</span><br><span class="line">$&#123;goto 32&#125;Total: $&#123;totalup ppp0&#125;</span><br><span class="line">$&#123;voffset -2&#125;$&#123;font conkycolors Solid:size=14&#125;Q$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Down: $&#123;downspeed ppp0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;downspeedgraph ppp0 8,60 F57900 FCAF3E&#125;</span><br><span class="line"></span><br><span class="line">$&#123;goto 32&#125;Total: $&#123;totaldown ppp0&#125;</span><br><span class="line">$&#123;voffset -2&#125;$&#123;font Poky:size=13&#125;w$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -4&#125;Local IP: $&#123;alignr&#125;$&#123;addr ppp0&#125;</span><br><span class="line">$&#123;endif&#125;$&#123;else&#125;$&#123;voffset 4&#125;$&#123;font PizzaDude Bullets:size=12&#125;4$&#123;font&#125;$&#123;goto 32&#125;Network Unavailable$&#123;endif&#125;$&#123;endif&#125;</span><br><span class="line">$&#123;hr 2&#125;</span><br><span class="line"></span></span><br></pre></td></tr></table></figure><br></div>
+
+<p><strong>wlp4s0</strong> and <strong>enp3s0f0</strong> are the network device IDS, so you will need to substitute your own.</p>
+<p>If you would like to modify the icons then theres lots of them in the ttf:<br><a href="https://github.com/helmuthdu/conky_colors/tree/master/fonts/conkycolors" target="_blank" rel="external">https://github.com/helmuthdu/conky_colo … onkycolors</a></p>
+<div class="bs-callout bs-callout-warning"><h4 id="PLEASE-NOTE"><a href="#PLEASE-NOTE" class="headerlink" title="PLEASE NOTE:"></a>PLEASE NOTE:</h4><p>I’m sure there’s a better way of getting the CPU temps.  Please let me know if this is the case.<br>I’m not sure that the Ethernet if else statements are working correctly.</p>
+</div>
+<div class="bs-callout bs-callout-default"><h4 id="FURTHER-READING"><a href="#FURTHER-READING" class="headerlink" title="FURTHER READING:"></a>FURTHER READING:</h4><p>Here’s some lovelly looking conky-colors stuff:<br><a href="http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180" target="_blank" rel="external">http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180</a><br>And the conky Git pagee if you want to see the source and who made it:<br><a href="https://github.com/helmuthdu/conky_colors" target="_blank" rel="external">https://github.com/helmuthdu/conky_colors</a></p>
+</div>
+    
+    <hr />
+        
+    <!-- Comments -->
+    
+    <div class="blog-post-comments">
+        <h2>Comments:</h2>
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+
+</div>
+			</div>
+			
+			<!-- Footer -->
+			<footer id="footer">
+				
+
+				
+
+<p class="copyright text-muted">Powered by <a target="_blank" href="https://hexo.io/">Hexo</a>.</p>			
+			</footer>
+		</div>
+	<!-- After footer scripts -->
+	<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jasny-bootstrap.min.js"></script>
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'randomsyntax';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>	
+    
+</body>
+
+</html>
