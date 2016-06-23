@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="RandomSyntax.Net/"/>
+  <link href="randomsyntax.net/"/>
   <updated>2016-06-23T12:19:34.000Z</updated>
-  <id>RandomSyntax.Net/</id>
+  <id>randomsyntax.net/</id>
   
   <author>
     <name>Gareth Williams</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Gone to have a baby!</title>
-    <link href="RandomSyntax.Net/gone-to-have-a-baby/"/>
-    <id>RandomSyntax.Net/gone-to-have-a-baby/</id>
+    <link href="randomsyntax.net/gone-to-have-a-baby/"/>
+    <id>randomsyntax.net/gone-to-have-a-baby/</id>
     <published>2014-12-01T16:13:48.000Z</published>
     <updated>2016-06-23T12:19:34.000Z</updated>
     
@@ -31,15 +31,15 @@
     
     </summary>
     
-      <category term="Uncategorized" scheme="RandomSyntax.Net/categories/Uncategorized/"/>
+      <category term="Uncategorized" scheme="randomsyntax.net/categories/Uncategorized/"/>
     
     
   </entry>
   
   <entry>
     <title>3D Printing</title>
-    <link href="RandomSyntax.Net/3d-printing/"/>
-    <id>RandomSyntax.Net/3d-printing/</id>
+    <link href="randomsyntax.net/3d-printing/"/>
+    <id>randomsyntax.net/3d-printing/</id>
     <published>2014-08-07T13:35:54.000Z</published>
     <updated>2016-06-22T21:27:16.372Z</updated>
     
@@ -121,17 +121,17 @@
     
     </summary>
     
-      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+      <category term="3D-Printer" scheme="randomsyntax.net/categories/3D-Printer/"/>
     
     
-      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+      <category term="hardware" scheme="randomsyntax.net/tags/hardware/"/>
     
   </entry>
   
   <entry>
     <title>Auto Bed Levelling</title>
-    <link href="RandomSyntax.Net/auto-bed-levelling/"/>
-    <id>RandomSyntax.Net/auto-bed-levelling/</id>
+    <link href="randomsyntax.net/auto-bed-levelling/"/>
+    <id>randomsyntax.net/auto-bed-levelling/</id>
     <published>2014-06-19T12:43:03.000Z</published>
     <updated>2016-06-22T21:16:52.176Z</updated>
     
@@ -178,17 +178,17 @@
     
     </summary>
     
-      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+      <category term="3D-Printer" scheme="randomsyntax.net/categories/3D-Printer/"/>
     
     
-      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+      <category term="hardware" scheme="randomsyntax.net/tags/hardware/"/>
     
   </entry>
   
   <entry>
     <title>Conky Config</title>
-    <link href="RandomSyntax.Net/conky-config/"/>
-    <id>RandomSyntax.Net/conky-config/</id>
+    <link href="randomsyntax.net/conky-config/"/>
+    <id>randomsyntax.net/conky-config/</id>
     <published>2014-05-05T13:44:08.000Z</published>
     <updated>2016-06-22T21:37:47.527Z</updated>
     
@@ -213,19 +213,19 @@
     
     </summary>
     
-      <category term="Misc" scheme="RandomSyntax.Net/categories/Misc/"/>
+      <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="config" scheme="RandomSyntax.Net/tags/config/"/>
+      <category term="config" scheme="randomsyntax.net/tags/config/"/>
     
-      <category term="conky" scheme="RandomSyntax.Net/tags/conky/"/>
+      <category term="conky" scheme="randomsyntax.net/tags/conky/"/>
     
   </entry>
   
   <entry>
     <title>3D Printer Calibration</title>
-    <link href="RandomSyntax.Net/3d-printer-calibration/"/>
-    <id>RandomSyntax.Net/3d-printer-calibration/</id>
+    <link href="randomsyntax.net/3d-printer-calibration/"/>
+    <id>randomsyntax.net/3d-printer-calibration/</id>
     <published>2014-02-18T15:31:50.000Z</published>
     <updated>2016-06-22T21:42:06.627Z</updated>
     
@@ -271,17 +271,17 @@
     
     </summary>
     
-      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+      <category term="3D-Printer" scheme="randomsyntax.net/categories/3D-Printer/"/>
     
     
-      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+      <category term="hardware" scheme="randomsyntax.net/tags/hardware/"/>
     
   </entry>
   
   <entry>
     <title>A week with Arch</title>
-    <link href="RandomSyntax.Net/a-week-with-arch/"/>
-    <id>RandomSyntax.Net/a-week-with-arch/</id>
+    <link href="randomsyntax.net/a-week-with-arch/"/>
+    <id>randomsyntax.net/a-week-with-arch/</id>
     <published>2014-02-16T16:13:54.000Z</published>
     <updated>2016-06-22T19:51:06.231Z</updated>
     
@@ -301,19 +301,19 @@
     
     </summary>
     
-      <category term="Misc" scheme="RandomSyntax.Net/categories/Misc/"/>
+      <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="setup" scheme="RandomSyntax.Net/tags/setup/"/>
+      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
     
-      <category term="software" scheme="RandomSyntax.Net/tags/software/"/>
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
     
   </entry>
   
   <entry>
     <title>Arch Linux New Install</title>
-    <link href="RandomSyntax.Net/arch-linux-new-install/"/>
-    <id>RandomSyntax.Net/arch-linux-new-install/</id>
+    <link href="randomsyntax.net/arch-linux-new-install/"/>
+    <id>randomsyntax.net/arch-linux-new-install/</id>
     <published>2014-02-12T09:27:40.000Z</published>
     <updated>2016-06-22T21:40:02.665Z</updated>
     
@@ -332,19 +332,19 @@
     
     </summary>
     
-      <category term="Misc" scheme="RandomSyntax.Net/categories/Misc/"/>
+      <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="setup" scheme="RandomSyntax.Net/tags/setup/"/>
+      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
     
-      <category term="software" scheme="RandomSyntax.Net/tags/software/"/>
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
     
   </entry>
   
   <entry>
     <title>3D Printer - Leaking</title>
-    <link href="RandomSyntax.Net/3d-printer-wip-leaking/"/>
-    <id>RandomSyntax.Net/3d-printer-wip-leaking/</id>
+    <link href="randomsyntax.net/3d-printer-wip-leaking/"/>
+    <id>randomsyntax.net/3d-printer-wip-leaking/</id>
     <published>2014-01-31T00:00:00.000Z</published>
     <updated>2016-06-23T20:38:25.991Z</updated>
     
@@ -401,17 +401,17 @@
     
     </summary>
     
-      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+      <category term="3D-Printer" scheme="randomsyntax.net/categories/3D-Printer/"/>
     
     
-      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+      <category term="hardware" scheme="randomsyntax.net/tags/hardware/"/>
     
   </entry>
   
   <entry>
     <title>3D Printer - Build</title>
-    <link href="RandomSyntax.Net/3d-printer-build/"/>
-    <id>RandomSyntax.Net/3d-printer-build/</id>
+    <link href="randomsyntax.net/3d-printer-build/"/>
+    <id>randomsyntax.net/3d-printer-build/</id>
     <published>2014-01-23T00:00:00.000Z</published>
     <updated>2016-06-22T21:38:43.644Z</updated>
     
@@ -498,12 +498,12 @@
     
     </summary>
     
-      <category term="3D-Printer" scheme="RandomSyntax.Net/categories/3D-Printer/"/>
+      <category term="3D-Printer" scheme="randomsyntax.net/categories/3D-Printer/"/>
     
     
-      <category term="hardware" scheme="RandomSyntax.Net/tags/hardware/"/>
+      <category term="hardware" scheme="randomsyntax.net/tags/hardware/"/>
     
-      <category term="build" scheme="RandomSyntax.Net/tags/build/"/>
+      <category term="build" scheme="randomsyntax.net/tags/build/"/>
     
   </entry>
   
