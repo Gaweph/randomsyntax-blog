@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-06-23T12:19:34.000Z</updated>
+  <updated>2016-06-23T12:19:34.160Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="randomsyntax.net/gone-to-have-a-baby/"/>
     <id>randomsyntax.net/gone-to-have-a-baby/</id>
     <published>2014-12-01T16:13:48.000Z</published>
-    <updated>2016-06-23T12:19:34.000Z</updated>
+    <updated>2016-06-23T12:19:34.160Z</updated>
     
     <content type="html">&lt;h4 id=&quot;Gone-to-have-a-baby&quot;&gt;&lt;a href=&quot;#Gone-to-have-a-baby&quot; class=&quot;headerlink&quot; title=&quot;Gone to have a baby!&quot;&gt;&lt;/a&gt;Gone to have a baby!&lt;/h4&gt;&lt;p&gt;Back in 30 years.&lt;/p&gt;
 </content>
@@ -41,7 +41,7 @@
     <link href="randomsyntax.net/3d-printing/"/>
     <id>randomsyntax.net/3d-printing/</id>
     <published>2014-08-07T13:35:54.000Z</published>
-    <updated>2016-06-22T21:27:16.372Z</updated>
+    <updated>2016-06-22T21:27:16.000Z</updated>
     
     <content type="html">&lt;p&gt;I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer&lt;/p&gt;
 &lt;h2 id=&quot;Calibration-Cube&quot;&gt;&lt;a href=&quot;#Calibration-Cube&quot; class=&quot;headerlink&quot; title=&quot;Calibration Cube.&quot;&gt;&lt;/a&gt;Calibration Cube.&lt;/h2&gt;&lt;p&gt;As you can see the auto leveling has now stopped my prints from leaning to one side:&lt;/p&gt;
@@ -133,7 +133,7 @@
     <link href="randomsyntax.net/auto-bed-levelling/"/>
     <id>randomsyntax.net/auto-bed-levelling/</id>
     <published>2014-06-19T12:43:03.000Z</published>
-    <updated>2016-06-22T21:16:52.176Z</updated>
+    <updated>2016-06-22T21:16:52.000Z</updated>
     
     <content type="html">&lt;p&gt;Video of the G29 command.&lt;/p&gt;
 &lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/98630132&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
@@ -190,7 +190,7 @@
     <link href="randomsyntax.net/conky-config/"/>
     <id>randomsyntax.net/conky-config/</id>
     <published>2014-05-05T13:44:08.000Z</published>
-    <updated>2016-06-22T21:37:47.527Z</updated>
+    <updated>2016-06-22T21:37:47.000Z</updated>
     
     <content type="html">&lt;p&gt;I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:&lt;/p&gt;
 &lt;a class=&quot;image-link&quot; href=&quot;/content/images/conky-config/Conky_Config.png&quot; title=&quot;&quot;&gt;&lt;img src=&quot;/content/images/conky-config/Conky_Config_thumb.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
@@ -227,7 +227,7 @@
     <link href="randomsyntax.net/3d-printer-calibration/"/>
     <id>randomsyntax.net/3d-printer-calibration/</id>
     <published>2014-02-18T15:31:50.000Z</published>
-    <updated>2016-06-22T21:42:06.627Z</updated>
+    <updated>2016-06-22T21:42:06.000Z</updated>
     
     <content type="html">&lt;p&gt;Here is a video of my printer doing a calibration.&lt;/p&gt;
 &lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/86994938&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
@@ -283,7 +283,7 @@
     <link href="randomsyntax.net/a-week-with-arch/"/>
     <id>randomsyntax.net/a-week-with-arch/</id>
     <published>2014-02-16T16:13:54.000Z</published>
-    <updated>2016-06-22T19:51:06.231Z</updated>
+    <updated>2016-06-22T19:51:06.000Z</updated>
     
     <content type="html">&lt;p&gt;After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.&lt;/p&gt;
 &lt;p&gt;Here is what I finally have (I went for XFCE because it is lightweight).&lt;/p&gt;
@@ -315,7 +315,7 @@
     <link href="randomsyntax.net/arch-linux-new-install/"/>
     <id>randomsyntax.net/arch-linux-new-install/</id>
     <published>2014-02-12T09:27:40.000Z</published>
-    <updated>2016-06-22T21:40:02.665Z</updated>
+    <updated>2016-06-22T21:40:02.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Something-New&quot;&gt;&lt;a href=&quot;#Something-New&quot; class=&quot;headerlink&quot; title=&quot;Something New&quot;&gt;&lt;/a&gt;Something New&lt;/h2&gt;&lt;p&gt;I have been contemplating re-installing my main OS.  Currently I’m running &lt;a href=&quot;https://www.linuxmint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mint&lt;/a&gt; ( 14 - Cinnamon) and Windows 7.  I have always wanted to install &lt;a href=&quot;https://www.gentoo.org/get-started/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gentoo&lt;/a&gt;, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.&lt;/p&gt;
 &lt;h2 id=&quot;Arch&quot;&gt;&lt;a href=&quot;#Arch&quot; class=&quot;headerlink&quot; title=&quot;Arch&quot;&gt;&lt;/a&gt;Arch&lt;/h2&gt;&lt;p&gt;I have been looking at &lt;strong&gt;Arch Linux&lt;/strong&gt;, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full &lt;strong&gt;Gentoo&lt;/strong&gt; install.&lt;/p&gt;
@@ -346,7 +346,7 @@
     <link href="randomsyntax.net/3d-printer-wip-leaking/"/>
     <id>randomsyntax.net/3d-printer-wip-leaking/</id>
     <published>2014-01-31T00:00:00.000Z</published>
-    <updated>2016-06-23T20:38:25.991Z</updated>
+    <updated>2016-06-23T20:38:25.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Too-Hot&quot;&gt;&lt;a href=&quot;#Too-Hot&quot; class=&quot;headerlink&quot; title=&quot;Too Hot&quot;&gt;&lt;/a&gt;Too Hot&lt;/h2&gt;&lt;p&gt;While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.&lt;/p&gt;
 
@@ -413,7 +413,7 @@
     <link href="randomsyntax.net/3d-printer-build/"/>
     <id>randomsyntax.net/3d-printer-build/</id>
     <published>2014-01-23T00:00:00.000Z</published>
-    <updated>2016-06-22T21:38:43.644Z</updated>
+    <updated>2016-06-22T21:38:43.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;I was inspired to create this printer after seeing a very informative video by &lt;a href=&quot;http://richrap.blogspot.co.uk/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Richard Horne&lt;/a&gt; on his &lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3DR RepRap Delta Printer&lt;/a&gt; (his tutorial series on the printer is very helpful and covers all aspects of the build process).&lt;br&gt;The printer is a Delta printer (a design made famous by &lt;a href=&quot;https://github.com/jcrocholl&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jcrocholl&lt;/a&gt; and his &lt;a href=&quot;https://github.com/jcrocholl/rostock&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Rostock&lt;/a&gt; printer.&lt;/p&gt;
 &lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Links&quot;&gt;&lt;a href=&quot;#Links&quot; class=&quot;headerlink&quot; title=&quot;Links&quot;&gt;&lt;/a&gt;Links&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;RichRap 3DR Firmware&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Assembly Tutorial Series&lt;/a&gt;&lt;/p&gt;
