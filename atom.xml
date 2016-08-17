@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-06-23T12:19:34.000Z</updated>
+  <updated>2016-08-17T20:44:43.169Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -16,14 +16,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Using Boxstarter On A Fresh Windows Install</title>
+    <link href="randomsyntax.net/boxstarter-hello-world/"/>
+    <id>randomsyntax.net/boxstarter-hello-world/</id>
+    <published>2016-08-17T20:04:00.000Z</published>
+    <updated>2016-08-17T20:44:43.169Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Whats-the-problem"><a href="#Whats-the-problem" class="headerlink" title="Whats the problem"></a>Whats the problem</h2><p>Setting up a new machine is always a bit of a pain.  It would be easier just give your new machine a list of software to install and then let it go and install it all for you.</p>
+<h2 id="Introducing-BoxStarter"><a href="#Introducing-BoxStarter" class="headerlink" title="Introducing BoxStarter"></a>Introducing BoxStarter</h2><p><a href="http://boxstarter.org/" target="_blank" rel="external">BoxStarter.org</a> can install all of your software out with a single command.</p>
+<figure class="highlight sh"><figcaption><span>BoxStarter Command</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">START http://boxstarter.org/package/nr/url?URL_TO_YOUR_BOXSTARTER_SCRIPT.ps1 </div></pre></td></tr></table></figure> 
+<p>If you would like to see an example script, then mine is available at <a href="https://raw.githubusercontent.com/Gaweph/Boxstarter-scripts/master/Developer-Machine.ps1" target="_blank" rel="external">GitHub Repository</a>.  Here is my personal script at the time of writing this post</p>
+<figure class="highlight sh"><figcaption><span>BoxStarter Command</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Boxstarter options</span></div><div class="line"><span class="variable">$Boxstarter</span>.RebootOk=<span class="variable">$true</span> <span class="comment"># Allow reboots?</span></div><div class="line"><span class="variable">$Boxstarter</span>.NoPassword=<span class="variable">$false</span> <span class="comment"># Is this a machine with no login password?</span></div><div class="line"><span class="variable">$Boxstarter</span>.AutoLogin=<span class="variable">$true</span> <span class="comment"># Save my password securely and auto-login after a reboot</span></div><div class="line"></div><div class="line"><span class="comment"># Basic setup</span></div><div class="line">Update-ExecutionPolicy Unrestricted</div><div class="line">Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions</div><div class="line"><span class="comment">#Enable-RemoteDesktop</span></div><div class="line">Disable-InternetExplorerESC</div><div class="line"><span class="comment">#Disable-UAC</span></div><div class="line"><span class="comment">#Set-TaskbarSmall</span></div><div class="line"> </div><div class="line"><span class="comment"># disable defrag because I have an SSD </span></div><div class="line">Get-ScheduledTask -TaskName *defrag* | Disable-ScheduledTask </div><div class="line"></div><div class="line"><span class="comment"># Install Visual Studio 2015</span></div><div class="line">cinst visualstudio2015enterprise</div><div class="line"><span class="keyword">if</span> (Test-PendingReboot) &#123; Invoke-Reboot &#125;</div><div class="line"></div><div class="line"><span class="comment">#Other dev tools</span></div><div class="line">cinst visualstudiocode -y</div><div class="line">cinst nodejs.install -y</div><div class="line">choco install unity -y</div><div class="line"></div><div class="line"><span class="comment">#Browsers</span></div><div class="line">cinst googlechrome -y</div><div class="line">cinst firefox -y</div><div class="line"></div><div class="line"><span class="comment">#Other tools</span></div><div class="line">cinst notepadplusplus -y</div><div class="line">cinst 7zip.install -y</div><div class="line">cinst adobereader -y</div><div class="line">cinst skype -y</div><div class="line">cinst dropbox -y</div><div class="line">cinst virtualbox -y</div><div class="line">choco install jdk8 -y</div><div class="line">cinst putty.install -y</div><div class="line">cinst spotify -y</div><div class="line">cinst vlc -y</div><div class="line">choco install steam -y</div><div class="line"></div><div class="line"><span class="comment"># VS extensions</span></div><div class="line">Install-ChocolateyVsixPackage ProPowerTools https://visualstudiogallery.msdn.microsoft.com/d0d33361-18e2-46c0-8ff2-4adea1e34fef/file/29666/12/ProPowerTools.vsix</div><div class="line">Install-ChocolateyVsixPackage vstu2015 https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9/file/142077/10/vstu2015.msi</div><div class="line"></div><div class="line"><span class="comment"># Node modules (Global)</span></div><div class="line">npm install -g gulp</div><div class="line">npm install -g bower</div><div class="line">npm install -g typings</div><div class="line">npm install -g hexo-cli</div><div class="line">npm install -g typescript</div><div class="line"></div><div class="line"><span class="keyword">if</span> (Test-PendingReboot) &#123; Invoke-Reboot &#125;</div><div class="line"></div><div class="line"><span class="comment">#cinst Microsoft-Hyper-V-All -source windowsFeatures</span></div><div class="line">cinst IIS-WebServerRole -source windowsfeatures</div><div class="line">cinst IIS-HttpCompressionDynamic -source windowsfeatures</div><div class="line">cinst IIS-ManagementScriptingTools -source windowsfeatures</div><div class="line">cinst IIS-WindowsAuthentication -source windowsfeatures</div><div class="line"></div><div class="line">Install-ChocolateyPinnedTaskBarItem <span class="string">"<span class="variable">$($Boxstarter.programFiles86)</span>\Google\Chrome\Application\chrome.exe"</span></div><div class="line">Install-ChocolateyPinnedTaskBarItem <span class="string">"<span class="variable">$($Boxstarter.programFiles86)</span>\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"</span></div><div class="line"></div><div class="line"><span class="comment"># Update Windows and reboot if necessary</span></div><div class="line">Install-WindowsUpdate -AcceptEula -GetUpdatesFromMS</div><div class="line"><span class="keyword">if</span> (Test-PendingReboot) &#123; Invoke-Reboot &#125;</div></pre></td></tr></table></figure> 
+<div class="bs-callout bs-callout-info"><p>Boxstarter is able to use <a href="https://chocolatey.org/packages" target="_blank" rel="external">Chocolatey Packages</a> which means it has access to many many pieces of software.</p>
+</div>
+<h2 id="Use-a-Package-Manager"><a href="#Use-a-Package-Manager" class="headerlink" title="Use a Package Manager"></a>Use a Package Manager</h2><div class="bs-callout bs-callout-info"><p>Alternatively you can now use a Package Manager in Windows.</p>
+</div>
+<p>Windows 10 now includes a Package Manager.  Check out my personal favourite <a href="https://chocolatey.org/" target="_blank" rel="external">Chocolatey</a> which includes many many <a href="https://chocolatey.org/packages" target="_blank" rel="external">Packages</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Whats-the-problem&quot;&gt;&lt;a href=&quot;#Whats-the-problem&quot; class=&quot;headerlink&quot; title=&quot;Whats the problem&quot;&gt;&lt;/a&gt;Whats the problem&lt;/h2&gt;&lt;p&gt;Setting up
+    
+    </summary>
+    
+      <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
+    
+    
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="automation" scheme="randomsyntax.net/tags/automation/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Gone to have a baby!</title>
     <link href="randomsyntax.net/gone-to-have-a-baby/"/>
     <id>randomsyntax.net/gone-to-have-a-baby/</id>
     <published>2014-12-01T16:13:48.000Z</published>
     <updated>2016-06-23T12:19:34.000Z</updated>
     
-    <content type="html">&lt;h4 id=&quot;Gone-to-have-a-baby&quot;&gt;&lt;a href=&quot;#Gone-to-have-a-baby&quot; class=&quot;headerlink&quot; title=&quot;Gone to have a baby!&quot;&gt;&lt;/a&gt;Gone to have a baby!&lt;/h4&gt;&lt;p&gt;Back in 30 years.&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h4 id="Gone-to-have-a-baby"><a href="#Gone-to-have-a-baby" class="headerlink" title="Gone to have a baby!"></a>Gone to have a baby!</h4><p>Back in 30 years.</p>
+]]></content>
     
     <summary type="html">
     
@@ -43,76 +77,76 @@
     <published>2014-08-07T13:35:54.000Z</published>
     <updated>2016-06-22T21:27:16.372Z</updated>
     
-    <content type="html">&lt;p&gt;I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer&lt;/p&gt;
-&lt;h2 id=&quot;Calibration-Cube&quot;&gt;&lt;a href=&quot;#Calibration-Cube&quot; class=&quot;headerlink&quot; title=&quot;Calibration Cube.&quot;&gt;&lt;/a&gt;Calibration Cube.&lt;/h2&gt;&lt;p&gt;As you can see the auto leveling has now stopped my prints from leaning to one side:&lt;/p&gt;
+    <content type="html"><![CDATA[<p>I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer</p>
+<h2 id="Calibration-Cube"><a href="#Calibration-Cube" class="headerlink" title="Calibration Cube."></a>Calibration Cube.</h2><p>As you can see the auto leveling has now stopped my prints from leaning to one side:</p>
 
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/cube_a.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/cube_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/cube_a.jpg">
+								<img src="/content/images/3d-printing/cube_a_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/cube_b.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/cube_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/cube_b.jpg">
+								<img src="/content/images/3d-printing/cube_b_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/cube_c.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/cube_c_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/cube_c.jpg">
+								<img src="/content/images/3d-printing/cube_c_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
 
-&lt;h2 id=&quot;Elephant&quot;&gt;&lt;a href=&quot;#Elephant&quot; class=&quot;headerlink&quot; title=&quot;Elephant.&quot;&gt;&lt;/a&gt;Elephant.&lt;/h2&gt;
+<h2 id="Elephant"><a href="#Elephant" class="headerlink" title="Elephant."></a>Elephant.</h2>
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/elephant_a.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/elephant_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/elephant_a.jpg">
+								<img src="/content/images/3d-printing/elephant_a_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/elephant_b.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/elephant_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/elephant_b.jpg">
+								<img src="/content/images/3d-printing/elephant_b_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
 
-&lt;h2 id=&quot;Octopus&quot;&gt;&lt;a href=&quot;#Octopus&quot; class=&quot;headerlink&quot; title=&quot;Octopus&quot;&gt;&lt;/a&gt;Octopus&lt;/h2&gt;
+<h2 id="Octopus"><a href="#Octopus" class="headerlink" title="Octopus"></a>Octopus</h2>
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/octopus_a.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/octopus_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/octopus_a.jpg">
+								<img src="/content/images/3d-printing/octopus_a_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/octopus_b.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/octopus_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/octopus_b.jpg">
+								<img src="/content/images/3d-printing/octopus_b_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/octopus_c.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printing/octopus_c_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printing/octopus_c.jpg">
+								<img src="/content/images/3d-printing/octopus_c_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
-</content>
+]]></content>
     
     <summary type="html">
     
@@ -135,41 +169,41 @@
     <published>2014-06-19T12:43:03.000Z</published>
     <updated>2016-06-25T22:50:44.742Z</updated>
     
-    <content type="html">&lt;p&gt;Video of the G29 (Auto level) command.&lt;/p&gt;
-&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/98630132&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
+    <content type="html"><![CDATA[<p>Video of the G29 (Auto level) command.</p>
+<div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/98630132" frameborder="0" allowfullscreen></iframe></div><br></div>
 
-&lt;p&gt;This process involves using 3 Force Sense Resistors (FSR’s) in order to use the actual print head as the z-probe.&lt;/p&gt;
-&lt;p&gt;Code can be found in Johan’s Github Branch:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/jcrocholl/Marlin/tree/fsr&quot; title=&quot;https://github.com/jcrocholl/Marlin/tree/fsr&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github.com/jcrocholl/Marlin/tree/fsr&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Here are some images of how the sensors are attached to the printer (under the bed):&lt;/p&gt;
+<p>This process involves using 3 Force Sense Resistors (FSR’s) in order to use the actual print head as the z-probe.</p>
+<p>Code can be found in Johan’s Github Branch:</p>
+<p><a href="https://github.com/jcrocholl/Marlin/tree/fsr" title="https://github.com/jcrocholl/Marlin/tree/fsr" target="_blank" rel="external">github.com/jcrocholl/Marlin/tree/fsr</a></p>
+<p>Here are some images of how the sensors are attached to the printer (under the bed):</p>
 
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/fsr_a.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/auto-bed-levelling/fsr_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/auto-bed-levelling/fsr_a.jpg">
+								<img src="/content/images/auto-bed-levelling/fsr_a_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/fsr_b.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/auto-bed-levelling/fsr_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/auto-bed-levelling/fsr_b.jpg">
+								<img src="/content/images/auto-bed-levelling/fsr_b_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/electronics_a.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/auto-bed-levelling/electronics_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/auto-bed-levelling/electronics_a.jpg">
+								<img src="/content/images/auto-bed-levelling/electronics_a_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/electronics_b.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/auto-bed-levelling/electronics_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/auto-bed-levelling/electronics_b.jpg">
+								<img src="/content/images/auto-bed-levelling/electronics_b_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
-</content>
+]]></content>
     
     <summary type="html">
     
@@ -192,19 +226,19 @@
     <published>2014-05-05T13:44:08.000Z</published>
     <updated>2016-06-22T21:37:47.527Z</updated>
     
-    <content type="html">&lt;p&gt;I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:&lt;/p&gt;
-&lt;a class=&quot;image-link&quot; href=&quot;/content/images/conky-config/Conky_Config.png&quot; title=&quot;&quot;&gt;&lt;img src=&quot;/content/images/conky-config/Conky_Config_thumb.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
-&lt;p&gt;In order to recreate this config you will need the following:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://aur.archlinux.org/packages/conky-colors/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://aur.archlinux.org/packages/conky-colors/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://aur.archlinux.org/packages/conky-nvidia/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://aur.archlinux.org/packages/conky-nvidia/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.archlinux.org/packages/?name=lm_sensors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.archlinux.org/packages/?name=lm_sensors&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Here is the conky config file (feel free to copy as needed):&lt;/p&gt;
-&lt;div style=&quot;color: #222222; height: 300px; overflow: auto;&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;figcaption&gt;&lt;span&gt;.conkyrc&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;84&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;85&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;86&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;87&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;88&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;89&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;90&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;91&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;92&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;93&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;94&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;95&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;96&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;97&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;98&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;99&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;100&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;101&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;102&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;103&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;104&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;105&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;106&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;107&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;108&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;109&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;110&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;111&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;112&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;113&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;114&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;115&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;116&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;117&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;118&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;119&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;120&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;121&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;122&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;123&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;124&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;125&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;126&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;######################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Conky settings - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;######################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;update_interval 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total_run_&lt;span class=&quot;built_in&quot;&gt;times&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net_avg_samples 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cpu_avg_samples 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;imlib_cache_size 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;double_buffer yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;no_buffers yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#####################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Text settings - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#####################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;use_xft yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;xftfont Ubuntu:size=8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override_utf8_locale yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;text_buffer_size 2048&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#############################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Window specifications - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#############################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_class Conky&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_&lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt; normal&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_transparent yes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;alignment top_right&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gap_x 25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gap_y 40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;minimum_size 182 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;maximum_width 182&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;default_bar_size 60 8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#########################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# - Graphics settings - #&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#########################&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;draw_shades no&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;default_color cccccc&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;color0 white&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;color1 E07A1F&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;color2 white&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;TEXT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;SYSTEM &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolorslogos:size=32&amp;#125;&lt;/span&gt;a&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 55&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -25&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$machine&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 55&amp;#125;&lt;/span&gt;Kernel: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;kernel&amp;#125;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CPU Freq &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;E&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;Frequency: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;freq_g (1)&amp;#125;&lt;/span&gt; GHz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CPU Usage &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU1: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu1&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU2: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu2&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU3: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu3&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU4: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu4&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU5: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu5&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU6: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu6&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;CPU7: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu7&amp;#125;&lt;/span&gt;%&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;CPU8: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;cpu cpu8&amp;#125;&lt;/span&gt;%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CPU Temperatures &lt;span class=&quot;variable&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 6&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset 4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;&lt;/span&gt;c&lt;span class=&quot;variable&quot;&gt;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;voffset -4&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;goto 32&amp;#125;&lt;/span&gt;Core0:&lt;span class=&quot;variable&quot;&gt;$&amp;#123;alignr&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;color #FCAF3E&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;execi 30 sensors | grep &#39;Core 0&#39; | awk &#39;&amp;#123;print $3&amp;#125;&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;c$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Core1:$&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;execi 30 sensors | grep &#39;&lt;/span&gt;Core 1&lt;span class=&quot;string&quot;&gt;&#39; | awk &#39;&lt;/span&gt;&amp;#123;&lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$3&lt;/span&gt;&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;c$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Core2:$&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;execi 30 sensors | grep &#39;&lt;/span&gt;Core 2&lt;span class=&quot;string&quot;&gt;&#39; | awk &#39;&lt;/span&gt;&amp;#123;&lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$3&lt;/span&gt;&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;c$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Core3:$&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;execi 30 sensors | grep &#39;&lt;/span&gt;Core 3&lt;span class=&quot;string&quot;&gt;&#39; | awk &#39;&lt;/span&gt;&amp;#123;&lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$3&lt;/span&gt;&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/+//&lt;span class=&quot;string&quot;&gt;&#39; | sed &#39;&lt;/span&gt;s/\.0//g&lt;span class=&quot;string&quot;&gt;&#39;&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Misc Info $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;d$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;GPU Temp: $&amp;#123;alignr&amp;#125;$&amp;#123;color #FCAF3E&amp;#125;$&amp;#123;exec nvidia-settings -q GPUCoreTemp | grep Attribute | cut -d &#39;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39; -f 6 | cut -c 1-2&amp;#125; °C$color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;g$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Memory: $&amp;#123;mem&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;membar 8,60&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Disk: $&amp;#123;diskio&amp;#125;$&amp;#123;alignr&amp;#125;$&amp;#123;diskiograph 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Swap: $swapperc% $&amp;#123;alignr&amp;#125;$&amp;#123;swapbar 8,60&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;o$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Uptime: $&amp;#123;alignr&amp;#125;$&amp;#123;uptime&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 6&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=16&amp;#125;C$&amp;#123;font&amp;#125;$&amp;#123;voffset -4&amp;#125;$&amp;#123;goto 32&amp;#125;Processes: $&amp;#123;alignr&amp;#125;$processes ($running_processes running)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 7.5&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font Poky:size=15&amp;#125;a$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -10&amp;#125;Highest: $&amp;#123;alignr 13&amp;#125;CPU$&amp;#123;alignr&amp;#125;RAM&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -5.5&amp;#125;$&amp;#123;hr 1&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 1&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 1&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 1&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 2&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 2&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 3&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 3&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 3&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -1&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;top name 4&amp;#125; $&amp;#123;goto 124&amp;#125;$&amp;#123;top cpu 4&amp;#125;$&amp;#123;alignr &amp;#125;$&amp;#123;top mem 4&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#Time &amp;amp;amp; Date $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#$&amp;#123;font Arial Black:size=26&amp;#125;$&amp;#123;alignc&amp;#125;$&amp;#123;time %H:%M&amp;#125;$&amp;#123;font&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#$&amp;#123;alignc&amp;#125;$&amp;#123;time %A, %B %d, %Y&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;HDD $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125; $&amp;#123;voffset -5&amp;#125;File System&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;fs_free /&amp;#125;/$&amp;#123;fs_size /&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;fs_bar 8,60 /&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;font conkycolors:size=16&amp;#125;i$&amp;#123;font&amp;#125; $&amp;#123;voffset -5&amp;#125;Home&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;fs_free /home&amp;#125;/$&amp;#123;fs_size /home&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;fs_bar 8,60 /home&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Battery: $&amp;#123;alignr&amp;#125;$&amp;#123;battery&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;battery_bar&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Network $&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;if_up wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;font conkycolors:size=14&amp;#125;k$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -8&amp;#125;SSID: $&amp;#123;wireless_essid wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Signal: $&amp;#123;wireless_link_qual wlp4s0&amp;#125;% $&amp;#123;alignr&amp;#125;$&amp;#123;wireless_link_bar 8,60 wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;x$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Up: $&amp;#123;upspeed wlp4s0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;upspeedgraph wlp4s0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totalup wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;u$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Down: $&amp;#123;downspeed wlp4s0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;downspeedgraph wlp4s0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totaldown wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font conkycolors:size=13&amp;#125;A$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -8&amp;#125;Local IP: $&amp;#123;alignr&amp;#125;$&amp;#123;addr wlp4s0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# |--enp3s0f0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;else&amp;#125;$&amp;#123;if_up enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -13&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;x$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Up: $&amp;#123;upspeed enp3s0f0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;upspeedgraph enp3s0f0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totalup enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font conkycolors:size=14&amp;#125;u$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Down: $&amp;#123;downspeed enp3s0f0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;downspeedgraph enp3s0f0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totaldown enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font conkycolors:size=13&amp;#125;A$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -4&amp;#125;Local IP: $&amp;#123;alignr&amp;#125;$&amp;#123;addr enp3s0f0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# |--PPP0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;endif&amp;#125;$&amp;#123;else&amp;#125;$&amp;#123;if_up ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -13&amp;#125;$&amp;#123;font conkycolors Solid:size=14&amp;#125;q$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Up: $&amp;#123;upspeed ppp0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;upspeedgraph ppp0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totalup ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font conkycolors Solid:size=14&amp;#125;Q$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -6&amp;#125;Down: $&amp;#123;downspeed ppp0&amp;#125;$&amp;#123;font&amp;#125; $&amp;#123;alignr&amp;#125;$&amp;#123;downspeedgraph ppp0 8,60 F57900 FCAF3E&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;goto 32&amp;#125;Total: $&amp;#123;totaldown ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;voffset -2&amp;#125;$&amp;#123;font Poky:size=13&amp;#125;w$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;$&amp;#123;voffset -4&amp;#125;Local IP: $&amp;#123;alignr&amp;#125;$&amp;#123;addr ppp0&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;endif&amp;#125;$&amp;#123;else&amp;#125;$&amp;#123;voffset 4&amp;#125;$&amp;#123;font PizzaDude Bullets:size=12&amp;#125;4$&amp;#123;font&amp;#125;$&amp;#123;goto 32&amp;#125;Network Unavailable$&amp;#123;endif&amp;#125;$&amp;#123;endif&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&amp;#123;hr 2&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;&lt;/div&gt;
+    <content type="html"><![CDATA[<p>I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:</p>
+<a class="image-link" href="/content/images/conky-config/Conky_Config.png" title=""><img src="/content/images/conky-config/Conky_Config_thumb.png" alt=""></a>
+<p>In order to recreate this config you will need the following:</p>
+<p><a href="https://aur.archlinux.org/packages/conky-colors/" target="_blank" rel="external">https://aur.archlinux.org/packages/conky-colors/</a><br><a href="https://aur.archlinux.org/packages/conky-nvidia/" target="_blank" rel="external">https://aur.archlinux.org/packages/conky-nvidia/</a><br><a href="https://www.archlinux.org/packages/?name=lm_sensors" target="_blank" rel="external">https://www.archlinux.org/packages/?name=lm_sensors</a></p>
+<p>Here is the conky config file (feel free to copy as needed):</p>
+<div style="color: #222222; height: 300px; overflow: auto;"><br><figure class="highlight sh"><figcaption><span>.conkyrc</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div></pre></td><td class="code"><pre><div class="line"><span class="comment">######################</span></div><div class="line"><span class="comment"># - Conky settings - #</span></div><div class="line"><span class="comment">######################</span></div><div class="line">update_interval 1</div><div class="line">total_run_times 0</div><div class="line">net_avg_samples 1</div><div class="line">cpu_avg_samples 1</div><div class="line"></div><div class="line">imlib_cache_size 0</div><div class="line">double_buffer yes</div><div class="line">no_buffers yes</div><div class="line"></div><div class="line"><span class="comment">#####################</span></div><div class="line"><span class="comment"># - Text settings - #</span></div><div class="line"><span class="comment">#####################</span></div><div class="line">use_xft yes</div><div class="line">xftfont Ubuntu:size=8</div><div class="line">override_utf8_locale yes</div><div class="line">text_buffer_size 2048</div><div class="line"></div><div class="line"><span class="comment">#############################</span></div><div class="line"><span class="comment"># - Window specifications - #</span></div><div class="line"><span class="comment">#############################</span></div><div class="line">own_window_class Conky</div><div class="line">own_window yes</div><div class="line">own_window_type normal</div><div class="line">own_window_transparent yes</div><div class="line">own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager</div><div class="line"></div><div class="line">alignment top_right</div><div class="line">gap_x 25</div><div class="line">gap_y 40</div><div class="line">minimum_size 182 0</div><div class="line">maximum_width 182</div><div class="line"></div><div class="line">default_bar_size 60 8</div><div class="line"></div><div class="line"><span class="comment">#########################</span></div><div class="line"><span class="comment"># - Graphics settings - #</span></div><div class="line"><span class="comment">#########################</span></div><div class="line">draw_shades no</div><div class="line"></div><div class="line">default_color cccccc</div><div class="line"></div><div class="line">color0 white</div><div class="line">color1 E07A1F</div><div class="line">color2 white</div><div class="line"></div><div class="line">TEXT</div><div class="line">SYSTEM <span class="variable">$&#123;hr 2&#125;</span></div><div class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 6&#125;</span><span class="variable">$&#123;font conkycolorslogos:size=32&#125;</span>a<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;goto 55&#125;</span><span class="variable">$&#123;voffset -25&#125;</span><span class="variable">$machine</span></div><div class="line"><span class="variable">$&#123;goto 55&#125;</span>Kernel: <span class="variable">$&#123;kernel&#125;</span> </div><div class="line"></div><div class="line"><span class="variable">$&#123;hr 2&#125;</span></div><div class="line"></div><div class="line">CPU Freq <span class="variable">$&#123;hr 2&#125;</span></div><div class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>E<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>Frequency: <span class="variable">$&#123;alignr&#125;</span><span class="variable">$&#123;freq_g (1)&#125;</span> GHz</div><div class="line"></div><div class="line">CPU Usage <span class="variable">$&#123;hr 2&#125;</span></div><div class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU1: <span class="variable">$&#123;cpu cpu1&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU2: <span class="variable">$&#123;cpu cpu2&#125;</span>%</div><div class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU3: <span class="variable">$&#123;cpu cpu3&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU4: <span class="variable">$&#123;cpu cpu4&#125;</span>%</div><div class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU5: <span class="variable">$&#123;cpu cpu5&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU6: <span class="variable">$&#123;cpu cpu6&#125;</span>%</div><div class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>CPU7: <span class="variable">$&#123;cpu cpu7&#125;</span>%<span class="variable">$&#123;alignr&#125;</span>CPU8: <span class="variable">$&#123;cpu cpu8&#125;</span>%</div><div class="line"></div><div class="line">CPU Temperatures <span class="variable">$&#123;hr 2&#125;</span></div><div class="line"><span class="variable">$&#123;goto 6&#125;</span><span class="variable">$&#123;voffset 4&#125;</span><span class="variable">$&#123;font conkycolors:size=16&#125;</span>c<span class="variable">$&#123;font&#125;</span><span class="variable">$&#123;voffset -4&#125;</span><span class="variable">$&#123;goto 32&#125;</span>Core0:<span class="variable">$&#123;alignr&#125;</span><span class="variable">$&#123;color #FCAF3E&#125;</span><span class="variable">$&#123;execi 30 sensors | grep 'Core 0' | awk '&#123;print $3&#125;</span><span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span></div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;c$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Core1:$&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;execi 30 sensors | grep 'Core 1<span class="string">' | awk '</span>&#123;<span class="built_in">print</span> <span class="variable">$3</span>&#125;<span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span></div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;c$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Core2:$&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;execi 30 sensors | grep 'Core 2<span class="string">' | awk '</span>&#123;<span class="built_in">print</span> <span class="variable">$3</span>&#125;<span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span></div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;c$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Core3:$&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;execi 30 sensors | grep 'Core 3<span class="string">' | awk '</span>&#123;<span class="built_in">print</span> <span class="variable">$3</span>&#125;<span class="string">' | sed '</span>s/+//<span class="string">' | sed '</span>s/\.0//g<span class="string">'&#125; °C$color</span></div><div class="line"></div><div class="line">Misc Info $&#123;hr 2&#125;</div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;d$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;GPU Temp: $&#123;alignr&#125;$&#123;color #FCAF3E&#125;$&#123;exec nvidia-settings -q GPUCoreTemp | grep Attribute | cut -d ' <span class="string">' -f 6 | cut -c 1-2&#125; °C$color</span></div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;g$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Memory: $&#123;mem&#125; $&#123;alignr&#125;$&#123;membar 8,60&#125;</div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;i$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Disk: $&#123;diskio&#125;$&#123;alignr&#125;$&#123;diskiograph 8,60 F57900 FCAF3E&#125;</div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;i$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Swap: $swapperc% $&#123;alignr&#125;$&#123;swapbar 8,60&#125;</div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;o$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Uptime: $&#123;alignr&#125;$&#123;uptime&#125;</div><div class="line">$&#123;goto 6&#125;$&#123;voffset 4&#125;$&#123;font conkycolors:size=16&#125;C$&#123;font&#125;$&#123;voffset -4&#125;$&#123;goto 32&#125;Processes: $&#123;alignr&#125;$processes ($running_processes running)</div><div class="line">$&#123;goto 7.5&#125;$&#123;voffset 4&#125;$&#123;font Poky:size=15&#125;a$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -10&#125;Highest: $&#123;alignr 13&#125;CPU$&#123;alignr&#125;RAM</div><div class="line">$&#123;goto 32&#125;$&#123;voffset -5.5&#125;$&#123;hr 1&#125;</div><div class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 1&#125; $&#123;goto 124&#125;$&#123;top cpu 1&#125;$&#123;alignr &#125;$&#123;top mem 1&#125;</div><div class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 2&#125; $&#123;goto 124&#125;$&#123;top cpu 2&#125;$&#123;alignr &#125;$&#123;top mem 2&#125;</div><div class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 3&#125; $&#123;goto 124&#125;$&#123;top cpu 3&#125;$&#123;alignr &#125;$&#123;top mem 3&#125;</div><div class="line">$&#123;voffset -1&#125;$&#123;goto 32&#125;$&#123;top name 4&#125; $&#123;goto 124&#125;$&#123;top cpu 4&#125;$&#123;alignr &#125;$&#123;top mem 4&#125;</div><div class="line"></div><div class="line">#Time &amp;amp; Date $&#123;hr 2&#125;</div><div class="line">#$&#123;font Arial Black:size=26&#125;$&#123;alignc&#125;$&#123;time %H:%M&#125;$&#123;font&#125;</div><div class="line">#$&#123;alignc&#125;$&#123;time %A, %B %d, %Y&#125;</div><div class="line"></div><div class="line">HDD $&#123;hr 2&#125;</div><div class="line">$&#123;font conkycolors:size=16&#125;i$&#123;font&#125; $&#123;voffset -5&#125;File System</div><div class="line">$&#123;voffset 4&#125;$&#123;fs_free /&#125;/$&#123;fs_size /&#125; $&#123;alignr&#125;$&#123;fs_bar 8,60 /&#125;</div><div class="line">$&#123;font conkycolors:size=16&#125;i$&#123;font&#125; $&#123;voffset -5&#125;Home</div><div class="line">$&#123;voffset 4&#125;$&#123;fs_free /home&#125;/$&#123;fs_size /home&#125; $&#123;alignr&#125;$&#123;fs_bar 8,60 /home&#125;</div><div class="line"></div><div class="line">Battery: $&#123;alignr&#125;$&#123;battery&#125;</div><div class="line">$&#123;battery_bar&#125;</div><div class="line"></div><div class="line">Network $&#123;hr 2&#125;</div><div class="line">$&#123;if_up wlp4s0&#125;</div><div class="line">$&#123;font conkycolors:size=14&#125;k$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -8&#125;SSID: $&#123;wireless_essid wlp4s0&#125;</div><div class="line">$&#123;goto 32&#125;Signal: $&#123;wireless_link_qual wlp4s0&#125;% $&#123;alignr&#125;$&#123;wireless_link_bar 8,60 wlp4s0&#125;</div><div class="line">$&#123;voffset 4&#125;$&#123;font conkycolors:size=14&#125;x$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Up: $&#123;upspeed wlp4s0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;upspeedgraph wlp4s0 8,60 F57900 FCAF3E&#125;</div><div class="line">$&#123;goto 32&#125;Total: $&#123;totalup wlp4s0&#125;</div><div class="line">$&#123;voffset 4&#125;$&#123;font conkycolors:size=14&#125;u$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Down: $&#123;downspeed wlp4s0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;downspeedgraph wlp4s0 8,60 F57900 FCAF3E&#125;</div><div class="line">$&#123;goto 32&#125;Total: $&#123;totaldown wlp4s0&#125;</div><div class="line">$&#123;voffset 4&#125;$&#123;font conkycolors:size=13&#125;A$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -8&#125;Local IP: $&#123;alignr&#125;$&#123;addr wlp4s0&#125;</div><div class="line"></div><div class="line"># |--enp3s0f0</div><div class="line">$&#123;else&#125;$&#123;if_up enp3s0f0&#125;</div><div class="line">$&#123;voffset -13&#125;$&#123;font conkycolors:size=14&#125;x$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Up: $&#123;upspeed enp3s0f0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;upspeedgraph enp3s0f0 8,60 F57900 FCAF3E&#125;</div><div class="line">$&#123;goto 32&#125;Total: $&#123;totalup enp3s0f0&#125;</div><div class="line">$&#123;voffset -2&#125;$&#123;font conkycolors:size=14&#125;u$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Down: $&#123;downspeed enp3s0f0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;downspeedgraph enp3s0f0 8,60 F57900 FCAF3E&#125;</div><div class="line">$&#123;goto 32&#125;Total: $&#123;totaldown enp3s0f0&#125;</div><div class="line">$&#123;voffset -2&#125;$&#123;font conkycolors:size=13&#125;A$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -4&#125;Local IP: $&#123;alignr&#125;$&#123;addr enp3s0f0&#125;</div><div class="line"></div><div class="line"># |--PPP0</div><div class="line">$&#123;endif&#125;$&#123;else&#125;$&#123;if_up ppp0&#125;</div><div class="line">$&#123;voffset -13&#125;$&#123;font conkycolors Solid:size=14&#125;q$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Up: $&#123;upspeed ppp0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;upspeedgraph ppp0 8,60 F57900 FCAF3E&#125;</div><div class="line">$&#123;goto 32&#125;Total: $&#123;totalup ppp0&#125;</div><div class="line">$&#123;voffset -2&#125;$&#123;font conkycolors Solid:size=14&#125;Q$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -6&#125;Down: $&#123;downspeed ppp0&#125;$&#123;font&#125; $&#123;alignr&#125;$&#123;downspeedgraph ppp0 8,60 F57900 FCAF3E&#125;</div><div class="line"></div><div class="line">$&#123;goto 32&#125;Total: $&#123;totaldown ppp0&#125;</div><div class="line">$&#123;voffset -2&#125;$&#123;font Poky:size=13&#125;w$&#123;font&#125;$&#123;goto 32&#125;$&#123;voffset -4&#125;Local IP: $&#123;alignr&#125;$&#123;addr ppp0&#125;</div><div class="line">$&#123;endif&#125;$&#123;else&#125;$&#123;voffset 4&#125;$&#123;font PizzaDude Bullets:size=12&#125;4$&#123;font&#125;$&#123;goto 32&#125;Network Unavailable$&#123;endif&#125;$&#123;endif&#125;</div><div class="line">$&#123;hr 2&#125;</div><div class="line"></div></pre></td></tr></table></figure><br></div>
 
-&lt;p&gt;&lt;strong&gt;wlp4s0&lt;/strong&gt; and &lt;strong&gt;enp3s0f0&lt;/strong&gt; are the network device IDS, so you will need to substitute your own.&lt;/p&gt;
-&lt;p&gt;If you would like to modify the icons then theres lots of them in the ttf:&lt;br&gt;&lt;a href=&quot;https://github.com/helmuthdu/conky_colors/tree/master/fonts/conkycolors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/helmuthdu/conky_colo … onkycolors&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;PLEASE-NOTE&quot;&gt;&lt;a href=&quot;#PLEASE-NOTE&quot; class=&quot;headerlink&quot; title=&quot;PLEASE NOTE:&quot;&gt;&lt;/a&gt;PLEASE NOTE:&lt;/h4&gt;&lt;p&gt;I’m sure there’s a better way of getting the CPU temps.  Please let me know if this is the case.&lt;br&gt;I’m not sure that the Ethernet if else statements are working correctly.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;FURTHER-READING&quot;&gt;&lt;a href=&quot;#FURTHER-READING&quot; class=&quot;headerlink&quot; title=&quot;FURTHER READING:&quot;&gt;&lt;/a&gt;FURTHER READING:&lt;/h4&gt;&lt;p&gt;Here’s some lovelly looking conky-colors stuff:&lt;br&gt;&lt;a href=&quot;http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180&lt;/a&gt;&lt;br&gt;And the conky Git pagee if you want to see the source and who made it:&lt;br&gt;&lt;a href=&quot;https://github.com/helmuthdu/conky_colors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/helmuthdu/conky_colors&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
+<p><strong>wlp4s0</strong> and <strong>enp3s0f0</strong> are the network device IDS, so you will need to substitute your own.</p>
+<p>If you would like to modify the icons then theres lots of them in the ttf:<br><a href="https://github.com/helmuthdu/conky_colors/tree/master/fonts/conkycolors" target="_blank" rel="external">https://github.com/helmuthdu/conky_colo … onkycolors</a></p>
+<div class="bs-callout bs-callout-warning"><h4 id="PLEASE-NOTE"><a href="#PLEASE-NOTE" class="headerlink" title="PLEASE NOTE:"></a>PLEASE NOTE:</h4><p>I’m sure there’s a better way of getting the CPU temps.  Please let me know if this is the case.<br>I’m not sure that the Ethernet if else statements are working correctly.</p>
+</div>
+<div class="bs-callout bs-callout-default"><h4 id="FURTHER-READING"><a href="#FURTHER-READING" class="headerlink" title="FURTHER READING:"></a>FURTHER READING:</h4><p>Here’s some lovelly looking conky-colors stuff:<br><a href="http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180" target="_blank" rel="external">http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180</a><br>And the conky Git pagee if you want to see the source and who made it:<br><a href="https://github.com/helmuthdu/conky_colors" target="_blank" rel="external">https://github.com/helmuthdu/conky_colors</a></p>
+</div>]]></content>
     
     <summary type="html">
     
@@ -229,40 +263,40 @@
     <published>2014-02-18T15:31:50.000Z</published>
     <updated>2016-06-22T21:42:06.627Z</updated>
     
-    <content type="html">&lt;p&gt;Here is a video of my printer doing a calibration.&lt;/p&gt;
-&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/86994938&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
+    <content type="html"><![CDATA[<p>Here is a video of my printer doing a calibration.</p>
+<div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/86994938" frameborder="0" allowfullscreen></iframe></div><br></div>
 
-&lt;p&gt;Calibrating the print head height is proving to be quite difficult. A good article on this can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://minow.blogspot.co.uk/index.html#4918805519571907051&quot; title=&quot;Minow - Calibrating a Delta 3D Printer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Minow - Calibrating a Delta 3D Printer&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Delta-Printers-Only&quot;&gt;&lt;a href=&quot;#Delta-Printers-Only&quot; class=&quot;headerlink&quot; title=&quot;Delta Printers Only&quot;&gt;&lt;/a&gt;Delta Printers Only&lt;/h4&gt;&lt;p&gt;This calibration process is for a delta style printers only (like my 3DR)&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;As you can see the prints are getting significantly better.&lt;/p&gt;
+<p>Calibrating the print head height is proving to be quite difficult. A good article on this can be found here:</p>
+<p><a href="http://minow.blogspot.co.uk/index.html#4918805519571907051" title="Minow - Calibrating a Delta 3D Printer" target="_blank" rel="external">Minow - Calibrating a Delta 3D Printer</a></p>
+<div class="bs-callout bs-callout-default"><h4 id="Delta-Printers-Only"><a href="#Delta-Printers-Only" class="headerlink" title="Delta Printers Only"></a>Delta Printers Only</h4><p>This calibration process is for a delta style printers only (like my 3DR)</p>
+</div>
+<p>As you can see the prints are getting significantly better.</p>
 
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-calibration/calibration_a.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_a.jpg">
+								<img src="/content/images/3d-printer-calibration/calibration_a_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-calibration/calibration_b.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_b.jpg">
+								<img src="/content/images/3d-printer-calibration/calibration_b_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-calibration/calibration_c.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_c_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_c.jpg">
+								<img src="/content/images/3d-printer-calibration/calibration_c_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
 
-&lt;p&gt;Its not quite there, but I would say its close.&lt;/p&gt;
-</content>
+<p>Its not quite there, but I would say its close.</p>
+]]></content>
     
     <summary type="html">
     
@@ -285,15 +319,15 @@
     <published>2014-02-16T16:13:54.000Z</published>
     <updated>2016-06-22T19:51:06.231Z</updated>
     
-    <content type="html">&lt;p&gt;After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.&lt;/p&gt;
-&lt;p&gt;Here is what I finally have (I went for XFCE because it is lightweight).&lt;/p&gt;
-&lt;a class=&quot;image-link&quot; href=&quot;/content/images/a_week_with_arch/arch_desktop.png&quot; title=&quot;I am happy with the results&quot;&gt;&lt;img src=&quot;/content/images/a_week_with_arch/arch_desktop_thumbnail.png&quot; alt=&quot;I am happy with the results&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;What-I-like&quot;&gt;&lt;a href=&quot;#What-I-like&quot; class=&quot;headerlink&quot; title=&quot;What I like&quot;&gt;&lt;/a&gt;What I like&lt;/h2&gt;&lt;p&gt;I’m very happy with the speed and ease of use so far.&lt;/p&gt;
-&lt;p&gt;Arch makes no assumptions, this means you literally have to configure everything.  An example of this is that I could not get thunar to auto mount and add a desktop icon for my USB drives.  After some research (amazing Arch documentation) this was simply a case of enabling the thunar volume manager alongside lxpolkit.&lt;/p&gt;
-&lt;h2 id=&quot;Bottom-Line&quot;&gt;&lt;a href=&quot;#Bottom-Line&quot; class=&quot;headerlink&quot; title=&quot;Bottom Line&quot;&gt;&lt;/a&gt;Bottom Line&lt;/h2&gt;&lt;p&gt;Things may take a little longer to get working and configured.  but this results in no cruft at all in your system, and you leave knowing how things work in much more depth and are then able to problem solve in future.  And when something does’t work you really get to go into the documentation (of which there is ample amounts of information on everything).&lt;/p&gt;
-&lt;p&gt;I would say that I have learnt more on how a linux distribution works in my first week with arch, than I have in around 3 years of Ubuntu and Mint.&lt;/p&gt;
-&lt;p&gt;There is something very satisfying about knowing exactly what is running on your system.&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.</p>
+<p>Here is what I finally have (I went for XFCE because it is lightweight).</p>
+<a class="image-link" href="/content/images/a_week_with_arch/arch_desktop.png" title="I am happy with the results"><img src="/content/images/a_week_with_arch/arch_desktop_thumbnail.png" alt="I am happy with the results"></a>
+<h2 id="What-I-like"><a href="#What-I-like" class="headerlink" title="What I like"></a>What I like</h2><p>I’m very happy with the speed and ease of use so far.</p>
+<p>Arch makes no assumptions, this means you literally have to configure everything.  An example of this is that I could not get thunar to auto mount and add a desktop icon for my USB drives.  After some research (amazing Arch documentation) this was simply a case of enabling the thunar volume manager alongside lxpolkit.</p>
+<h2 id="Bottom-Line"><a href="#Bottom-Line" class="headerlink" title="Bottom Line"></a>Bottom Line</h2><p>Things may take a little longer to get working and configured.  but this results in no cruft at all in your system, and you leave knowing how things work in much more depth and are then able to problem solve in future.  And when something does’t work you really get to go into the documentation (of which there is ample amounts of information on everything).</p>
+<p>I would say that I have learnt more on how a linux distribution works in my first week with arch, than I have in around 3 years of Ubuntu and Mint.</p>
+<p>There is something very satisfying about knowing exactly what is running on your system.</p>
+]]></content>
     
     <summary type="html">
     
@@ -317,14 +351,14 @@
     <published>2014-02-12T09:27:40.000Z</published>
     <updated>2016-06-22T21:40:02.665Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Something-New&quot;&gt;&lt;a href=&quot;#Something-New&quot; class=&quot;headerlink&quot; title=&quot;Something New&quot;&gt;&lt;/a&gt;Something New&lt;/h2&gt;&lt;p&gt;I have been contemplating re-installing my main OS.  Currently I’m running &lt;a href=&quot;https://www.linuxmint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mint&lt;/a&gt; ( 14 - Cinnamon) and Windows 7.  I have always wanted to install &lt;a href=&quot;https://www.gentoo.org/get-started/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gentoo&lt;/a&gt;, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.&lt;/p&gt;
-&lt;h2 id=&quot;Arch&quot;&gt;&lt;a href=&quot;#Arch&quot; class=&quot;headerlink&quot; title=&quot;Arch&quot;&gt;&lt;/a&gt;Arch&lt;/h2&gt;&lt;p&gt;I have been looking at &lt;strong&gt;Arch Linux&lt;/strong&gt;, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full &lt;strong&gt;Gentoo&lt;/strong&gt; install.&lt;/p&gt;
-&lt;p&gt;One thing I would like to highlight is that the &lt;a href=&quot;https://wiki.archlinux.org/index.php/Installation_guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;DOCUMENTATION IS AMAZING!&lt;/strong&gt;&lt;/a&gt;, really really helpful, if you need to know it, it’s in there.  Check out the &lt;a href=&quot;https://wiki.archlinux.org/index.php/Beginners&quot; title=&quot;Beginners Guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Beginners Guide&lt;/a&gt; if you need help getting going.&lt;/p&gt;
-&lt;p&gt;After 2 hours of work, here is what I have:&lt;/p&gt;
-&lt;p&gt;(It still needs a lot of work, this is simply the stock xfce, with chromium installed)&lt;/p&gt;
-&lt;a class=&quot;image-link&quot; href=&quot;/content/images/arch-linux-new-install/arch_initial_screenshot.png&quot; title=&quot;Even after hours of work it looks terrible&quot;&gt;&lt;img src=&quot;/content/images/arch-linux-new-install/arch_initial_screenshot_thumbnail.png&quot; alt=&quot;Even after hours of work it looks terrible&quot;&gt;&lt;/a&gt;
-&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;p&gt;Something to note is that  my previous install of &lt;strong&gt;Mint&lt;/strong&gt; had encrypted my home folders with &lt;strong&gt;ecryptfs &lt;/strong&gt;(standard ubuntu encryption).  This was easily used with my new install by following the Auto-Mount steps in &lt;a href=&quot;https://wiki.archlinux.org/index.php/ECryptfs&quot; title=&quot;ecryptfs Arch Guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;this guide&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;</content>
+    <content type="html"><![CDATA[<h2 id="Something-New"><a href="#Something-New" class="headerlink" title="Something New"></a>Something New</h2><p>I have been contemplating re-installing my main OS.  Currently I’m running <a href="https://www.linuxmint.com/" target="_blank" rel="external">Mint</a> ( 14 - Cinnamon) and Windows 7.  I have always wanted to install <a href="https://www.gentoo.org/get-started/" target="_blank" rel="external">Gentoo</a>, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.</p>
+<h2 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h2><p>I have been looking at <strong>Arch Linux</strong>, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full <strong>Gentoo</strong> install.</p>
+<p>One thing I would like to highlight is that the <a href="https://wiki.archlinux.org/index.php/Installation_guide" target="_blank" rel="external"><strong>DOCUMENTATION IS AMAZING!</strong></a>, really really helpful, if you need to know it, it’s in there.  Check out the <a href="https://wiki.archlinux.org/index.php/Beginners" title="Beginners Guide" target="_blank" rel="external">Beginners Guide</a> if you need help getting going.</p>
+<p>After 2 hours of work, here is what I have:</p>
+<p>(It still needs a lot of work, this is simply the stock xfce, with chromium installed)</p>
+<a class="image-link" href="/content/images/arch-linux-new-install/arch_initial_screenshot.png" title="Even after hours of work it looks terrible"><img src="/content/images/arch-linux-new-install/arch_initial_screenshot_thumbnail.png" alt="Even after hours of work it looks terrible"></a>
+<div class="bs-callout bs-callout-default"><p>Something to note is that  my previous install of <strong>Mint</strong> had encrypted my home folders with <strong>ecryptfs </strong>(standard ubuntu encryption).  This was easily used with my new install by following the Auto-Mount steps in <a href="https://wiki.archlinux.org/index.php/ECryptfs" title="ecryptfs Arch Guide" target="_blank" rel="external">this guide</a>.</p>
+</div>]]></content>
     
     <summary type="html">
     
@@ -348,52 +382,52 @@
     <published>2014-01-31T00:00:00.000Z</published>
     <updated>2016-06-23T20:38:25.991Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Too-Hot&quot;&gt;&lt;a href=&quot;#Too-Hot&quot; class=&quot;headerlink&quot; title=&quot;Too Hot&quot;&gt;&lt;/a&gt;Too Hot&lt;/h2&gt;&lt;p&gt;While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.&lt;/p&gt;
+    <content type="html"><![CDATA[<h2 id="Too-Hot"><a href="#Too-Hot" class="headerlink" title="Too Hot"></a>Too Hot</h2><p>While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.</p>
 
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/leaking.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-leaking/leaking_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-leaking/leaking.jpg">
+								<img src="/content/images/3d-printer-leaking/leaking_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/disasembly2.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-leaking/disasembly2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-leaking/disasembly2.jpg">
+								<img src="/content/images/3d-printer-leaking/disasembly2_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/disasembly.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-leaking/disasembly_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-leaking/disasembly.jpg">
+								<img src="/content/images/3d-printer-leaking/disasembly_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
 
-&lt;h2 id=&quot;Back-in-business&quot;&gt;&lt;a href=&quot;#Back-in-business&quot; class=&quot;headerlink&quot; title=&quot;Back in business&quot;&gt;&lt;/a&gt;Back in business&lt;/h2&gt;&lt;p&gt;After taking it apart I found that it was due to the inner &lt;a href=&quot;http://reprap.org/wiki/PLA&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PLA&lt;/a&gt; of the &lt;a href=&quot;http://reprap.org/wiki/Jhead&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JHead&lt;/a&gt; slipping a bit inside.  I have now reconstructed the hot end and its clean and tight.&lt;/p&gt;
+<h2 id="Back-in-business"><a href="#Back-in-business" class="headerlink" title="Back in business"></a>Back in business</h2><p>After taking it apart I found that it was due to the inner <a href="http://reprap.org/wiki/PLA" target="_blank" rel="external">PLA</a> of the <a href="http://reprap.org/wiki/Jhead" target="_blank" rel="external">JHead</a> slipping a bit inside.  I have now reconstructed the hot end and its clean and tight.</p>
 
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/cleaned1.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-leaking/cleaned1_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-leaking/cleaned1.jpg">
+								<img src="/content/images/3d-printer-leaking/cleaned1_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/cleaned2.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-leaking/cleaned2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-leaking/cleaned2.jpg">
+								<img src="/content/images/3d-printer-leaking/cleaned2_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
-</content>
+]]></content>
     
     <summary type="html">
     
@@ -415,82 +449,82 @@
     <published>2014-01-23T00:00:00.000Z</published>
     <updated>2016-06-22T21:38:43.644Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;I was inspired to create this printer after seeing a very informative video by &lt;a href=&quot;http://richrap.blogspot.co.uk/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Richard Horne&lt;/a&gt; on his &lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3DR RepRap Delta Printer&lt;/a&gt; (his tutorial series on the printer is very helpful and covers all aspects of the build process).&lt;br&gt;The printer is a Delta printer (a design made famous by &lt;a href=&quot;https://github.com/jcrocholl&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jcrocholl&lt;/a&gt; and his &lt;a href=&quot;https://github.com/jcrocholl/rostock&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Rostock&lt;/a&gt; printer.&lt;/p&gt;
-&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Links&quot;&gt;&lt;a href=&quot;#Links&quot; class=&quot;headerlink&quot; title=&quot;Links&quot;&gt;&lt;/a&gt;Links&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;RichRap 3DR Firmware&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Assembly Tutorial Series&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&quot;Photos&quot;&gt;&lt;a href=&quot;#Photos&quot; class=&quot;headerlink&quot; title=&quot;Photos&quot;&gt;&lt;/a&gt;Photos&lt;/h2&gt;
+    <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>I was inspired to create this printer after seeing a very informative video by <a href="http://richrap.blogspot.co.uk/" target="_blank" rel="external">Richard Horne</a> on his <a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">3DR RepRap Delta Printer</a> (his tutorial series on the printer is very helpful and covers all aspects of the build process).<br>The printer is a Delta printer (a design made famous by <a href="https://github.com/jcrocholl" target="_blank" rel="external">jcrocholl</a> and his <a href="https://github.com/jcrocholl/rostock" target="_blank" rel="external">Rostock</a> printer.</p>
+<div class="bs-callout bs-callout-default"><h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><p><a href="https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2" target="_blank" rel="external">RichRap 3DR Firmware</a><br><a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">Assembly Tutorial Series</a></p>
+</div>
+<h2 id="Photos"><a href="#Photos" class="headerlink" title="Photos"></a>Photos</h2>
 	
-    	&lt;!-- Gallery --&gt;
-		&lt;div class=&quot;gallery&quot;&gt;
-			&lt;div class=&quot;row&quot;&gt;        
+    	<!-- Gallery -->
+		<div class="gallery">
+			<div class="row">        
 				
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Electronics1.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/Electronics1_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/Electronics1.jpg">
+								<img src="/content/images/3d-printer-build/Electronics1_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Electronics2.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/Electronics2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/Electronics2.jpg">
+								<img src="/content/images/3d-printer-build/Electronics2_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Electronics3.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/Electronics3_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/Electronics3.jpg">
+								<img src="/content/images/3d-printer-build/Electronics3_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/base_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/base.jpg">
+								<img src="/content/images/3d-printer-build/base_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base_with_alu_extrusions.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/base_with_alu_extrusions_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/base_with_alu_extrusions.jpg">
+								<img src="/content/images/3d-printer-build/base_with_alu_extrusions_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Base_alu_closeup.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/Base_alu_closeup_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/Base_alu_closeup.jpg">
+								<img src="/content/images/3d-printer-build/Base_alu_closeup_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base_top_carriage.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/base_top_carriage_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/base_top_carriage.jpg">
+								<img src="/content/images/3d-printer-build/base_top_carriage_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base_top_carriage2.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/base_top_carriage2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/base_top_carriage2.jpg">
+								<img src="/content/images/3d-printer-build/base_top_carriage2_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/carriage.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/carriage_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/carriage.jpg">
+								<img src="/content/images/3d-printer-build/carriage_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/carriage_with_wire.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/carriage_with_wire_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/carriage_with_wire.jpg">
+								<img src="/content/images/3d-printer-build/carriage_with_wire_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/axis_motors.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/axis_motors_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/axis_motors.jpg">
+								<img src="/content/images/3d-printer-build/axis_motors_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/axis carriage2.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/axis carriage2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/axis carriage2.jpg">
+								<img src="/content/images/3d-printer-build/axis carriage2_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/axis_carriage_3.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/axis_carriage_3_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/axis_carriage_3.jpg">
+								<img src="/content/images/3d-printer-build/axis_carriage_3_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/hotend.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/hotend_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/hotend.jpg">
+								<img src="/content/images/3d-printer-build/hotend_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
-							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/readytoprint.jpg&quot;&gt;
-								&lt;img src=&quot;/content/images/3d-printer-build/readytoprint_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
-							&lt;/a&gt;
+							<a class="image-link" href="/content/images/3d-printer-build/readytoprint.jpg">
+								<img src="/content/images/3d-printer-build/readytoprint_thumb.jpg" class="img-thumbnail img-responsive">
+							</a>
 					
 				
-			&lt;/div&gt;
-		&lt;/div&gt;
+			</div>
+		</div>
 	
 
-</content>
+]]></content>
     
     <summary type="html">
     
@@ -504,6 +538,270 @@
       <category term="hardware" scheme="randomsyntax.net/tags/hardware/"/>
     
       <category term="build" scheme="randomsyntax.net/tags/build/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Images</title>
+    <link href="randomsyntax.net/images/"/>
+    <id>randomsyntax.net/images/</id>
+    <published>2013-12-26T22:46:49.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a image test post.</p>
+<p><img src="/assets/wallpaper-2572384.jpg" alt=""></p>
+<p><img src="/assets/wallpaper-2311325.jpg" alt="Caption"></p>
+<p><img src="/assets/wallpaper-878514.jpg" alt=""></p>
+<p><img src="http://placehold.it/350x150.jpg" alt="Small Picture"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a image test post.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/wallpaper-2572384.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/wallpaper-2311325.jpg&quot; alt=&quot;C
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="randomsyntax.net/no-title/"/>
+    <id>randomsyntax.net/no-title/</id>
+    <published>2013-12-25T22:57:49.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post doesn’t have a title. Make sure it’s accessible.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post doesn’t have a title. Make sure it’s accessible.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excerpts</title>
+    <link href="randomsyntax.net/excerpts/"/>
+    <id>randomsyntax.net/excerpts/</id>
+    <published>2013-12-25T00:23:23.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>The following contents should be invisible in home/archive page.</p>
+<a id="more"></a>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.</p>
+<p>Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The following contents should be invisible in home/archive page.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Videos</title>
+    <link href="randomsyntax.net/videos/"/>
+    <id>randomsyntax.net/videos/</id>
+    <published>2013-12-25T00:19:15.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a video test post.</p>
+<p><strong>Youtube</strong></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/TIbZDRXM-Tg" frameborder="0" allowfullscreen></iframe></div>
+<p><strong>Vimeo</strong></p>
+<div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a video test post.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/TIbZDRXM
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Gallery Post</title>
+    <link href="randomsyntax.net/gallery-post/"/>
+    <id>randomsyntax.net/gallery-post/</id>
+    <published>2013-12-25T00:16:18.000Z</published>
+    <updated>2016-05-30T19:56:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post contains 4 photos:</p>
+<ul>
+<li>Widescreen wallpaper</li>
+<li>Portrait photo</li>
+<li>Dual widescreen wallpaper</li>
+<li>Small photo</li>
+</ul>
+<p>All photos should be displayed properly.</p>
+<p><em>From <a href="http://wallbase.cc" target="_blank" rel="external">Wallbase.cc</a></em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post contains 4 photos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Widescreen wallpaper&lt;/li&gt;
+&lt;li&gt;Portrait photo&lt;/li&gt;
+&lt;li&gt;Dual widescreen wallpaper&lt;/li&gt;
+&lt;li&gt;Small 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tag Plugins</title>
+    <link href="randomsyntax.net/tag-plugins/"/>
+    <id>randomsyntax.net/tag-plugins/</id>
+    <published>2013-12-25T00:14:39.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post is used for testing tag plugins. See <a href="http://zespia.tw/hexo/docs/tag-plugins.html" target="_blank" rel="external">docs</a> for more info.</p>
+<h2 id="Block-Quote"><a href="#Block-Quote" class="headerlink" title="Block Quote"></a>Block Quote</h2><h3 id="Normal-blockquote"><a href="#Normal-blockquote" class="headerlink" title="Normal blockquote"></a>Normal blockquote</h3><blockquote>
+<p>Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.</p>
+</blockquote>
+<h3 id="Quote-from-a-book"><a href="#Quote-from-a-book" class="headerlink" title="Quote from a book"></a>Quote from a book</h3><blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+<h3 id="Quote-from-Twitter"><a href="#Quote-from-Twitter" class="headerlink" title="Quote from Twitter"></a>Quote from Twitter</h3><blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="external">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="external">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+<h3 id="Quote-from-an-article-on-the-web"><a href="#Quote-from-an-article-on-the-web" class="headerlink" title="Quote from an article on the web"></a>Quote from an article on the web</h3><blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
+<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" target="_blank" rel="external">Welcome to Island Marketing</a></cite></footer></blockquote>
+<h2 id="Code-Block"><a href="#Code-Block" class="headerlink" title="Code Block"></a>Code Block</h2><h3 id="Normal-code-block"><a href="#Normal-code-block" class="headerlink" title="Normal code block"></a>Normal code block</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alert(&apos;Hello World!&apos;);</div></pre></td></tr></table></figure>
+<h3 id="With-caption"><a href="#With-caption" class="headerlink" title="With caption"></a>With caption</h3><figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">array.map(callback[, thisArg])</div></pre></td></tr></table></figure>
+<h3 id="With-caption-and-URL"><a href="#With-caption-and-URL" class="headerlink" title="With caption and URL"></a>With caption and URL</h3><figure class="highlight plain"><figcaption><span>.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">.compact([0, 1, false, 2, ‘’, 3]);</div><div class="line">=&gt; [1, 2, 3]</div></pre></td></tr></table></figure>
+<h3 id="With-marked-lines"><a href="#With-marked-lines" class="headerlink" title="With marked lines"></a>With marked lines</h3><p>Line 1,7-8,10 should be marked with different color.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line marked"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</div><div class="line"></div><div class="line"><span class="keyword">const</span> hostname = <span class="string">'127.0.0.1'</span>;</div><div class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</div><div class="line"></div><div class="line">http.createServer((req, res) =&gt; &#123;</div><div class="line marked">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">'Content-Type'</span>: <span class="string">'text/plain'</span> &#125;);</div><div class="line marked">  res.end(<span class="string">'Hello World\n'</span>);</div><div class="line">&#125;).listen(port, hostname, () =&gt; &#123;</div><div class="line marked">  <span class="built_in">console</span>.log(<span class="string">`Server running at http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/`</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p>Note: Theme’s style should support <code>.highlight.line.marked</code> (recommend to use the selection or current line color).</p>
+<h3 id="Gist"><a href="#Gist" class="headerlink" title="Gist"></a>Gist</h3><script src="//gist.github.com/996818.js"></script>
+<h3 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h3><iframe scrolling="no" width="100%" height="300" src="http://jsfiddle.net/ccWP7/embedded/js,resources,html,css,result/light" frameborder="0" allowfullscreen></iframe>
+<h2 id="Pullquote"><a href="#Pullquote" class="headerlink" title="Pullquote"></a>Pullquote</h2><h3 id="Left"><a href="#Left" class="headerlink" title="Left"></a>Left</h3><blockquote class="pullquote left"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus molestie arcu, et fringilla mauris placerat ac. Nullam luctus bibendum risus. Ut cursus sed ipsum feugiat egestas. Suspendisse elementum, velit eu consequat consequat, augue lorem dapibus libero, eget pulvinar dolor est sit amet nulla. Suspendisse a porta tortor, et posuere mi. Pellentesque ultricies, mi quis volutpat malesuada, erat felis vulputate nisl, ac congue ante tortor ut ante. Proin aliquam sem vel mauris tincidunt, eget scelerisque tortor euismod. Nulla tincidunt enim nec commodo dictum. Mauris id sapien et orci gravida luctus id ut dui. In vel vulputate odio. Duis vel turpis molestie, scelerisque enim eu, lobortis eros. Cras at ipsum gravida, sagittis ante vel, viverra tellus. Nunc mauris turpis, elementum ullamcorper nisl pretium, ultrices cursus justo. Mauris porttitor commodo eros, ac ornare orci interdum in. Cras fermentum cursus leo sed mattis. In dignissim lorem sem, sit amet elementum mauris venenatis ac.</p>
+<h3 id="Right"><a href="#Right" class="headerlink" title="Right"></a>Right</h3><blockquote class="pullquote right"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula justo, lobortis sit amet semper vel, dignissim sit amet libero. Praesent ac tempus ligula. Maecenas at gravida odio. Etiam tristique volutpat lacus eu faucibus. Donec non tempus arcu. Phasellus adipiscing, mauris nec mollis egestas, ipsum nunc auctor velit, et rhoncus lorem ipsum at ante. Praesent et sem in velit volutpat auctor. Duis vel mauris nulla. Maecenas mattis interdum ante, quis sagittis nibh cursus et. Nulla facilisi. Morbi convallis gravida tortor, ut fermentum enim gravida et. Nunc vel dictum nisl, non ultrices libero. Proin vestibulum felis eget orci consectetur lobortis. Vestibulum augue nulla, iaculis vitae augue vehicula, dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac magna. Etiam vel pharetra elit.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post is used for testing tag plugins. See &lt;a href=&quot;http://zespia.tw/hexo/docs/tag-plugins.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;docs&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>www.google.com</title>
+    <link href="randomsyntax.net/link-post-without-title/"/>
+    <id>randomsyntax.net/link-post-without-title/</id>
+    <published>2013-12-24T23:44:13.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open <a href="http://www.google.com/" target="_blank" rel="external">Google</a> in a new tab or window.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open &lt;a href=&quot;htt
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日本語テスト</title>
+    <link href="randomsyntax.net/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/"/>
+    <id>randomsyntax.net/日本語テスト/</id>
+    <published>2013-12-24T23:33:26.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a Japanese test post.</p>
+<p>私は昨日ついにその助力家というのの上よりするたなけれ。</p>
+<p>最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。</p>
+<p>がたを知っないはずも同時に九月をいよいよたありた。</p>
+<p>もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。</p>
+<blockquote>
+<p>それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。</p>
+</blockquote>
+<p>この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。</p>
+<p><em>From <a href="http://lipsum.sugutsukaeru.jp/index.cgi" target="_blank" rel="external">すぐ使えるダミーテキスト - 日本語 Lorem ipsum</a></em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a Japanese test post.&lt;/p&gt;
+&lt;p&gt;私は昨日ついにその助力家というのの上よりするたなけれ。&lt;/p&gt;
+&lt;p&gt;最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。&lt;/p&gt;
+&lt;p&gt;がた
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>中文測試</title>
+    <link href="randomsyntax.net/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/"/>
+    <id>randomsyntax.net/中文測試/</id>
+    <published>2013-12-24T23:31:30.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a Chinese test post.</p>
+<p>善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。</p>
+<p>以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？</p>
+<p>就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。</p>
+<p>國新故。</p>
+<blockquote>
+<p>工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？</p>
+</blockquote>
+<p><em>From <a href="http://www.richyli.com/tool/loremipsum/" target="_blank" rel="external">亂數假文產生器 - Chinese Lorem Ipsum</a></em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a Chinese test post.&lt;/p&gt;
+&lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;
+&lt;p&gt;以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.</title>
+    <link href="randomsyntax.net/long-title/"/>
+    <id>randomsyntax.net/long-title/</id>
+    <published>2013-12-24T23:31:06.000Z</published>
+    <updated>2016-05-13T22:38:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post has a long title. Make sure the title displayed right.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post has a long title. Make sure the title displayed right.&lt;/p&gt;
+
+    
+    </summary>
+    
     
   </entry>
   
