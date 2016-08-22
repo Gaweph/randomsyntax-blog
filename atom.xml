@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-08-17T20:44:43.169Z</updated>
+  <updated>2016-08-22T15:29:35.926Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -16,20 +16,21 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Using Boxstarter On A Fresh Windows Install</title>
+    <title>My Boxstarter Script</title>
     <link href="randomsyntax.net/boxstarter-hello-world/"/>
     <id>randomsyntax.net/boxstarter-hello-world/</id>
     <published>2016-08-17T20:04:00.000Z</published>
-    <updated>2016-08-17T20:44:43.169Z</updated>
+    <updated>2016-08-22T15:29:35.926Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Whats-the-problem"><a href="#Whats-the-problem" class="headerlink" title="Whats the problem"></a>Whats the problem</h2><p>Setting up a new machine is always a bit of a pain.  It would be easier just give your new machine a list of software to install and then let it go and install it all for you.</p>
-<h2 id="Introducing-BoxStarter"><a href="#Introducing-BoxStarter" class="headerlink" title="Introducing BoxStarter"></a>Introducing BoxStarter</h2><p><a href="http://boxstarter.org/" target="_blank" rel="external">BoxStarter.org</a> can install all of your software out with a single command.</p>
+    <content type="html"><![CDATA[<h2 id="Whats-the-problem"><a href="#Whats-the-problem" class="headerlink" title="Whats the problem"></a>Whats the problem</h2><p>Setting up a new machine is always a bit of a pain.  Wouldn’t it be nice if your machine could just get the software you wanted and install it for you.</p>
+<h2 id="Welcome-BoxStarter"><a href="#Welcome-BoxStarter" class="headerlink" title="Welcome BoxStarter"></a>Welcome BoxStarter</h2><p><a href="http://boxstarter.org/" target="_blank" rel="external">BoxStarter.org</a> can install all of your software out with a single command.</p>
 <figure class="highlight sh"><figcaption><span>BoxStarter Command</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">START http://boxstarter.org/package/nr/url?URL_TO_YOUR_BOXSTARTER_SCRIPT.ps1 </div></pre></td></tr></table></figure> 
-<p>If you would like to see an example script, then mine is available at <a href="https://raw.githubusercontent.com/Gaweph/Boxstarter-scripts/master/Developer-Machine.ps1" target="_blank" rel="external">GitHub Repository</a>.  Here is my personal script at the time of writing this post</p>
+<h3 id="My-Script"><a href="#My-Script" class="headerlink" title="My Script"></a>My Script</h3><p>My current <em>Home Development Script</em> can be found at my <a href="https://raw.githubusercontent.com/Gaweph/Boxstarter-scripts/master/Developer-Machine.ps1" target="_blank" rel="external">GitHub Repository</a>.</p>
+<p>Here it is at the time of writign this post:</p>
 <figure class="highlight sh"><figcaption><span>BoxStarter Command</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Boxstarter options</span></div><div class="line"><span class="variable">$Boxstarter</span>.RebootOk=<span class="variable">$true</span> <span class="comment"># Allow reboots?</span></div><div class="line"><span class="variable">$Boxstarter</span>.NoPassword=<span class="variable">$false</span> <span class="comment"># Is this a machine with no login password?</span></div><div class="line"><span class="variable">$Boxstarter</span>.AutoLogin=<span class="variable">$true</span> <span class="comment"># Save my password securely and auto-login after a reboot</span></div><div class="line"></div><div class="line"><span class="comment"># Basic setup</span></div><div class="line">Update-ExecutionPolicy Unrestricted</div><div class="line">Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions</div><div class="line"><span class="comment">#Enable-RemoteDesktop</span></div><div class="line">Disable-InternetExplorerESC</div><div class="line"><span class="comment">#Disable-UAC</span></div><div class="line"><span class="comment">#Set-TaskbarSmall</span></div><div class="line"> </div><div class="line"><span class="comment"># disable defrag because I have an SSD </span></div><div class="line">Get-ScheduledTask -TaskName *defrag* | Disable-ScheduledTask </div><div class="line"></div><div class="line"><span class="comment"># Install Visual Studio 2015</span></div><div class="line">cinst visualstudio2015enterprise</div><div class="line"><span class="keyword">if</span> (Test-PendingReboot) &#123; Invoke-Reboot &#125;</div><div class="line"></div><div class="line"><span class="comment">#Other dev tools</span></div><div class="line">cinst visualstudiocode -y</div><div class="line">cinst nodejs.install -y</div><div class="line">choco install unity -y</div><div class="line"></div><div class="line"><span class="comment">#Browsers</span></div><div class="line">cinst googlechrome -y</div><div class="line">cinst firefox -y</div><div class="line"></div><div class="line"><span class="comment">#Other tools</span></div><div class="line">cinst notepadplusplus -y</div><div class="line">cinst 7zip.install -y</div><div class="line">cinst adobereader -y</div><div class="line">cinst skype -y</div><div class="line">cinst dropbox -y</div><div class="line">cinst virtualbox -y</div><div class="line">choco install jdk8 -y</div><div class="line">cinst putty.install -y</div><div class="line">cinst spotify -y</div><div class="line">cinst vlc -y</div><div class="line">choco install steam -y</div><div class="line"></div><div class="line"><span class="comment"># VS extensions</span></div><div class="line">Install-ChocolateyVsixPackage ProPowerTools https://visualstudiogallery.msdn.microsoft.com/d0d33361-18e2-46c0-8ff2-4adea1e34fef/file/29666/12/ProPowerTools.vsix</div><div class="line">Install-ChocolateyVsixPackage vstu2015 https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9/file/142077/10/vstu2015.msi</div><div class="line"></div><div class="line"><span class="comment"># Node modules (Global)</span></div><div class="line">npm install -g gulp</div><div class="line">npm install -g bower</div><div class="line">npm install -g typings</div><div class="line">npm install -g hexo-cli</div><div class="line">npm install -g typescript</div><div class="line"></div><div class="line"><span class="keyword">if</span> (Test-PendingReboot) &#123; Invoke-Reboot &#125;</div><div class="line"></div><div class="line"><span class="comment">#cinst Microsoft-Hyper-V-All -source windowsFeatures</span></div><div class="line">cinst IIS-WebServerRole -source windowsfeatures</div><div class="line">cinst IIS-HttpCompressionDynamic -source windowsfeatures</div><div class="line">cinst IIS-ManagementScriptingTools -source windowsfeatures</div><div class="line">cinst IIS-WindowsAuthentication -source windowsfeatures</div><div class="line"></div><div class="line">Install-ChocolateyPinnedTaskBarItem <span class="string">"<span class="variable">$($Boxstarter.programFiles86)</span>\Google\Chrome\Application\chrome.exe"</span></div><div class="line">Install-ChocolateyPinnedTaskBarItem <span class="string">"<span class="variable">$($Boxstarter.programFiles86)</span>\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"</span></div><div class="line"></div><div class="line"><span class="comment"># Update Windows and reboot if necessary</span></div><div class="line">Install-WindowsUpdate -AcceptEula -GetUpdatesFromMS</div><div class="line"><span class="keyword">if</span> (Test-PendingReboot) &#123; Invoke-Reboot &#125;</div></pre></td></tr></table></figure> 
 <div class="bs-callout bs-callout-info"><p>Boxstarter is able to use <a href="https://chocolatey.org/packages" target="_blank" rel="external">Chocolatey Packages</a> which means it has access to many many pieces of software.</p>
 </div>
-<h2 id="Use-a-Package-Manager"><a href="#Use-a-Package-Manager" class="headerlink" title="Use a Package Manager"></a>Use a Package Manager</h2><div class="bs-callout bs-callout-info"><p>Alternatively you can now use a Package Manager in Windows.</p>
+<h2 id="Other-Windows-10-Options"><a href="#Other-Windows-10-Options" class="headerlink" title="Other Windows 10 Options"></a>Other Windows 10 Options</h2><div class="bs-callout bs-callout-info"><p>Alternatively you can now use a Package Manager in Windows.</p>
 </div>
 <p>Windows 10 now includes a Package Manager.  Check out my personal favourite <a href="https://chocolatey.org/" target="_blank" rel="external">Chocolatey</a> which includes many many <a href="https://chocolatey.org/packages" target="_blank" rel="external">Packages</a></p>
 ]]></content>
@@ -54,7 +55,7 @@
     <link href="randomsyntax.net/gone-to-have-a-baby/"/>
     <id>randomsyntax.net/gone-to-have-a-baby/</id>
     <published>2014-12-01T16:13:48.000Z</published>
-    <updated>2016-06-23T12:19:34.000Z</updated>
+    <updated>2016-06-23T12:19:34.160Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Gone-to-have-a-baby"><a href="#Gone-to-have-a-baby" class="headerlink" title="Gone to have a baby!"></a>Gone to have a baby!</h4><p>Back in 30 years.</p>
 ]]></content>
@@ -71,11 +72,11 @@
   </entry>
   
   <entry>
-    <title>3D Printing</title>
+    <title>3D Printer 5 - Prints</title>
     <link href="randomsyntax.net/3d-printing/"/>
     <id>randomsyntax.net/3d-printing/</id>
     <published>2014-08-07T13:35:54.000Z</published>
-    <updated>2016-06-22T21:27:16.372Z</updated>
+    <updated>2016-08-22T07:58:26.838Z</updated>
     
     <content type="html"><![CDATA[<p>I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer</p>
 <h2 id="Calibration-Cube"><a href="#Calibration-Cube" class="headerlink" title="Calibration Cube."></a>Calibration Cube.</h2><p>As you can see the auto leveling has now stopped my prints from leaning to one side:</p>
@@ -163,11 +164,11 @@
   </entry>
   
   <entry>
-    <title>Auto Bed Levelling</title>
+    <title>3D Printer 4 - Auto Bed Levelling</title>
     <link href="randomsyntax.net/auto-bed-levelling/"/>
     <id>randomsyntax.net/auto-bed-levelling/</id>
     <published>2014-06-19T12:43:03.000Z</published>
-    <updated>2016-06-25T22:50:44.742Z</updated>
+    <updated>2016-08-22T07:57:57.130Z</updated>
     
     <content type="html"><![CDATA[<p>Video of the G29 (Auto level) command.</p>
 <div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/98630132" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -224,7 +225,7 @@
     <link href="randomsyntax.net/conky-config/"/>
     <id>randomsyntax.net/conky-config/</id>
     <published>2014-05-05T13:44:08.000Z</published>
-    <updated>2016-06-22T21:37:47.527Z</updated>
+    <updated>2016-06-22T21:37:47.000Z</updated>
     
     <content type="html"><![CDATA[<p>I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:</p>
 <a class="image-link" href="/content/images/conky-config/Conky_Config.png" title=""><img src="/content/images/conky-config/Conky_Config_thumb.png" alt=""></a>
@@ -257,11 +258,11 @@
   </entry>
   
   <entry>
-    <title>3D Printer Calibration</title>
+    <title>3D Printer 3 - Calibration</title>
     <link href="randomsyntax.net/3d-printer-calibration/"/>
     <id>randomsyntax.net/3d-printer-calibration/</id>
     <published>2014-02-18T15:31:50.000Z</published>
-    <updated>2016-06-22T21:42:06.627Z</updated>
+    <updated>2016-08-22T07:57:40.695Z</updated>
     
     <content type="html"><![CDATA[<p>Here is a video of my printer doing a calibration.</p>
 <div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/86994938" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -317,7 +318,7 @@
     <link href="randomsyntax.net/a-week-with-arch/"/>
     <id>randomsyntax.net/a-week-with-arch/</id>
     <published>2014-02-16T16:13:54.000Z</published>
-    <updated>2016-06-22T19:51:06.231Z</updated>
+    <updated>2016-06-22T19:51:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.</p>
 <p>Here is what I finally have (I went for XFCE because it is lightweight).</p>
@@ -349,7 +350,7 @@
     <link href="randomsyntax.net/arch-linux-new-install/"/>
     <id>randomsyntax.net/arch-linux-new-install/</id>
     <published>2014-02-12T09:27:40.000Z</published>
-    <updated>2016-06-22T21:40:02.665Z</updated>
+    <updated>2016-06-22T21:40:02.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Something-New"><a href="#Something-New" class="headerlink" title="Something New"></a>Something New</h2><p>I have been contemplating re-installing my main OS.  Currently I’m running <a href="https://www.linuxmint.com/" target="_blank" rel="external">Mint</a> ( 14 - Cinnamon) and Windows 7.  I have always wanted to install <a href="https://www.gentoo.org/get-started/" target="_blank" rel="external">Gentoo</a>, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.</p>
 <h2 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h2><p>I have been looking at <strong>Arch Linux</strong>, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full <strong>Gentoo</strong> install.</p>
@@ -376,11 +377,11 @@
   </entry>
   
   <entry>
-    <title>3D Printer - Leaking</title>
+    <title>3D Printer 2 - Leaking</title>
     <link href="randomsyntax.net/3d-printer-wip-leaking/"/>
     <id>randomsyntax.net/3d-printer-wip-leaking/</id>
     <published>2014-01-31T00:00:00.000Z</published>
-    <updated>2016-06-23T20:38:25.991Z</updated>
+    <updated>2016-08-22T07:57:32.615Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Too-Hot"><a href="#Too-Hot" class="headerlink" title="Too Hot"></a>Too Hot</h2><p>While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.</p>
 
@@ -443,11 +444,11 @@
   </entry>
   
   <entry>
-    <title>3D Printer - Build</title>
+    <title>3D Printer 1 - Build</title>
     <link href="randomsyntax.net/3d-printer-build/"/>
     <id>randomsyntax.net/3d-printer-build/</id>
     <published>2014-01-23T00:00:00.000Z</published>
-    <updated>2016-06-22T21:38:43.644Z</updated>
+    <updated>2016-08-22T07:57:20.722Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>I was inspired to create this printer after seeing a very informative video by <a href="http://richrap.blogspot.co.uk/" target="_blank" rel="external">Richard Horne</a> on his <a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">3DR RepRap Delta Printer</a> (his tutorial series on the printer is very helpful and covers all aspects of the build process).<br>The printer is a Delta printer (a design made famous by <a href="https://github.com/jcrocholl" target="_blank" rel="external">jcrocholl</a> and his <a href="https://github.com/jcrocholl/rostock" target="_blank" rel="external">Rostock</a> printer.</p>
 <div class="bs-callout bs-callout-default"><h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><p><a href="https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2" target="_blank" rel="external">RichRap 3DR Firmware</a><br><a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">Assembly Tutorial Series</a></p>
