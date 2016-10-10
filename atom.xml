@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-10-10T22:05:20.093Z</updated>
+  <updated>2016-10-10T22:36:29.389Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="randomsyntax.net/timegame-1-timetravel/"/>
     <id>randomsyntax.net/timegame-1-timetravel/</id>
     <published>2016-10-09T21:30:00.000Z</published>
-    <updated>2016-10-10T22:05:20.093Z</updated>
+    <updated>2016-10-10T22:36:29.389Z</updated>
     
     <content type="html"><![CDATA[<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/186188380" frameborder="0" allowfullscreen></iframe></div><br></div>
 
-<h2 id="What-is-it"><a href="#What-is-it" class="headerlink" title="What is it"></a>What is it</h2><p>This is my initial implementation the time travel mechanic written with Unity3D.  </p>
+<h2 id="What-is-it"><a href="#What-is-it" class="headerlink" title="What is it"></a>What is it</h2><p>This is my initial implementation of the time travel mechanic written with Unity3D.  </p>
 <div class="bs-callout bs-callout-primary"><h4 id="What-am-i-looking-at"><a href="#What-am-i-looking-at" class="headerlink" title="What am i looking at"></a>What am i looking at</h4><ul>
 <li><strong>Red</strong> box is the current player. </li>
 <li>Level goes back to beginning when entering the <strong>Time Machine</strong> </li>
@@ -123,15 +123,12 @@
     <published>2014-12-01T16:13:48.000Z</published>
     <updated>2016-06-23T12:19:34.000Z</updated>
     
-    <content type="html"><![CDATA[<h4>Gone to have a baby!</h4>
-<p>Back in 30 years.</p>
+    <content type="html"><![CDATA[<h4 id="Gone-to-have-a-baby"><a href="#Gone-to-have-a-baby" class="headerlink" title="Gone to have a baby!"></a>Gone to have a baby!</h4><p>Back in 30 years.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h4&gt;Gone to have a baby!&lt;/h4&gt;
-&lt;p&gt;Back in 30 years.&lt;/p&gt;
-
+      &lt;h4 id=&quot;Gone-to-have-a-baby&quot;&gt;&lt;a href=&quot;#Gone-to-have-a-baby&quot; class=&quot;headerlink&quot; title=&quot;Gone to have a baby!&quot;&gt;&lt;/a&gt;Gone to have a baby!&lt;/h4&gt;&lt;p&gt;
     
     </summary>
     
@@ -147,10 +144,9 @@
     <published>2014-08-07T13:35:54.000Z</published>
     <updated>2016-08-22T07:58:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>I Haven't had much spare time to post any updates lately. Here are some prints that have been done with my printer</p>
-<h2>Calibration Cube.</h2>
-<p>As you can see the auto leveling has now stopped my prints from leaning to one side:</p>
-<p>
+    <content type="html"><![CDATA[<p>I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer</p>
+<h2 id="Calibration-Cube"><a href="#Calibration-Cube" class="headerlink" title="Calibration Cube."></a>Calibration Cube.</h2><p>As you can see the auto leveling has now stopped my prints from leaning to one side:</p>
+
 	
     	<!-- Gallery -->
 		<div class="gallery">
@@ -173,9 +169,8 @@
 			</div>
 		</div>
 	
-</p>
-<h2>Elephant.</h2>
-<p>
+
+<h2 id="Elephant"><a href="#Elephant" class="headerlink" title="Elephant."></a>Elephant.</h2>
 	
     	<!-- Gallery -->
 		<div class="gallery">
@@ -194,9 +189,8 @@
 			</div>
 		</div>
 	
-</p>
-<h2>Octopus</h2>
-<p>
+
+<h2 id="Octopus"><a href="#Octopus" class="headerlink" title="Octopus"></a>Octopus</h2>
 	
     	<!-- Gallery -->
 		<div class="gallery">
@@ -219,13 +213,12 @@
 			</div>
 		</div>
 	
-</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;I Haven&#39;t had much spare time to post any updates lately. Here are some prints that have been done with my printer&lt;/p&gt;
-&lt;h2&gt;Calibration Cu
+      &lt;p&gt;I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer&lt;/p&gt;
+&lt;h2 id=&quot;Calibratio
     
     </summary>
     
@@ -244,14 +237,13 @@
     <updated>2016-08-22T07:57:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>Video of the G29 (Auto level) command.</p>
-<p>&lt;div style=&quot;max-width: 700px&quot;&gt;
-<div class="video-container"><iframe src="//player.vimeo.com/video/98630132" frameborder="0" allowfullscreen></iframe></div>
-&lt;/div&gt;</p>
-<p>This process involves using 3 Force Sense Resistors (FSR's) in order to use the actual print head as the z-probe.</p>
-<p>Code can be found in Johan's Github Branch:</p>
+<div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/98630132" frameborder="0" allowfullscreen></iframe></div><br></div>
+
+<p>This process involves using 3 Force Sense Resistors (FSR’s) in order to use the actual print head as the z-probe.</p>
+<p>Code can be found in Johan’s Github Branch:</p>
 <p><a href="https://github.com/jcrocholl/Marlin/tree/fsr" title="https://github.com/jcrocholl/Marlin/tree/fsr" target="_blank" rel="external">github.com/jcrocholl/Marlin/tree/fsr</a></p>
-<p>Here are some images of how the sensors are attached to the printer (under the bed):</p>
-<p>
+<p>Here are some images of how the sensors are attached to the printer (under the bed):</p>
+
 	
     	<!-- Gallery -->
 		<div class="gallery">
@@ -278,14 +270,12 @@
 			</div>
 		</div>
 	
-</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;Video of the G29 (Auto level) command.&lt;/p&gt;
-&lt;p&gt;&amp;lt;div style=&amp;quot;max-width: 700px&amp;quot;&amp;gt;
-&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.c
     
     </summary>
     
@@ -398,12 +388,10 @@
     
     <content type="html"><![CDATA[<p>After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.</p>
 <p>Here is what I finally have (I went for XFCE because it is lightweight).</p>
-<p><a class="image-link" href="/content/images/a_week_with_arch/arch_desktop.png" title="I am happy with the results"><img src="/content/images/a_week_with_arch/arch_desktop_thumbnail.png" alt="I am happy with the results"></a></p>
-<h2>What I like</h2>
-<p>I'm very happy with the speed and ease of use so far.</p>
-<p>Arch makes no assumptions, this means you literally have to configure everything.  An example of this is that I could not get thunar to auto mount and add a desktop icon for my USB drives.  After some research (amazing Arch documentation) this was simply a case of enabling the thunar volume manager alongside lxpolkit.</p>
-<h2>Bottom Line</h2>
-<p>Things may take a little longer to get working and configured.  but this results in no cruft at all in your system, and you leave knowing how things work in much more depth and are then able to problem solve in future.  And when something does't work you really get to go into the documentation (of which there is ample amounts of information on everything).</p>
+<a class="image-link" href="/content/images/a_week_with_arch/arch_desktop.png" title="I am happy with the results"><img src="/content/images/a_week_with_arch/arch_desktop_thumbnail.png" alt="I am happy with the results"></a>
+<h2 id="What-I-like"><a href="#What-I-like" class="headerlink" title="What I like"></a>What I like</h2><p>I’m very happy with the speed and ease of use so far.</p>
+<p>Arch makes no assumptions, this means you literally have to configure everything.  An example of this is that I could not get thunar to auto mount and add a desktop icon for my USB drives.  After some research (amazing Arch documentation) this was simply a case of enabling the thunar volume manager alongside lxpolkit.</p>
+<h2 id="Bottom-Line"><a href="#Bottom-Line" class="headerlink" title="Bottom Line"></a>Bottom Line</h2><p>Things may take a little longer to get working and configured.  but this results in no cruft at all in your system, and you leave knowing how things work in much more depth and are then able to problem solve in future.  And when something does’t work you really get to go into the documentation (of which there is ample amounts of information on everything).</p>
 <p>I would say that I have learnt more on how a linux distribution works in my first week with arch, than I have in around 3 years of Ubuntu and Mint.</p>
 <p>There is something very satisfying about knowing exactly what is running on your system.</p>
 ]]></content>
@@ -430,22 +418,18 @@
     <published>2014-02-12T09:27:40.000Z</published>
     <updated>2016-06-22T21:40:02.665Z</updated>
     
-    <content type="html"><![CDATA[<h2>Something New</h2>
-<p>I have been contemplating re-installing my main OS.  Currently I'm running <a href="https://www.linuxmint.com/" target="_blank" rel="external">Mint</a> ( 14 - Cinnamon) and Windows 7.  I have always wanted to install <a href="https://www.gentoo.org/get-started/" target="_blank" rel="external">Gentoo</a>, but I just can't bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there's the maintenance, apparently everything is compiled at install time, which can increase installation times.</p>
-<h2>Arch</h2>
-<p>I have been looking at <strong>Arch Linux</strong>, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full <strong>Gentoo</strong> install.</p>
-<p>One thing I would like to highlight is that the <a href="https://wiki.archlinux.org/index.php/Installation_guide" target="_blank" rel="external"><strong>DOCUMENTATION IS AMAZING!</strong></a>, really really helpful, if you need to know it, it's in there.  Check out the <a href="https://wiki.archlinux.org/index.php/Beginners" title="Beginners Guide" target="_blank" rel="external">Beginners Guide</a> if you need help getting going.</p>
+    <content type="html"><![CDATA[<h2 id="Something-New"><a href="#Something-New" class="headerlink" title="Something New"></a>Something New</h2><p>I have been contemplating re-installing my main OS.  Currently I’m running <a href="https://www.linuxmint.com/" target="_blank" rel="external">Mint</a> ( 14 - Cinnamon) and Windows 7.  I have always wanted to install <a href="https://www.gentoo.org/get-started/" target="_blank" rel="external">Gentoo</a>, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.</p>
+<h2 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h2><p>I have been looking at <strong>Arch Linux</strong>, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full <strong>Gentoo</strong> install.</p>
+<p>One thing I would like to highlight is that the <a href="https://wiki.archlinux.org/index.php/Installation_guide" target="_blank" rel="external"><strong>DOCUMENTATION IS AMAZING!</strong></a>, really really helpful, if you need to know it, it’s in there.  Check out the <a href="https://wiki.archlinux.org/index.php/Beginners" title="Beginners Guide" target="_blank" rel="external">Beginners Guide</a> if you need help getting going.</p>
 <p>After 2 hours of work, here is what I have:</p>
 <p>(It still needs a lot of work, this is simply the stock xfce, with chromium installed)</p>
-<p><a class="image-link" href="/content/images/arch-linux-new-install/arch_initial_screenshot.png" title="Even after hours of work it looks terrible"><img src="/content/images/arch-linux-new-install/arch_initial_screenshot_thumbnail.png" alt="Even after hours of work it looks terrible"></a></p>
-<p><div class="bs-callout bs-callout-default"><p>Something to note is that  my previous install of <strong>Mint</strong> had encrypted my home folders with **ecryptfs **(standard ubuntu encryption).  This was easily used with my new install by following the Auto-Mount steps in <a href="https://wiki.archlinux.org/index.php/ECryptfs" title="ecryptfs Arch Guide" target="_blank" rel="external">this guide</a>.</p>
-</div></p>
-]]></content>
+<a class="image-link" href="/content/images/arch-linux-new-install/arch_initial_screenshot.png" title="Even after hours of work it looks terrible"><img src="/content/images/arch-linux-new-install/arch_initial_screenshot_thumbnail.png" alt="Even after hours of work it looks terrible"></a>
+<div class="bs-callout bs-callout-default"><p>Something to note is that  my previous install of <strong>Mint</strong> had encrypted my home folders with <strong>ecryptfs </strong>(standard ubuntu encryption).  This was easily used with my new install by following the Auto-Mount steps in <a href="https://wiki.archlinux.org/index.php/ECryptfs" title="ecryptfs Arch Guide" target="_blank" rel="external">this guide</a>.</p>
+</div>]]></content>
     
     <summary type="html">
     
-      &lt;h2&gt;Something New&lt;/h2&gt;
-&lt;p&gt;I have been contemplating re-installing my main OS.  Currently I&#39;m running &lt;a href=&quot;https://www.linuxmint.com/&quot; ta
+      &lt;h2 id=&quot;Something-New&quot;&gt;&lt;a href=&quot;#Something-New&quot; class=&quot;headerlink&quot; title=&quot;Something New&quot;&gt;&lt;/a&gt;Something New&lt;/h2&gt;&lt;p&gt;I have been contemplating 
     
     </summary>
     
@@ -465,9 +449,8 @@
     <published>2014-01-31T00:00:00.000Z</published>
     <updated>2016-08-22T07:57:32.000Z</updated>
     
-    <content type="html"><![CDATA[<h2>Too Hot</h2>
-<p>While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.</p>
-<p>
+    <content type="html"><![CDATA[<h2 id="Too-Hot"><a href="#Too-Hot" class="headerlink" title="Too Hot"></a>Too Hot</h2><p>While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.</p>
+
 	
     	<!-- Gallery -->
 		<div class="gallery">
@@ -490,10 +473,9 @@
 			</div>
 		</div>
 	
-</p>
-<h2>Back in business</h2>
-<p>After taking it apart I found that it was due to the inner <a href="http://reprap.org/wiki/PLA" target="_blank" rel="external">PLA</a> of the <a href="http://reprap.org/wiki/Jhead" target="_blank" rel="external">JHead</a> slipping a bit inside.  I have now reconstructed the hot end and its clean and tight.</p>
-<p>
+
+<h2 id="Back-in-business"><a href="#Back-in-business" class="headerlink" title="Back in business"></a>Back in business</h2><p>After taking it apart I found that it was due to the inner <a href="http://reprap.org/wiki/PLA" target="_blank" rel="external">PLA</a> of the <a href="http://reprap.org/wiki/Jhead" target="_blank" rel="external">JHead</a> slipping a bit inside.  I have now reconstructed the hot end and its clean and tight.</p>
+
 	
     	<!-- Gallery -->
 		<div class="gallery">
@@ -512,13 +494,11 @@
 			</div>
 		</div>
 	
-</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2&gt;Too Hot&lt;/h2&gt;
-&lt;p&gt;While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into
+      &lt;h2 id=&quot;Too-Hot&quot;&gt;&lt;a href=&quot;#Too-Hot&quot; class=&quot;headerlink&quot; title=&quot;Too Hot&quot;&gt;&lt;/a&gt;Too Hot&lt;/h2&gt;&lt;p&gt;While trying to calibrate my hot end I set my extr
     
     </summary>
     
@@ -536,15 +516,10 @@
     <published>2014-01-23T00:00:00.000Z</published>
     <updated>2016-08-22T07:57:20.000Z</updated>
     
-    <content type="html"><![CDATA[<h2>Background</h2>
-<p>I was inspired to create this printer after seeing a very informative video by <a href="http://richrap.blogspot.co.uk/" target="_blank" rel="external">Richard Horne</a> on his <a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">3DR RepRap Delta Printer</a> (his tutorial series on the printer is very helpful and covers all aspects of the build process).
-The printer is a Delta printer (a design made famous by <a href="https://github.com/jcrocholl" target="_blank" rel="external">jcrocholl</a> and his <a href="https://github.com/jcrocholl/rostock" target="_blank" rel="external">Rostock</a> printer.</p>
-<p><div class="bs-callout bs-callout-default"><h4>Links</h4>
-<p><a href="https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2" target="_blank" rel="external">RichRap 3DR Firmware</a>
-<a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">Assembly Tutorial Series</a></p>
-</div></p>
-<h2>Photos</h2>
-<p>
+    <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>I was inspired to create this printer after seeing a very informative video by <a href="http://richrap.blogspot.co.uk/" target="_blank" rel="external">Richard Horne</a> on his <a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">3DR RepRap Delta Printer</a> (his tutorial series on the printer is very helpful and covers all aspects of the build process).<br>The printer is a Delta printer (a design made famous by <a href="https://github.com/jcrocholl" target="_blank" rel="external">jcrocholl</a> and his <a href="https://github.com/jcrocholl/rostock" target="_blank" rel="external">Rostock</a> printer.</p>
+<div class="bs-callout bs-callout-default"><h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><p><a href="https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2" target="_blank" rel="external">RichRap 3DR Firmware</a><br><a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">Assembly Tutorial Series</a></p>
+</div>
+<h2 id="Photos"><a href="#Photos" class="headerlink" title="Photos"></a>Photos</h2>
 	
     	<!-- Gallery -->
 		<div class="gallery">
@@ -615,13 +590,12 @@ The printer is a Delta printer (a design made famous by <a href="https://github.
 			</div>
 		</div>
 	
-</p>
+
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2&gt;Background&lt;/h2&gt;
-&lt;p&gt;I was inspired to create this printer after seeing a very informative video by &lt;a href=&quot;http://richrap.blogspot.co.uk
+      &lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;I was inspired to create this printer 
     
     </summary>
     
