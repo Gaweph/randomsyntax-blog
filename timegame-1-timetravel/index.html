@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gareth Williams - Time Game 1 - Implementing Time Travel</title>      
+    <link rel="icon" type="image/png" href="/images/fa-rocket_16px.png">
+
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/jasny-bootstrap-min.css">
+	<link rel="stylesheet" href="/css/callouts.css">
+    
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+    	
+    <!-- Custom Styles -->
+	<link rel="stylesheet" href="/css/layout.css">    
+	<link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Google Analytics -->
+    
+    
+</head>
+
+<body>    		
+		<!-- Sidebar -->
+		<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-sm">
+	
+	<div class="visible-md visible-lg">
+	
+		<a class="nounderline" href="/">		
+			
+			<div class="site-title">
+				<img class="site-icon" src="/images/fa-rocket_200px.png" height="150px" />
+				Gareth Williams
+			</div>
+			
+		</a>
+					
+		<div class="site-description">
+			RandomSyntax.Net
+		</div>	
+	</div>
+	
+	<ul class="nav navmenu-nav">
+		
+			<li class="">
+				<a href="/">   					
+					<i class="icon fa fa-home"></i>
+					Home     
+				</a>
+			</li>
+		
+			<li class="">
+				<a href="/categories/3D-Printer">   					
+					<i class="icon fa fa-gitlab"></i>
+					3D Printer     
+				</a>
+			</li>
+		
+			<li class="">
+				<a href="/categories/Gamedev/Timegame/">   					
+					<i class="icon fa fa-spin fa-cog slow-spin"></i>
+					Time Game     
+				</a>
+			</li>
+		
+			<li class="">
+				<a href="/atom.xml">   					
+					<i class="icon fa fa-rss"></i>
+					RSS     
+				</a>
+			</li>
+		
+	</ul>	
+	
+	<div class="nav btn-list"><i class="icon fa fa-tags"></i>
+     
+        <a href="/tags/hardware/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    hardware		
+            </button>
+        </a>
+     
+        <a href="/tags/build/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    build		
+            </button>
+        </a>
+     
+        <a href="/tags/config/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    config		
+            </button>
+        </a>
+     
+        <a href="/tags/conky/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    conky		
+            </button>
+        </a>
+     
+        <a href="/tags/setup/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    setup		
+            </button>
+        </a>
+     
+        <a href="/tags/software/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    software		
+            </button>
+        </a>
+     
+        <a href="/tags/automation/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    automation		
+            </button>
+        </a>
+    
+</div>
+
+</div>
+		
+		<!-- Header -->
+		<div class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg">
+	<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>	
+			
+	<a class="nounderline" href="/">
+		<div class="site-title">
+			<img class="site-icon" src="/images/fa-rocket_200px.png" height="25px" />
+			Gareth Williams
+		</div>
+	</a>
+		
+</div>
+
+				
+		<!-- Page Content -->
+		<div id="wrap">
+			<div id="main" class="container-fluid clear-top">
+				<div class="blog-post">
+
+    <!-- Title -->    
+    <h1 class="post-title page-header"> 
+        Time Game 1 - Implementing Time Travel   
+    </h1>
+
+    <!-- Date and Author -->
+    <p class="blog-post-meta">
+        09-10-2016
+        
+    </p>
+    
+    <!-- Tags and Categories links -->
+    
+
+<div class="blog-categories-container">
+    <span class="fa fa-folder"></span>
+    <a href="/categories/Gamedev/">Gamedev</a> / <a href="/categories/Gamedev/Timegame/">Timegame</a>
+</div>
+
+    
+
+<div class="blog-tags-container">
+    <span class="fa fa-tags"></span>
+    <a href="/tags/software/">#software</a>
+</div>
+
+    
+    <!-- Content -->
+    <div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/186188380" frameborder="0" allowfullscreen></iframe></div><br></div>
+
+<h2 id="What-is-it"><a href="#What-is-it" class="headerlink" title="What is it"></a>What is it</h2><p>This is my initial implementation the time travel mechanic written with Unity3D.  </p>
+<div class="bs-callout bs-callout-primary"><h4 id="What-am-i-looking-at"><a href="#What-am-i-looking-at" class="headerlink" title="What am i looking at"></a>What am i looking at</h4><ul>
+<li><strong>Red</strong> box is the current player. </li>
+<li>Level goes back to beginning when entering the <strong>Time Machine</strong> </li>
+<li><strong>White</strong> boxes are the previous versions of yourself</li>
+</ul>
+</div>
+<h2 id="How-Does-it-Work-“The-Code”"><a href="#How-Does-it-Work-“The-Code”" class="headerlink" title="How Does it Work - “The Code”"></a>How Does it Work - “The Code”</h2><div class="bs-callout bs-callout-warning"><h4 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h4><p>I’m not sure how others have done this before, but this is how I did it.<br><em>(as of time of writing</em>)</p>
+</div>
+<p>The process can be split into 2 parts.</p>
+<ol>
+<li>Recording</li>
+<li>Playback</li>
+</ol>
+<h3 id="1-Recording"><a href="#1-Recording" class="headerlink" title="1. Recording"></a>1. Recording</h3><p>This is actually pretty simple.  I just created a loop that calls <strong>TakeSnapshot()</strong> at a specific <em>SampleRate</em>.</p>
+<figure class="highlight cs"><figcaption><span>ObjectRecord.cs</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">using</span> UnityEngine;</div><div class="line"><span class="keyword">using</span> System.Collections;</div><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">ObjectRecord</span> : <span class="title">BaseComponent</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">public</span> RecordingData RecordedData = <span class="keyword">new</span> RecordingData();      </div><div class="line">    <span class="keyword">public</span> <span class="keyword">bool</span> DoRecording = <span class="literal">false</span>;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">bool</span> IsRecording = <span class="literal">false</span>;</div><div class="line"></div><div class="line">    <span class="comment">//CALL TO START THE RECORDING</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">StartRecording</span>(<span class="params"><span class="keyword">float</span> sampleRate, <span class="keyword">float</span> delay</span>)</span></div><div class="line">    &#123;</div><div class="line">        DoRecording = <span class="literal">true</span>;</div><div class="line">        <span class="keyword">if</span> (!IsRecording)</div><div class="line">        &#123;</div><div class="line">            StartCoroutine(RecordingTimer(sampleRate, delay));</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//CALL TO STOP THE RECORDING</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">StopRecording</span>(<span class="params"></span>)</span></div><div class="line">    &#123;</div><div class="line">        DoRecording = <span class="literal">false</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//RECORDING LOOP</span></div><div class="line">    <span class="function">IEnumerator <span class="title">RecordingTimer</span>(<span class="params"><span class="keyword">float</span> sampleRate, <span class="keyword">float</span> delay</span>)</span></div><div class="line">    &#123;</div><div class="line">        IsRecording = <span class="literal">true</span>;</div><div class="line">        RecordedData.RecordedRate = sampleRate;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">yield</span> return new <span class="title">WaitForSeconds</span>(<span class="params">delay / T.TimeScaleAbs</span>)</span>; <span class="comment">// Wait for the delay</span></div><div class="line"></div><div class="line">        <span class="keyword">while</span> (DoRecording) <span class="comment">// Repeat infinitely</span></div><div class="line">        &#123;</div><div class="line">            <span class="keyword">if</span> (T.IsTimeMovingForward)</div><div class="line">            &#123;</div><div class="line">                TakeSnapshot();</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">else</span></div><div class="line">            &#123;</div><div class="line">                <span class="comment">//RemoveSnapshot?? - do nothing for now</span></div><div class="line">            &#125;</div><div class="line">            <span class="function"><span class="keyword">yield</span> return new <span class="title">WaitForSeconds</span>(<span class="params">RecordedData.RecordedRate / T.TimeScaleAbs</span>)</span>;</div><div class="line">        &#125;</div><div class="line">        IsRecording = <span class="literal">false</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//RECORD WHAT WE NEED FOR EACH RECORDING FRAME</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">TakeSnapshot</span>(<span class="params"></span>)</span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">var</span> t = Transform;</div><div class="line">        <span class="keyword">var</span> data = <span class="keyword">new</span> RecordingData.RecordData()</div><div class="line">        &#123;</div><div class="line">            Position = t.position,</div><div class="line">            Rotation = t.rotation</div><div class="line">        &#125;;</div><div class="line">        RecordedData.AddDataLine(data);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<div class="bs-callout bs-callout-warning"><h4 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h4><ul>
+<li>If using this code on your own projects you should assume 1 for the variable <strong>T.TimeScaleAbs</strong>.<br><em>I will try to explain what <strong>T</strong> is in future posts for this prototype.</em></li>
+<li><strong>RecordedData</strong> is a type I’m using to save the data into.</li>
+</ul>
+</div>
+<h3 id="2-Playback"><a href="#2-Playback" class="headerlink" title="2. Playback"></a>2. Playback</h3><p>The playback works much the same as the record code.<br>It starts at the beginning of the recorded data and cycles through each data item at the same rate it was recorded.</p>
+<div class="bs-callout bs-callout-primary"><h4 id="Lerping"><a href="#Lerping" class="headerlink" title="Lerping"></a>Lerping</h4><p>The position and rotation of the object is calculated each update by teh <strong>Lerp</strong> function.<br><em>(this creates a smooth movement instad of a jerky movement).</em></p>
+</div>
+<figure class="highlight cs"><figcaption><span>ObjectPlayback.cs</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">using</span> UnityEngine;</div><div class="line"><span class="keyword">using</span> System.Collections;</div><div class="line"><span class="keyword">using</span> System;</div><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">ObjectPlayback</span> : <span class="title">BaseComponent</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">bool</span> DoPlayback = <span class="literal">false</span>;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">bool</span> IsPlaying = <span class="literal">false</span>;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> RecordingData.RecordData? _desiredMoveLocation = <span class="literal">null</span>;</div><div class="line"></div><div class="line">    <span class="comment">//CALL TO START PLAYBACK</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">StartPlayback</span>(<span class="params"><span class="keyword">float</span> delay</span>)</span></div><div class="line">    &#123;</div><div class="line">        DoPlayback = <span class="literal">true</span>;</div><div class="line">        <span class="keyword">if</span>(!IsPlaying)</div><div class="line">        &#123;</div><div class="line">            RecordedData.MoveToStartOfData(); <span class="comment">//Move to start of playback</span></div><div class="line">            StartCoroutine(PlaybackTimer(delay));</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//PLAYBACK LOOP</span></div><div class="line">    <span class="function">IEnumerator <span class="title">PlaybackTimer</span>(<span class="params"><span class="keyword">float</span> delay</span>)</span></div><div class="line">    &#123;</div><div class="line">        IsPlaying = <span class="literal">true</span>;</div><div class="line">        <span class="function"><span class="keyword">yield</span> return new <span class="title">WaitForSeconds</span>(<span class="params">delay / T.TimeScaleAbs</span>)</span>; <span class="comment">// Wait for the delay</span></div><div class="line"></div><div class="line">        TimeTravelManager.Instance.EnterTime(gameObject, <span class="literal">null</span>); <span class="comment">//ENTER SCENE</span></div><div class="line">        <span class="keyword">while</span> (DoPlayback)</div><div class="line">        &#123;</div><div class="line">            IsPlaying = <span class="literal">true</span>;</div><div class="line">            <span class="keyword">if</span> (T.IsTimeMovingForward)</div><div class="line">            &#123;</div><div class="line">                NextSnapshot(RecordingData.PlaybackDirection.forward);</div><div class="line">            &#125;</div><div class="line">             <span class="keyword">else</span></div><div class="line">            &#123;</div><div class="line">                NextSnapshot(RecordingData.PlaybackDirection.back);</div><div class="line">            &#125;</div><div class="line">            <span class="function"><span class="keyword">yield</span> return new <span class="title">WaitForSeconds</span>(<span class="params">RecordedData.RecordedRate / T.TimeScaleAbs</span>)</span>;</div><div class="line">        &#125;</div><div class="line">        IsPlaying = <span class="literal">false</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//MOVE DESIRED LOCATION TO NEXT LOCATION</span></div><div class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">NextSnapshot</span>(<span class="params">RecordingData.PlaybackDirection direction</span>)</span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">var</span> data = RecordedData.GetNextDataLine(direction);</div><div class="line"></div><div class="line">        <span class="keyword">if</span> (_desiredMoveLocation.HasValue &amp;&amp; !data.HasValue) <span class="comment">//If we previously had move location and now we do not</span></div><div class="line">        &#123;</div><div class="line">            TimeTravelManager.Instance.ExitTime(gameObject, <span class="literal">null</span>); <span class="comment">//LEAVE THE SCENE</span></div><div class="line">        &#125;</div><div class="line">        _desiredMoveLocation = data;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//LERP MOVEMENT TO DESIRED LOCATION</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Update</span>(<span class="params"></span>)</span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span> (_desiredMoveLocation.HasValue)</div><div class="line">        &#123;</div><div class="line">            <span class="keyword">var</span> playbackRate = <span class="number">0.05</span>f;<span class="comment">// RecordedData.RecordedRate;</span></div><div class="line">            <span class="keyword">var</span> amount = Math.Abs(T.DeltaTime) / playbackRate;</div><div class="line">            <span class="keyword">var</span> p = Vector3.Lerp(Transform.position, _desiredMoveLocation.Value.Position, amount);</div><div class="line">            <span class="keyword">var</span> r = Quaternion.Lerp(Transform.rotation, _desiredMoveLocation.Value.Rotation, amount);</div><div class="line"></div><div class="line">            Transform.position = p;</div><div class="line">            Transform.rotation = r;</div><div class="line"></div><div class="line">        &#125;</div><div class="line">    &#125;  </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<div class="bs-callout bs-callout-warning"><h4 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h4><p>PLAYBACK NOTES HERE</p>
+</div>
+<h2 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h2><p>I have always been interested in time travel.  Films, novels, games.  The idea of time travel has always intrigued me.</p>
+<h2 id="What-next"><a href="#What-next" class="headerlink" title="What next"></a>What next</h2><p>I will post updates of my progress as I add more to this game prototype.</p>
+<div class="bs-callout bs-callout-default"><h4 id="My-immediate-list-of-todo’s"><a href="#My-immediate-list-of-todo’s" class="headerlink" title="My immediate list of todo’s"></a>My immediate list of todo’s</h4><ul>
+<li>Characters (that move) instead of boxes</li>
+<li>Add Level Exit/Completion point</li>
+<li>Save playthroughs to file</li>
+<li>Replay system</li>
+</ul>
+</div>
+<div class="bs-callout bs-callout-primary"><h4 id="Have-a-question"><a href="#Have-a-question" class="headerlink" title="Have a question?"></a>Have a question?</h4><p>Feel free to ask me anything (I have overlooked some internal workings in this post).</p>
+</div>
+    
+    <hr />
+        
+    <!-- Comments -->
+    
+    <div class="blog-post-comments">
+        <h2>Comments:</h2>
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+
+</div>
+			</div>
+			
+			<!-- Footer -->
+			<footer id="footer">
+				
+
+				
+
+<p class="copyright text-muted">Powered by <a target="_blank" href="https://hexo.io/">Hexo</a>.</p>			
+			</footer>
+		</div>
+	<!-- After footer scripts -->
+	<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jasny-bootstrap.min.js"></script>
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'randomsyntax';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>	
+    
+</body>
+
+</html>
