@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-10-11T15:02:25.279Z</updated>
+  <updated>2016-10-11T15:06:08.297Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="randomsyntax.net/timegame-1-timetravel/"/>
     <id>randomsyntax.net/timegame-1-timetravel/</id>
     <published>2016-10-09T21:30:00.000Z</published>
-    <updated>2016-10-11T15:02:25.279Z</updated>
+    <updated>2016-10-11T15:06:08.297Z</updated>
     
     <content type="html"><![CDATA[<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/186188380" frameborder="0" allowfullscreen></iframe></div><br></div>
 
@@ -65,7 +65,7 @@
 <li>Replay system</li>
 </ul>
 </div>
-<div class="bs-callout bs-callout-primary"><h4 id="Have-a-question"><a href="#Have-a-question" class="headerlink" title="Have a question?"></a>Have a question?</h4><p>Feel free to ask me anything (I have overlooked some internal workings in this post).</p>
+<div class="bs-callout bs-callout-primary"><h4 id="Have-a-question"><a href="#Have-a-question" class="headerlink" title="Have a question?"></a>Have a question?</h4><p>Feel free to ask me anything (I have overlooked some internal workings in this post).<br>I also have a Unity3d Forum WIP post for this:<br><a href="https://forum.unity3d.com/threads/wip-time-game-time-travel.435684/" target="_blank" rel="external">https://forum.unity3d.com/threads/wip-time-game-time-travel.435684/</a></p>
 </div>]]></content>
     
     <summary type="html">
