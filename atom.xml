@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-10-11T15:06:08.297Z</updated>
+  <updated>2016-10-17T20:47:56.517Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -16,11 +16,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Mechanim Animation From Transform</title>
+    <link href="randomsyntax.net/unity3d-animation-from-transform/"/>
+    <id>randomsyntax.net/unity3d-animation-from-transform/</id>
+    <published>2016-10-17T20:30:00.000Z</published>
+    <updated>2016-10-17T20:47:56.517Z</updated>
+    
+    <content type="html"><![CDATA[<p>The below example demonstrates how to implement mechanim animations on objects based on their transform <em>(movement)</em> each frame.</p>
+<p>This means that this can be applied to both player controlled objects na lso objects being manipulated via code/automatically.</p>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>An example of this can be seen in the following video <em>(video is from a time travel prototype game that I am developing)</em>.</p>
+<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/187484099" frameborder="0" allowfullscreen></iframe></div><br></div>
+
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p><em>(Scroll down to see small explanation after code)</em></p>
+<script src="https://gist.github.com/Gaweph/4cc5359a43d724a534ddc6efc82cc58d.js"></script>
+
+<p>Each update the <strong>Velocity</strong> <em>(Vector3)</em> of the object is taken <em>(this is the difference between this frames transform and the previous frames transform)</em>.</p>
+<p>This value is then passed to the animator <em>(if one exists)</em> which sets the specified movement float <em>(“<strong>Forward</strong>“ in my example)</em></p>
+<div class="bs-callout bs-callout-warning"><h4 id="Reusing-this-code"><a href="#Reusing-this-code" class="headerlink" title="Reusing this code"></a>Reusing this code</h4><p>If using this code on your own projects you should assume 1 for the variables <strong>T.TimeScaleAbs</strong> and <strong>T.TimeScale</strong>.</p>
+</div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The below example demonstrates how to implement mechanim animations on objects based on their transform &lt;em&gt;(movement)&lt;/em&gt; each frame.&lt;/
+    
+    </summary>
+    
+      <category term="Gamedev" scheme="randomsyntax.net/categories/Gamedev/"/>
+    
+      <category term="Helpers" scheme="randomsyntax.net/categories/Gamedev/Helpers/"/>
+    
+    
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="unity3d" scheme="randomsyntax.net/tags/unity3d/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Time Game 1 - Implementing Time Travel</title>
     <link href="randomsyntax.net/timegame-1-timetravel/"/>
     <id>randomsyntax.net/timegame-1-timetravel/</id>
     <published>2016-10-09T21:30:00.000Z</published>
-    <updated>2016-10-11T15:06:08.297Z</updated>
+    <updated>2016-10-17T20:28:52.553Z</updated>
     
     <content type="html"><![CDATA[<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/186188380" frameborder="0" allowfullscreen></iframe></div><br></div>
 
@@ -80,6 +117,8 @@
     
     
       <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="unity3d" scheme="randomsyntax.net/tags/unity3d/"/>
     
   </entry>
   
