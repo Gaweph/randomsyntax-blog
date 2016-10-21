@@ -7,8 +7,8 @@
 
 body {
 	color: #454545;
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 22px;
+	font-size: 2.2rem;
 	font-weight: 400;
 	/*font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;*/
 	/*font-family: Ubuntu, Arial, Helvetica, sans-serif;*/
@@ -109,7 +109,6 @@ h6 {
 }
 
 .btn-list {
-  font-size: 2em;
       color: #999;
       padding: 10px;
 }
