@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-10-17T20:47:56.000Z</updated>
+  <updated>2016-10-17T20:47:56.517Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="randomsyntax.net/unity3d-animation-from-transform/"/>
     <id>randomsyntax.net/unity3d-animation-from-transform/</id>
     <published>2016-10-17T20:30:00.000Z</published>
-    <updated>2016-10-17T20:47:56.000Z</updated>
+    <updated>2016-10-17T20:47:56.517Z</updated>
     
     <content type="html"><![CDATA[<p>The below example demonstrates how to implement mechanim animations on objects based on their transform <em>(movement)</em> each frame.</p>
 <p>This means that this can be applied to both player controlled objects na lso objects being manipulated via code/automatically.</p>
@@ -57,7 +57,7 @@
     <link href="randomsyntax.net/timegame-1-timetravel/"/>
     <id>randomsyntax.net/timegame-1-timetravel/</id>
     <published>2016-10-09T21:30:00.000Z</published>
-    <updated>2016-10-17T20:28:52.000Z</updated>
+    <updated>2016-10-17T20:28:52.553Z</updated>
     
     <content type="html"><![CDATA[<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/186188380" frameborder="0" allowfullscreen></iframe></div><br></div>
 
@@ -127,7 +127,7 @@
     <link href="randomsyntax.net/boxstarter-hello-world/"/>
     <id>randomsyntax.net/boxstarter-hello-world/</id>
     <published>2016-08-17T20:04:00.000Z</published>
-    <updated>2016-10-10T20:55:39.000Z</updated>
+    <updated>2016-10-10T20:55:39.983Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Whats-the-problem"><a href="#Whats-the-problem" class="headerlink" title="Whats the problem"></a>Whats the problem</h2><p>Setting up a new machine is always a bit of a pain.  Wouldn’t it be nice if your machine could just get the software you wanted and install it for you.</p>
 <h2 id="Welcome-BoxStarter"><a href="#Welcome-BoxStarter" class="headerlink" title="Welcome BoxStarter"></a>Welcome BoxStarter</h2><p><a href="http://boxstarter.org/" target="_blank" rel="external">BoxStarter.org</a> can install all of your software out with a single command.</p>
@@ -165,7 +165,7 @@
     <link href="randomsyntax.net/gone-to-have-a-baby/"/>
     <id>randomsyntax.net/gone-to-have-a-baby/</id>
     <published>2014-12-01T16:13:48.000Z</published>
-    <updated>2016-06-23T12:19:34.160Z</updated>
+    <updated>2016-06-23T12:19:34.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Gone-to-have-a-baby"><a href="#Gone-to-have-a-baby" class="headerlink" title="Gone to have a baby!"></a>Gone to have a baby!</h4><p>Back in 30 years.</p>
 ]]></content>
@@ -186,7 +186,7 @@
     <link href="randomsyntax.net/3d-printing/"/>
     <id>randomsyntax.net/3d-printing/</id>
     <published>2014-08-07T13:35:54.000Z</published>
-    <updated>2016-08-22T07:58:26.838Z</updated>
+    <updated>2016-08-22T07:58:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer</p>
 <h2 id="Calibration-Cube"><a href="#Calibration-Cube" class="headerlink" title="Calibration Cube."></a>Calibration Cube.</h2><p>As you can see the auto leveling has now stopped my prints from leaning to one side:</p>
@@ -197,17 +197,23 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/cube_a.jpg">
 								<img src="/content/images/3d-printing/cube_a_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/cube_b.jpg">
 								<img src="/content/images/3d-printing/cube_b_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/cube_c.jpg">
 								<img src="/content/images/3d-printing/cube_c_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
@@ -221,13 +227,17 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/elephant_a.jpg">
 								<img src="/content/images/3d-printing/elephant_a_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/elephant_b.jpg">
 								<img src="/content/images/3d-printing/elephant_b_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
@@ -241,17 +251,23 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/octopus_a.jpg">
 								<img src="/content/images/3d-printing/octopus_a_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/octopus_b.jpg">
 								<img src="/content/images/3d-printing/octopus_b_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printing/octopus_c.jpg">
 								<img src="/content/images/3d-printing/octopus_c_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
@@ -278,7 +294,7 @@
     <link href="randomsyntax.net/auto-bed-levelling/"/>
     <id>randomsyntax.net/auto-bed-levelling/</id>
     <published>2014-06-19T12:43:03.000Z</published>
-    <updated>2016-08-22T07:57:57.130Z</updated>
+    <updated>2016-08-22T07:57:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>Video of the G29 (Auto level) command.</p>
 <div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/98630132" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -294,21 +310,29 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/auto-bed-levelling/fsr_a.jpg">
 								<img src="/content/images/auto-bed-levelling/fsr_a_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/auto-bed-levelling/fsr_b.jpg">
 								<img src="/content/images/auto-bed-levelling/fsr_b_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/auto-bed-levelling/electronics_a.jpg">
 								<img src="/content/images/auto-bed-levelling/electronics_a_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/auto-bed-levelling/electronics_b.jpg">
 								<img src="/content/images/auto-bed-levelling/electronics_b_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
@@ -335,7 +359,7 @@
     <link href="randomsyntax.net/conky-config/"/>
     <id>randomsyntax.net/conky-config/</id>
     <published>2014-05-05T13:44:08.000Z</published>
-    <updated>2016-10-10T20:21:12.000Z</updated>
+    <updated>2016-10-10T20:21:12.085Z</updated>
     
     <content type="html"><![CDATA[<p>I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:</p>
 <a class="image-link" href="/content/images/conky-config/Conky_Config.png" title=""><img src="/content/images/conky-config/Conky_Config_thumb.png" alt=""></a>
@@ -372,7 +396,7 @@
     <link href="randomsyntax.net/3d-printer-calibration/"/>
     <id>randomsyntax.net/3d-printer-calibration/</id>
     <published>2014-02-18T15:31:50.000Z</published>
-    <updated>2016-10-10T20:11:59.000Z</updated>
+    <updated>2016-10-10T20:11:59.988Z</updated>
     
     <content type="html"><![CDATA[<p>Here is a video of my printer doing a calibration.</p>
 <div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/86994938" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -389,17 +413,23 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_a.jpg">
 								<img src="/content/images/3d-printer-calibration/calibration_a_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_b.jpg">
 								<img src="/content/images/3d-printer-calibration/calibration_b_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_c.jpg">
 								<img src="/content/images/3d-printer-calibration/calibration_c_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
@@ -428,7 +458,7 @@
     <link href="randomsyntax.net/a-week-with-arch/"/>
     <id>randomsyntax.net/a-week-with-arch/</id>
     <published>2014-02-16T16:13:54.000Z</published>
-    <updated>2016-06-22T19:51:06.000Z</updated>
+    <updated>2016-06-22T19:51:06.231Z</updated>
     
     <content type="html"><![CDATA[<p>After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.</p>
 <p>Here is what I finally have (I went for XFCE because it is lightweight).</p>
@@ -460,7 +490,7 @@
     <link href="randomsyntax.net/arch-linux-new-install/"/>
     <id>randomsyntax.net/arch-linux-new-install/</id>
     <published>2014-02-12T09:27:40.000Z</published>
-    <updated>2016-06-22T21:40:02.000Z</updated>
+    <updated>2016-06-22T21:40:02.665Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Something-New"><a href="#Something-New" class="headerlink" title="Something New"></a>Something New</h2><p>I have been contemplating re-installing my main OS.  Currently I’m running <a href="https://www.linuxmint.com/" target="_blank" rel="external">Mint</a> ( 14 - Cinnamon) and Windows 7.  I have always wanted to install <a href="https://www.gentoo.org/get-started/" target="_blank" rel="external">Gentoo</a>, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.</p>
 <h2 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h2><p>I have been looking at <strong>Arch Linux</strong>, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full <strong>Gentoo</strong> install.</p>
@@ -491,7 +521,7 @@
     <link href="randomsyntax.net/3d-printer-wip-leaking/"/>
     <id>randomsyntax.net/3d-printer-wip-leaking/</id>
     <published>2014-01-31T00:00:00.000Z</published>
-    <updated>2016-08-22T07:57:32.615Z</updated>
+    <updated>2016-08-22T07:57:32.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Too-Hot"><a href="#Too-Hot" class="headerlink" title="Too Hot"></a>Too Hot</h2><p>While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.</p>
 
@@ -501,17 +531,23 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-leaking/leaking.jpg">
 								<img src="/content/images/3d-printer-leaking/leaking_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-leaking/disasembly2.jpg">
 								<img src="/content/images/3d-printer-leaking/disasembly2_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-leaking/disasembly.jpg">
 								<img src="/content/images/3d-printer-leaking/disasembly_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
@@ -526,13 +562,17 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-leaking/cleaned1.jpg">
 								<img src="/content/images/3d-printer-leaking/cleaned1_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-leaking/cleaned2.jpg">
 								<img src="/content/images/3d-printer-leaking/cleaned2_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
@@ -558,7 +598,7 @@
     <link href="randomsyntax.net/3d-printer-build/"/>
     <id>randomsyntax.net/3d-printer-build/</id>
     <published>2014-01-23T00:00:00.000Z</published>
-    <updated>2016-08-22T07:57:20.722Z</updated>
+    <updated>2016-08-22T07:57:20.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>I was inspired to create this printer after seeing a very informative video by <a href="http://richrap.blogspot.co.uk/" target="_blank" rel="external">Richard Horne</a> on his <a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">3DR RepRap Delta Printer</a> (his tutorial series on the printer is very helpful and covers all aspects of the build process).<br>The printer is a Delta printer (a design made famous by <a href="https://github.com/jcrocholl" target="_blank" rel="external">jcrocholl</a> and his <a href="https://github.com/jcrocholl/rostock" target="_blank" rel="external">Rostock</a> printer.</p>
 <div class="bs-callout bs-callout-default"><h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><p><a href="https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2" target="_blank" rel="external">RichRap 3DR Firmware</a><br><a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">Assembly Tutorial Series</a></p>
@@ -570,65 +610,95 @@
 			<div class="row">        
 				
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/Electronics1.jpg">
 								<img src="/content/images/3d-printer-build/Electronics1_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/Electronics2.jpg">
 								<img src="/content/images/3d-printer-build/Electronics2_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/Electronics3.jpg">
 								<img src="/content/images/3d-printer-build/Electronics3_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/base.jpg">
 								<img src="/content/images/3d-printer-build/base_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/base_with_alu_extrusions.jpg">
 								<img src="/content/images/3d-printer-build/base_with_alu_extrusions_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/Base_alu_closeup.jpg">
 								<img src="/content/images/3d-printer-build/Base_alu_closeup_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/base_top_carriage.jpg">
 								<img src="/content/images/3d-printer-build/base_top_carriage_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/base_top_carriage2.jpg">
 								<img src="/content/images/3d-printer-build/base_top_carriage2_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/carriage.jpg">
 								<img src="/content/images/3d-printer-build/carriage_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/carriage_with_wire.jpg">
 								<img src="/content/images/3d-printer-build/carriage_with_wire_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/axis_motors.jpg">
 								<img src="/content/images/3d-printer-build/axis_motors_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/axis carriage2.jpg">
 								<img src="/content/images/3d-printer-build/axis carriage2_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/axis_carriage_3.jpg">
 								<img src="/content/images/3d-printer-build/axis_carriage_3_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/hotend.jpg">
 								<img src="/content/images/3d-printer-build/hotend_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
+                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<a class="image-link" href="/content/images/3d-printer-build/readytoprint.jpg">
 								<img src="/content/images/3d-printer-build/readytoprint_thumb.jpg" class="img-thumbnail img-responsive">
 							</a>
+						</div>
 					
 				
 			</div>
