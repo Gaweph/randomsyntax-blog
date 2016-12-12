@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-10-28T15:24:51.741Z</updated>
+  <updated>2016-10-28T15:24:51.000Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="randomsyntax.net/unity3d-animation-from-transform/"/>
     <id>randomsyntax.net/unity3d-animation-from-transform/</id>
     <published>2016-10-17T20:30:00.000Z</published>
-    <updated>2016-10-28T15:24:51.741Z</updated>
+    <updated>2016-10-28T15:24:51.000Z</updated>
     
     <content type="html"><![CDATA[<p>The below example demonstrates how to implement mechanim animations on objects based on their transform <em>(movement)</em> each frame.</p>
 <p>This means that it can be applied to both player controlled objects and objects being manipulated via code/automagically.</p>
@@ -57,14 +57,14 @@
     <link href="randomsyntax.net/timegame-2-animations/"/>
     <id>randomsyntax.net/timegame-2-animations/</id>
     <published>2016-10-15T20:12:00.000Z</published>
-    <updated>2016-12-12T21:17:31.000Z</updated>
+    <updated>2016-12-12T21:35:18.448Z</updated>
     
     <content type="html"><![CDATA[<p>Animations have been added to the player and ghost players</p>
 <div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/187484099" frameborder="0" allowfullscreen></iframe></div><br></div>
 
 <div class="bs-callout bs-callout-primary"><h4 id="Explanation-Coming-Soon"><a href="#Explanation-Coming-Soon" class="headerlink" title="Explanation Coming Soon"></a>Explanation Coming Soon</h4><p>I will outline how this was done (Specifically the ghost images) in a future post.</p>
 </div>
-<div class="bs-callout bs-callout-default"><h4 id="Update"><a href="#Update" class="headerlink" title="Update"></a><em>Update</em></h4><p>Explanation can now be found here <a href="http://blog.randomsyntax.net/unity3d-animation-from-transform/" target="_blank" rel="external">Mecanim Animation From Transform</a></p>
+<div class="bs-callout bs-callout-default"><h4 id="Update"><a href="#Update" class="headerlink" title="Update"></a><em>Update</em></h4><p>Explanation can now be found here <a href="/unity3d-animation-from-transform/">Mecanim Animation From Transform</a></p>
 </div>]]></content>
     
     <summary type="html">
@@ -184,7 +184,7 @@
     <link href="randomsyntax.net/gone-to-have-a-baby/"/>
     <id>randomsyntax.net/gone-to-have-a-baby/</id>
     <published>2014-12-01T16:13:48.000Z</published>
-    <updated>2016-06-23T12:19:34.160Z</updated>
+    <updated>2016-06-23T12:19:34.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Gone-to-have-a-baby"><a href="#Gone-to-have-a-baby" class="headerlink" title="Gone to have a baby!"></a>Gone to have a baby!</h4><p>Back in 30 years.</p>
 ]]></content>
@@ -205,7 +205,7 @@
     <link href="randomsyntax.net/3d-printing/"/>
     <id>randomsyntax.net/3d-printing/</id>
     <published>2014-08-07T13:35:54.000Z</published>
-    <updated>2016-08-22T07:58:26.838Z</updated>
+    <updated>2016-08-22T07:58:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer</p>
 <h2 id="Calibration-Cube"><a href="#Calibration-Cube" class="headerlink" title="Calibration Cube."></a>Calibration Cube.</h2><p>As you can see the auto leveling has now stopped my prints from leaning to one side:</p>
@@ -313,7 +313,7 @@
     <link href="randomsyntax.net/auto-bed-levelling/"/>
     <id>randomsyntax.net/auto-bed-levelling/</id>
     <published>2014-06-19T12:43:03.000Z</published>
-    <updated>2016-08-22T07:57:57.130Z</updated>
+    <updated>2016-08-22T07:57:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>Video of the G29 (Auto level) command.</p>
 <div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/98630132" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -498,9 +498,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
-    
       <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
     
   </entry>
   
@@ -529,9 +529,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
-    
       <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
     
   </entry>
   
@@ -540,7 +540,7 @@
     <link href="randomsyntax.net/3d-printer-wip-leaking/"/>
     <id>randomsyntax.net/3d-printer-wip-leaking/</id>
     <published>2014-01-31T00:00:00.000Z</published>
-    <updated>2016-08-22T07:57:32.615Z</updated>
+    <updated>2016-08-22T07:57:32.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Too-Hot"><a href="#Too-Hot" class="headerlink" title="Too Hot"></a>Too Hot</h2><p>While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.</p>
 
@@ -617,7 +617,7 @@
     <link href="randomsyntax.net/3d-printer-build/"/>
     <id>randomsyntax.net/3d-printer-build/</id>
     <published>2014-01-23T00:00:00.000Z</published>
-    <updated>2016-08-22T07:57:20.722Z</updated>
+    <updated>2016-08-22T07:57:20.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>I was inspired to create this printer after seeing a very informative video by <a href="http://richrap.blogspot.co.uk/" target="_blank" rel="external">Richard Horne</a> on his <a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">3DR RepRap Delta Printer</a> (his tutorial series on the printer is very helpful and covers all aspects of the build process).<br>The printer is a Delta printer (a design made famous by <a href="https://github.com/jcrocholl" target="_blank" rel="external">jcrocholl</a> and his <a href="https://github.com/jcrocholl/rostock" target="_blank" rel="external">Rostock</a> printer.</p>
 <div class="bs-callout bs-callout-default"><h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><p><a href="https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2" target="_blank" rel="external">RichRap 3DR Firmware</a><br><a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">Assembly Tutorial Series</a></p>
