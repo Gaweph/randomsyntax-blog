@@ -15,7 +15,7 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
 
-    <title>Gareth Williams - Mechanim Animation From Transform</title>      
+    <title>Gareth Williams - Mecanim Animation From Transform</title>      
     <link rel="icon" type="image/png" href="/images/fa-rocket_16px.png">
 
     <!-- Bootstrap Core CSS -->
@@ -96,6 +96,12 @@
 	
 	<div class="nav btn-list"><i class="icon fa fa-tags"></i>
      
+        <a href="/tags/hardware/">
+            <button type="button" class="btn btn-primary btn-xs">					
+                    hardware		
+            </button>
+        </a>
+     
         <a href="/tags/software/">
             <button type="button" class="btn btn-primary btn-xs">					
                     software		
@@ -105,12 +111,6 @@
         <a href="/tags/unity3d/">
             <button type="button" class="btn btn-primary btn-xs">					
                     unity3d		
-            </button>
-        </a>
-     
-        <a href="/tags/hardware/">
-            <button type="button" class="btn btn-primary btn-xs">					
-                    hardware		
             </button>
         </a>
      
@@ -193,7 +193,7 @@
 
     <!-- Title -->    
     <h1 class="post-title page-header"> 
-        Mechanim Animation From Transform   
+        Mecanim Animation From Transform   
     </h1>
 
     <!-- Date and Author -->
@@ -219,18 +219,29 @@
 
     
     <!-- Content -->
-    <p>The below example demonstrates how to implement mechanim animations on objects based on their transform <em>(movement)</em> each frame.</p>
-<p>This means that it can be applied to both player controlled objects and objects being manipulated via code/automagically.</p>
-<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>An example of this can be seen in the following video <em>(video is from a time travel prototype game that I am developing)</em>.</p>
+    <p>In this post I will try to explain how I implemented simple auto animation for my characters based on their changing position in the scene (using mecanim and a simple script).</p>
 <div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/187484099" frameborder="0" allowfullscreen></iframe></div><br></div>
 
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p><em>(Scroll down to see small explanation after code)</em></p>
-<script src="https://gist.github.com/Gaweph/4cc5359a43d724a534ddc6efc82cc58d.js"></script>
-
-<p>Each update the <strong>Velocity</strong> <em>(Vector3)</em> of the object is taken <em>(this is the difference between this frames transform and the previous frames transform)</em>.</p>
-<p>This value is then passed to the animator <em>(if one exists)</em> which sets the specified movement float <em>(“<strong>Forward</strong>“ in my example)</em></p>
-<div class="bs-callout bs-callout-warning"><h4 id="Reusing-this-code"><a href="#Reusing-this-code" class="headerlink" title="Reusing this code"></a>Reusing this code</h4><p>If using this code on your own projects you should assume 1 for the variables <strong>T.TimeScaleAbs</strong> and <strong>T.TimeScale</strong>.</p>
+<div class="bs-callout bs-callout-warning"><h4 id="Position-and-Rotation-only"><a href="#Position-and-Rotation-only" class="headerlink" title="Position and Rotation only"></a>Position and Rotation only</h4><p>In the above example the only thing being manipulated is the objects position and rotation<br>(The animations are happening automagically)</p>
 </div>
+<h2 id="How-to"><a href="#How-to" class="headerlink" title="How to"></a>How to</h2><p>First we need to load a Mecanim <strong>Animator-&gt;Controller</strong> and a model to attach an Animator component onto.</p>
+<p>In my example I have used the classic unity model of <strong>Kyle the Robot</strong> and the standard <strong>ThirdPersonAnimatorController</strong></p>
+<p>(Any model and controller will do).</p>
+<a class="image-link" href="/content/images/unity3d-animation-from-transform/Standard_asset_Animator_Robot_kyle.png" title="Standard Third Party Animation Controller on Kyle the Robot"><img src="/content/images/unity3d-animation-from-transform/Standard_asset_Animator_Robot_kyle.png" alt="Standard Third Party Animation Controller on Kyle the Robot"></a>
+<h2 id="Animation-States-and-Variables"><a href="#Animation-States-and-Variables" class="headerlink" title="Animation States and Variables"></a>Animation States and Variables</h2><p>We can see that there are a few states and variables included in this controller. </p>
+<p>The variable we are interested in is <strong>Forward</strong>.</p>
+<a class="image-link" href="/content/images/unity3d-animation-from-transform/ThirdPersonAnimatorController.png" title="ThirdPersonAnimatorController States"><img src="/content/images/unity3d-animation-from-transform/ThirdPersonAnimatorController.png" alt="ThirdPersonAnimatorController States"></a>
+<p>The value of <strong>Forward</strong> will determine the walk/run animation that mecanim wil animate for us.</p>
+<h2 id="The-Code"><a href="#The-Code" class="headerlink" title="The Code"></a>The Code</h2><script src="https://gist.github.com/Gaweph/4cc5359a43d724a534ddc6efc82cc58d.js"></script>
+
+<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><p>Each Update() the <strong>Velocity</strong> <em>(Vector3)</em> of the object is taken .</p>
+<p>This value is then passed to the animator <em>(if one exists)</em> which sets the specified movement float <em>(“<strong>Forward</strong>“ in my example)</em></p>
+<div class="bs-callout bs-callout-primary"><h4 id="Velocity"><a href="#Velocity" class="headerlink" title="Velocity"></a>Velocity</h4><p>This is the difference between this frames transform and the previous frames transform.</p>
+</div>
+<div class="bs-callout bs-callout-warning"><h4 id="NOTE"><a href="#NOTE" class="headerlink" title="NOTE -"></a>NOTE -</h4><p><strong>MinMovementAmount</strong> - This variable can be changed in order to get the desired effect.  I found that a value of 1 produced good movements for the prototype I was implementing.</p>
+</div>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>Simply attach this script to your object that contains your character.  Good luck, let me know in the comments if anything needs explaining or if this does not work for you :)</p>
+
     
     <hr />
         
