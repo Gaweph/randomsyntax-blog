@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-12-19T20:15:48.677Z</updated>
+  <updated>2016-12-29T21:58:25.316Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Time Game 3 - WEBGL Demo</title>
+    <link href="randomsyntax.net/timegame-3-webgl-demo/"/>
+    <id>randomsyntax.net/timegame-3-webgl-demo/</id>
+    <published>2016-12-29T21:23:00.000Z</published>
+    <updated>2016-12-29T21:58:25.316Z</updated>
+    
+    <content type="html"><![CDATA[<p>I have created a WEBGL build of the time machine proof of concept game.  You should be able to play directly below.</p>
+<div class="bs-callout bs-callout-warning"><h4 id="Too-boring"><a href="#Too-boring" class="headerlink" title="Too boring?"></a>Too boring?</h4><p>Im sorry for the lack of levels and content.<br>This project was mainly for me to try and see what would be needed to implement the time travel piece of functionality</p>
+</div>
+<iframe src="https://gaweph.github.io/TimeGame-WebGL-Demo/" width="1024" height="700" frameborder="0" allowfullscreen></iframe>
+<div class="bs-callout bs-callout-primary"><h4 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h4><p>I have tried to explain how some of the game mechanics work in my previous posts.<br><a href="http://blog.randomsyntax.net/categories/Gamedev/Timegame/" target="_blank" rel="external">http://blog.randomsyntax.net/categories/Gamedev/Timegame/</a></p>
+</div>
+<div class="bs-callout bs-callout-warning"><h4 id="Just-ask"><a href="#Just-ask" class="headerlink" title="Just ask :)"></a>Just ask :)</h4><p>If you need any further explanation or help then feel free to ask :)  I’ll try my best to answer.</p>
+</div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I have created a WEBGL build of the time machine proof of concept game.  You should be able to play directly below.&lt;/p&gt;
+&lt;div class=&quot;bs-ca
+    
+    </summary>
+    
+      <category term="Gamedev" scheme="randomsyntax.net/categories/Gamedev/"/>
+    
+      <category term="Timegame" scheme="randomsyntax.net/categories/Gamedev/Timegame/"/>
+    
+    
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="unity3d" scheme="randomsyntax.net/tags/unity3d/"/>
+    
+  </entry>
   
   <entry>
     <title>Mecanim Animation From Transform</title>
@@ -68,7 +102,7 @@
     <link href="randomsyntax.net/timegame-2-animations/"/>
     <id>randomsyntax.net/timegame-2-animations/</id>
     <published>2016-10-15T20:12:00.000Z</published>
-    <updated>2016-12-12T21:35:18.448Z</updated>
+    <updated>2016-12-12T21:35:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>Animations have been added to the player and ghost players</p>
 <div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/187484099" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -101,7 +135,7 @@
     <link href="randomsyntax.net/timegame-1-timetravel/"/>
     <id>randomsyntax.net/timegame-1-timetravel/</id>
     <published>2016-10-09T21:30:00.000Z</published>
-    <updated>2016-12-11T20:41:10.938Z</updated>
+    <updated>2016-12-11T20:41:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>This is my current progress of a time travel puzzle game created with Unity3D</p>
 <div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/186188380" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -157,7 +191,7 @@
     <link href="randomsyntax.net/boxstarter-hello-world/"/>
     <id>randomsyntax.net/boxstarter-hello-world/</id>
     <published>2016-08-17T20:04:00.000Z</published>
-    <updated>2016-10-10T20:55:39.000Z</updated>
+    <updated>2016-10-10T20:55:39.983Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Whats-the-problem"><a href="#Whats-the-problem" class="headerlink" title="Whats the problem"></a>Whats the problem</h2><p>Setting up a new machine is always a bit of a pain.  Wouldn’t it be nice if your machine could just get the software you wanted and install it for you.</p>
 <h2 id="Welcome-BoxStarter"><a href="#Welcome-BoxStarter" class="headerlink" title="Welcome BoxStarter"></a>Welcome BoxStarter</h2><p><a href="http://boxstarter.org/" target="_blank" rel="external">BoxStarter.org</a> can install all of your software out with a single command.</p>
@@ -389,7 +423,7 @@
     <link href="randomsyntax.net/conky-config/"/>
     <id>randomsyntax.net/conky-config/</id>
     <published>2014-05-05T13:44:08.000Z</published>
-    <updated>2016-10-10T20:21:12.000Z</updated>
+    <updated>2016-10-10T20:21:12.085Z</updated>
     
     <content type="html"><![CDATA[<p>I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:</p>
 <a class="image-link" href="/content/images/conky-config/Conky_Config.png" title=""><img src="/content/images/conky-config/Conky_Config_thumb.png" alt=""></a>
@@ -426,7 +460,7 @@
     <link href="randomsyntax.net/3d-printer-calibration/"/>
     <id>randomsyntax.net/3d-printer-calibration/</id>
     <published>2014-02-18T15:31:50.000Z</published>
-    <updated>2016-10-10T20:11:59.000Z</updated>
+    <updated>2016-10-10T20:11:59.988Z</updated>
     
     <content type="html"><![CDATA[<p>Here is a video of my printer doing a calibration.</p>
 <div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/86994938" frameborder="0" allowfullscreen></iframe></div><br></div>
@@ -488,7 +522,7 @@
     <link href="randomsyntax.net/a-week-with-arch/"/>
     <id>randomsyntax.net/a-week-with-arch/</id>
     <published>2014-02-16T16:13:54.000Z</published>
-    <updated>2016-06-22T19:51:06.000Z</updated>
+    <updated>2016-06-22T19:51:06.231Z</updated>
     
     <content type="html"><![CDATA[<p>After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.</p>
 <p>Here is what I finally have (I went for XFCE because it is lightweight).</p>
@@ -509,9 +543,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="software" scheme="randomsyntax.net/tags/software/"/>
-    
       <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
+    
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
     
   </entry>
   
@@ -520,7 +554,7 @@
     <link href="randomsyntax.net/arch-linux-new-install/"/>
     <id>randomsyntax.net/arch-linux-new-install/</id>
     <published>2014-02-12T09:27:40.000Z</published>
-    <updated>2016-06-22T21:40:02.000Z</updated>
+    <updated>2016-06-22T21:40:02.665Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Something-New"><a href="#Something-New" class="headerlink" title="Something New"></a>Something New</h2><p>I have been contemplating re-installing my main OS.  Currently I’m running <a href="https://www.linuxmint.com/" target="_blank" rel="external">Mint</a> ( 14 - Cinnamon) and Windows 7.  I have always wanted to install <a href="https://www.gentoo.org/get-started/" target="_blank" rel="external">Gentoo</a>, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.</p>
 <h2 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h2><p>I have been looking at <strong>Arch Linux</strong>, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full <strong>Gentoo</strong> install.</p>
@@ -540,9 +574,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="software" scheme="randomsyntax.net/tags/software/"/>
-    
       <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
+    
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
     
   </entry>
   
