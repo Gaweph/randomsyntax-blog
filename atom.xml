@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2016-12-29T21:58:25.000Z</updated>
+  <updated>2017-07-07T09:11:56.116Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -16,16 +16,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Time Game 3 - WEBGL Demo</title>
+    <title>Time Game 3 - WEBGL Demo [V0.01]</title>
     <link href="randomsyntax.net/timegame-3-webgl-demo/"/>
     <id>randomsyntax.net/timegame-3-webgl-demo/</id>
     <published>2016-12-29T21:23:00.000Z</published>
-    <updated>2016-12-29T21:58:25.000Z</updated>
+    <updated>2017-07-07T09:11:56.116Z</updated>
     
     <content type="html"><![CDATA[<p>I have created a WEBGL build of the time machine proof of concept game.  You should be able to play directly below.</p>
 <div class="bs-callout bs-callout-warning"><h4 id="Too-boring"><a href="#Too-boring" class="headerlink" title="Too boring?"></a>Too boring?</h4><p>Im sorry for the lack of levels and content.<br>This project was mainly for me to try and see what would be needed to implement the time travel piece of functionality</p>
 </div>
-<iframe src="https://gaweph.github.io/TimeGame-WebGL-Demo/" width="1024" height="700" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://gaweph.github.io/TimeGame-WebGL-Demo/V0.01//" width="1024" height="700" frameborder="0" allowfullscreen></iframe>
 <div class="bs-callout bs-callout-primary"><h4 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h4><p>I have tried to explain how some of the game mechanics work in my previous posts.<br><a href="http://blog.randomsyntax.net/categories/Gamedev/Timegame/" target="_blank" rel="external">http://blog.randomsyntax.net/categories/Gamedev/Timegame/</a></p>
 </div>
 <div class="bs-callout bs-callout-warning"><h4 id="Just-ask"><a href="#Just-ask" class="headerlink" title="Just ask :)"></a>Just ask :)</h4><p>If you need any further explanation or help then feel free to ask :)  I’ll try my best to answer.</p>
