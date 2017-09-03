@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2017-07-08T08:46:31.518Z</updated>
+  <updated>2017-07-08T08:46:31.000Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -20,17 +20,17 @@
     <link href="randomsyntax.net/timegame-webgl-002/"/>
     <id>randomsyntax.net/timegame-webgl-002/</id>
     <published>2017-07-08T08:37:00.000Z</published>
-    <updated>2017-07-08T08:46:31.518Z</updated>
+    <updated>2017-07-08T08:46:31.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A new build of my time game prototype is available.</p>
-<p><img src="https://raw.githubusercontent.com/Gaweph/TimeGame-WebGL-Demo/master/V0.02/V0.02.png" alt=""></p>
-<p>I have revamped and simplified the graphics to try and refine the game mechanics first.</p>
-<p>The game can be played online <a href="https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/" target="_blank" rel="external">here</a><br>(full link: <em><a href="https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/" target="_blank" rel="external">https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/</a></em>)</p>
-<div class="bs-callout bs-callout-warning"><h4 id="Feedback-welcome"><a href="#Feedback-welcome" class="headerlink" title="Feedback welcome"></a>Feedback welcome</h4><p>Any feedback would be appreciated. Is it obvious what to do?</p>
-</div>
-<div class="bs-callout bs-callout-primary"><h4 id="V0-02"><a href="#V0-02" class="headerlink" title="V0.02"></a>V0.02</h4><p>If you are interested in reading my other posts relating to this project then check out:<br><a href="http://blog.randomsyntax.net/categories/Gamedev/Timegame/" target="_blank" rel="external">http://blog.randomsyntax.net/categories/Gamedev/Timegame/</a></p>
-</div>
-]]></content>
+    <content type="html">&lt;p&gt;A new build of my time game prototype is available.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Gaweph/TimeGame-WebGL-Demo/master/V0.02/V0.02.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I have revamped and simplified the graphics to try and refine the game mechanics first.&lt;/p&gt;
+&lt;p&gt;The game can be played online &lt;a href=&quot;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;&lt;br&gt;(full link: &lt;em&gt;&lt;a href=&quot;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Feedback-welcome&quot;&gt;&lt;a href=&quot;#Feedback-welcome&quot; class=&quot;headerlink&quot; title=&quot;Feedback welcome&quot;&gt;&lt;/a&gt;Feedback welcome&lt;/h4&gt;&lt;p&gt;Any feedback would be appreciated. Is it obvious what to do?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;V0-02&quot;&gt;&lt;a href=&quot;#V0-02&quot; class=&quot;headerlink&quot; title=&quot;V0.02&quot;&gt;&lt;/a&gt;V0.02&lt;/h4&gt;&lt;p&gt;If you are interested in reading my other posts relating to this project then check out:&lt;br&gt;&lt;a href=&quot;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
     
     <summary type="html">
     
@@ -57,14 +57,14 @@
     <published>2016-12-29T21:23:00.000Z</published>
     <updated>2017-07-07T09:11:56.000Z</updated>
     
-    <content type="html"><![CDATA[<p>I have created a WEBGL build of the time machine proof of concept game.  You should be able to play directly below.</p>
-<div class="bs-callout bs-callout-warning"><h4 id="Too-boring"><a href="#Too-boring" class="headerlink" title="Too boring?"></a>Too boring?</h4><p>Im sorry for the lack of levels and content.<br>This project was mainly for me to try and see what would be needed to implement the time travel piece of functionality</p>
-</div>
-<iframe src="https://gaweph.github.io/TimeGame-WebGL-Demo/V0.01//" width="1024" height="700" frameborder="0" allowfullscreen></iframe>
-<div class="bs-callout bs-callout-primary"><h4 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h4><p>I have tried to explain how some of the game mechanics work in my previous posts.<br><a href="http://blog.randomsyntax.net/categories/Gamedev/Timegame/" target="_blank" rel="external">http://blog.randomsyntax.net/categories/Gamedev/Timegame/</a></p>
-</div>
-<div class="bs-callout bs-callout-warning"><h4 id="Just-ask"><a href="#Just-ask" class="headerlink" title="Just ask :)"></a>Just ask :)</h4><p>If you need any further explanation or help then feel free to ask :)  I’ll try my best to answer.</p>
-</div>]]></content>
+    <content type="html">&lt;p&gt;I have created a WEBGL build of the time machine proof of concept game.  You should be able to play directly below.&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Too-boring&quot;&gt;&lt;a href=&quot;#Too-boring&quot; class=&quot;headerlink&quot; title=&quot;Too boring?&quot;&gt;&lt;/a&gt;Too boring?&lt;/h4&gt;&lt;p&gt;Im sorry for the lack of levels and content.&lt;br&gt;This project was mainly for me to try and see what would be needed to implement the time travel piece of functionality&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe src=&quot;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.01//&quot; width=&quot;1024&quot; height=&quot;700&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;Explanation&quot;&gt;&lt;a href=&quot;#Explanation&quot; class=&quot;headerlink&quot; title=&quot;Explanation&quot;&gt;&lt;/a&gt;Explanation&lt;/h4&gt;&lt;p&gt;I have tried to explain how some of the game mechanics work in my previous posts.&lt;br&gt;&lt;a href=&quot;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Just-ask&quot;&gt;&lt;a href=&quot;#Just-ask&quot; class=&quot;headerlink&quot; title=&quot;Just ask :)&quot;&gt;&lt;/a&gt;Just ask :)&lt;/h4&gt;&lt;p&gt;If you need any further explanation or help then feel free to ask :)  I’ll try my best to answer.&lt;/p&gt;
+&lt;/div&gt;</content>
     
     <summary type="html">
     
@@ -91,29 +91,29 @@
     <published>2016-10-17T20:30:00.000Z</published>
     <updated>2016-12-19T20:15:48.000Z</updated>
     
-    <content type="html"><![CDATA[<p>In this post I will try to explain how I implemented simple auto animation for my characters based on their changing position in the scene (using mecanim and a simple script).</p>
-<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/187484099" frameborder="0" allowfullscreen></iframe></div><br></div>
+    <content type="html">&lt;p&gt;In this post I will try to explain how I implemented simple auto animation for my characters based on their changing position in the scene (using mecanim and a simple script).&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/187484099&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
 
-<div class="bs-callout bs-callout-warning"><h4 id="Position-and-Rotation-only"><a href="#Position-and-Rotation-only" class="headerlink" title="Position and Rotation only"></a>Position and Rotation only</h4><p>In the above example the only thing being manipulated is the objects position and rotation<br>(The animations are happening automagically)</p>
-</div>
-<h2 id="How-to"><a href="#How-to" class="headerlink" title="How to"></a>How to</h2><p>First we need to load a Mecanim <strong>Animator-&gt;Controller</strong> and a model to attach an Animator component onto.</p>
-<p>In my example I have used the classic unity model of <strong>Kyle the Robot</strong> and the standard <strong>ThirdPersonAnimatorController</strong></p>
-<p>(Any model and controller will do).</p>
-<a class="image-link" href="/content/images/unity3d-animation-from-transform/Standard_asset_Animator_Robot_kyle.png" title="Standard Third Party Animation Controller on Kyle the Robot"><img src="/content/images/unity3d-animation-from-transform/Standard_asset_Animator_Robot_kyle.png" alt="Standard Third Party Animation Controller on Kyle the Robot"></a>
-<h2 id="Animation-States-and-Variables"><a href="#Animation-States-and-Variables" class="headerlink" title="Animation States and Variables"></a>Animation States and Variables</h2><p>We can see that there are a few states and variables included in this controller. </p>
-<p>The variable we are interested in is <strong>Forward</strong>.</p>
-<a class="image-link" href="/content/images/unity3d-animation-from-transform/ThirdPersonAnimatorController.png" title="ThirdPersonAnimatorController States"><img src="/content/images/unity3d-animation-from-transform/ThirdPersonAnimatorController.png" alt="ThirdPersonAnimatorController States"></a>
-<p>The value of <strong>Forward</strong> will determine the walk/run animation that mecanim wil animate for us.</p>
-<h2 id="The-Code"><a href="#The-Code" class="headerlink" title="The Code"></a>The Code</h2><script src="https://gist.github.com/Gaweph/4cc5359a43d724a534ddc6efc82cc58d.js"></script>
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Position-and-Rotation-only&quot;&gt;&lt;a href=&quot;#Position-and-Rotation-only&quot; class=&quot;headerlink&quot; title=&quot;Position and Rotation only&quot;&gt;&lt;/a&gt;Position and Rotation only&lt;/h4&gt;&lt;p&gt;In the above example the only thing being manipulated is the objects position and rotation&lt;br&gt;(The animations are happening automagically)&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;How-to&quot;&gt;&lt;a href=&quot;#How-to&quot; class=&quot;headerlink&quot; title=&quot;How to&quot;&gt;&lt;/a&gt;How to&lt;/h2&gt;&lt;p&gt;First we need to load a Mecanim &lt;strong&gt;Animator-&amp;gt;Controller&lt;/strong&gt; and a model to attach an Animator component onto.&lt;/p&gt;
+&lt;p&gt;In my example I have used the classic unity model of &lt;strong&gt;Kyle the Robot&lt;/strong&gt; and the standard &lt;strong&gt;ThirdPersonAnimatorController&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;(Any model and controller will do).&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/unity3d-animation-from-transform/Standard_asset_Animator_Robot_kyle.png&quot; title=&quot;Standard Third Party Animation Controller on Kyle the Robot&quot;&gt;&lt;img src=&quot;/content/images/unity3d-animation-from-transform/Standard_asset_Animator_Robot_kyle.png&quot; alt=&quot;Standard Third Party Animation Controller on Kyle the Robot&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Animation-States-and-Variables&quot;&gt;&lt;a href=&quot;#Animation-States-and-Variables&quot; class=&quot;headerlink&quot; title=&quot;Animation States and Variables&quot;&gt;&lt;/a&gt;Animation States and Variables&lt;/h2&gt;&lt;p&gt;We can see that there are a few states and variables included in this controller. &lt;/p&gt;
+&lt;p&gt;The variable we are interested in is &lt;strong&gt;Forward&lt;/strong&gt;.&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/unity3d-animation-from-transform/ThirdPersonAnimatorController.png&quot; title=&quot;ThirdPersonAnimatorController States&quot;&gt;&lt;img src=&quot;/content/images/unity3d-animation-from-transform/ThirdPersonAnimatorController.png&quot; alt=&quot;ThirdPersonAnimatorController States&quot;&gt;&lt;/a&gt;
+&lt;p&gt;The value of &lt;strong&gt;Forward&lt;/strong&gt; will determine the walk/run animation that mecanim wil animate for us.&lt;/p&gt;
+&lt;h2 id=&quot;The-Code&quot;&gt;&lt;a href=&quot;#The-Code&quot; class=&quot;headerlink&quot; title=&quot;The Code&quot;&gt;&lt;/a&gt;The Code&lt;/h2&gt;&lt;script src=&quot;https://gist.github.com/Gaweph/4cc5359a43d724a534ddc6efc82cc58d.js&quot;&gt;&lt;/script&gt;
 
-<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><p>Each Update() the <strong>Velocity</strong> <em>(Vector3)</em> of the object is taken .</p>
-<p>This value is then passed to the animator <em>(if one exists)</em> which sets the specified movement float <em>(“<strong>Forward</strong>“ in my example)</em></p>
-<div class="bs-callout bs-callout-primary"><h4 id="Velocity"><a href="#Velocity" class="headerlink" title="Velocity"></a>Velocity</h4><p>This is the difference between this frames transform and the previous frames transform.</p>
-</div>
-<div class="bs-callout bs-callout-warning"><h4 id="NOTE"><a href="#NOTE" class="headerlink" title="NOTE -"></a>NOTE -</h4><p><strong>MinMovementAmount</strong> - This variable can be changed in order to get the desired effect.  I found that a value of 1 produced good movements for the prototype I was implementing.</p>
-</div>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>Simply attach this script to your object that contains your character.  Good luck, let me know in the comments if anything needs explaining or if this does not work for you :)</p>
-]]></content>
+&lt;h2 id=&quot;Explanation&quot;&gt;&lt;a href=&quot;#Explanation&quot; class=&quot;headerlink&quot; title=&quot;Explanation&quot;&gt;&lt;/a&gt;Explanation&lt;/h2&gt;&lt;p&gt;Each Update() the &lt;strong&gt;Velocity&lt;/strong&gt; &lt;em&gt;(Vector3)&lt;/em&gt; of the object is taken .&lt;/p&gt;
+&lt;p&gt;This value is then passed to the animator &lt;em&gt;(if one exists)&lt;/em&gt; which sets the specified movement float &lt;em&gt;(“&lt;strong&gt;Forward&lt;/strong&gt;“ in my example)&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;Velocity&quot;&gt;&lt;a href=&quot;#Velocity&quot; class=&quot;headerlink&quot; title=&quot;Velocity&quot;&gt;&lt;/a&gt;Velocity&lt;/h4&gt;&lt;p&gt;This is the difference between this frames transform and the previous frames transform.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;NOTE&quot;&gt;&lt;a href=&quot;#NOTE&quot; class=&quot;headerlink&quot; title=&quot;NOTE -&quot;&gt;&lt;/a&gt;NOTE -&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;MinMovementAmount&lt;/strong&gt; - This variable can be changed in order to get the desired effect.  I found that a value of 1 produced good movements for the prototype I was implementing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;Usage&quot;&gt;&lt;a href=&quot;#Usage&quot; class=&quot;headerlink&quot; title=&quot;Usage&quot;&gt;&lt;/a&gt;Usage&lt;/h2&gt;&lt;p&gt;Simply attach this script to your object that contains your character.  Good luck, let me know in the comments if anything needs explaining or if this does not work for you :)&lt;/p&gt;
+</content>
     
     <summary type="html">
     
@@ -137,15 +137,15 @@
     <link href="randomsyntax.net/timegame-2-animations/"/>
     <id>randomsyntax.net/timegame-2-animations/</id>
     <published>2016-10-15T20:12:00.000Z</published>
-    <updated>2016-12-12T21:35:18.448Z</updated>
+    <updated>2016-12-12T21:35:18.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Animations have been added to the player and ghost players</p>
-<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/187484099" frameborder="0" allowfullscreen></iframe></div><br></div>
+    <content type="html">&lt;p&gt;Animations have been added to the player and ghost players&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/187484099&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
 
-<div class="bs-callout bs-callout-primary"><h4 id="Explanation-Coming-Soon"><a href="#Explanation-Coming-Soon" class="headerlink" title="Explanation Coming Soon"></a>Explanation Coming Soon</h4><p>I will outline how this was done (Specifically the ghost images) in a future post.</p>
-</div>
-<div class="bs-callout bs-callout-default"><h4 id="Update"><a href="#Update" class="headerlink" title="Update"></a><em>Update</em></h4><p>Explanation can now be found here <a href="/unity3d-animation-from-transform/">Mecanim Animation From Transform</a></p>
-</div>]]></content>
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;Explanation-Coming-Soon&quot;&gt;&lt;a href=&quot;#Explanation-Coming-Soon&quot; class=&quot;headerlink&quot; title=&quot;Explanation Coming Soon&quot;&gt;&lt;/a&gt;Explanation Coming Soon&lt;/h4&gt;&lt;p&gt;I will outline how this was done (Specifically the ghost images) in a future post.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Update&quot;&gt;&lt;a href=&quot;#Update&quot; class=&quot;headerlink&quot; title=&quot;Update&quot;&gt;&lt;/a&gt;&lt;em&gt;Update&lt;/em&gt;&lt;/h4&gt;&lt;p&gt;Explanation can now be found here &lt;a href=&quot;/unity3d-animation-from-transform/&quot;&gt;Mecanim Animation From Transform&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
     
     <summary type="html">
     
@@ -170,38 +170,38 @@
     <link href="randomsyntax.net/timegame-1-timetravel/"/>
     <id>randomsyntax.net/timegame-1-timetravel/</id>
     <published>2016-10-09T21:30:00.000Z</published>
-    <updated>2016-12-11T20:41:10.938Z</updated>
+    <updated>2016-12-11T20:41:10.000Z</updated>
     
-    <content type="html"><![CDATA[<p>This is my current progress of a time travel puzzle game created with Unity3D</p>
-<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/186188380" frameborder="0" allowfullscreen></iframe></div><br></div>
+    <content type="html">&lt;p&gt;This is my current progress of a time travel puzzle game created with Unity3D&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/186188380&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
 
-<p>I will briefly outline how I implemented time travel in Unity3d.<br>As the title suggests, this method will be the same if you are trying to create some sort of replay system.</p>
-<h2 id="Record"><a href="#Record" class="headerlink" title="Record"></a>Record</h2><p>The first thing we need to do is to record our players movement.<br>The easiest thing to do seems to be to record the players position and rotation (Transform).</p>
-<p>For this we create an object which will be used to hold the recorded information.</p>
-<figure class="highlight cs"><figcaption><span>RecordingData.cs</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">RecordingData</span></div><div class="line">&#123;    </div><div class="line">    <span class="keyword">public</span> <span class="keyword">float</span> RecordedRate &#123; <span class="keyword">get</span>; <span class="keyword">set</span>; &#125;</div><div class="line">    <span class="keyword">private</span> List&lt;RecordData&gt; recordedData = <span class="keyword">new</span> List&lt;RecordData&gt;();</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">struct</span> RecordData</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">public</span> Vector3 Position &#123; <span class="keyword">get</span>; <span class="keyword">set</span>; &#125;</div><div class="line">        <span class="keyword">public</span> Quaternion Rotation &#123; <span class="keyword">get</span>; <span class="keyword">set</span>; &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">AddDataLine</span>(<span class="params">RecordData data</span>)</span></div><div class="line">    &#123;</div><div class="line">        recordedData.Add(data);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">int</span> pointer = <span class="number">0</span>;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">MoveToStartOfData</span>(<span class="params"></span>)</span></div><div class="line">    &#123;</div><div class="line">        pointer = <span class="number">0</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> RecordData? GetNextDataLine()</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">var</span> count = recordedData.Count;</div><div class="line">        RecordData? data = <span class="literal">null</span>;</div><div class="line">        <span class="keyword">if</span> (count &gt; <span class="number">0</span> &amp;&amp; pointer &lt; count &amp;&amp; pointer &gt;= <span class="number">0</span>) <span class="comment">// not empty and pointer is within range and pointer not negative</span></div><div class="line">        &#123;</div><div class="line">            data = recordedData[pointer];</div><div class="line">        &#125;        </div><div class="line">        pointer++;</div><div class="line">        <span class="keyword">return</span> data;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<div class="bs-callout bs-callout-warning"><h4 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h4><p>This can be extended to record more information in the future (maybe <strong>Scale</strong>?)</p>
-</div>
-<p>We then need to call a method which records the data.</p>
-<figure class="highlight cs"><figcaption><span>TakeSnapShot()</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">private</span> RecordingData recordingData = <span class="keyword">new</span> RecordingData();</div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">TakeSnapshot</span>(<span class="params"></span>)</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">var</span> t = Transform;</div><div class="line">    <span class="keyword">var</span> data = <span class="keyword">new</span> RecordData()</div><div class="line">    &#123;</div><div class="line">        Position = t.position,</div><div class="line">        Rotation = t.rotation</div><div class="line">    &#125;;</div><div class="line">    recordingData.AddDataLine(data);    </div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>We need to call the <strong>TakeSnapshot</strong> method at a known interval.<br>I have used coroutines to ensure a consistent sample of data.<br>In the below example we are using <strong>0.05 seconds</strong> which is a rate of 20fps.<br>This seems to offer a smooth enough playback rate (discussed later in this article). </p>
-<figure class="highlight cs"><figcaption><span>Record Coroutine</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">bool</span> DoRecording = <span class="literal">true</span>;</div><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">StartRecording</span>(<span class="params"></span>)</span></div><div class="line">&#123;</div><div class="line">    DoRecording = <span class="literal">true</span>;</div><div class="line">    StartCoroutine(RecordingTimer(<span class="number">0.05</span>f, <span class="number">0</span>f));</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">//RECORDING LOOP</span></div><div class="line"><span class="function">IEnumerator <span class="title">RecordingTimer</span>(<span class="params"><span class="keyword">float</span> sampleRate</span>)</span></div><div class="line">&#123;</div><div class="line">    recordingData.RecordedRate = sampleRate;</div><div class="line">    <span class="keyword">while</span> (DoRecording) <span class="comment">// Repeat until DoRecording is false</span></div><div class="line">    &#123;</div><div class="line">        TakeSnapshot();</div><div class="line">        <span class="function"><span class="keyword">yield</span> return new <span class="title">WaitForSeconds</span>(<span class="params">recordingData.RecordedRate / Time.timeScale</span>)</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<div class="bs-callout bs-callout-warning"><h4 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h4><p><strong>DoRecording</strong> can be set to false to stop recording.</p>
-</div>
-<h2 id="Replay"><a href="#Replay" class="headerlink" title="Replay"></a>Replay</h2><p>Then we just need to play this data back.  Again this is done with a coroutine.</p>
-<figure class="highlight cs"><figcaption><span>Playback Coroutine</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">bool</span> DoPlayback = <span class="literal">true</span>;</div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">StartPlayback</span>(<span class="params"></span>)</span></div><div class="line">&#123;</div><div class="line">    DoPlayback = <span class="literal">true</span>;</div><div class="line">    recordingData.MoveToStartOfData(); <span class="comment">//Move to start of playback</span></div><div class="line">    StartCoroutine(PlaybackTimer());</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>This is the same as the recording loop except it calls Next SnapShot().</p>
-<figure class="highlight cs"><figcaption><span>Playback Loop</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//PLAYBACK LOOP</span></div><div class="line"><span class="function">IEnumerator <span class="title">PlaybackTimer</span>(<span class="params"></span>)</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">while</span> (DoPlayback) <span class="comment">// Repeat Until DoPlayback is false</span></div><div class="line">    &#123;</div><div class="line">        NextSnapshot();</div><div class="line">        <span class="function"><span class="keyword">yield</span> return new <span class="title">WaitForSeconds</span>(<span class="params">recordingData.RecordedRate / Time.timeScale</span>)</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>The <strong>NextSnapshot</strong> method simply retrieves the desired transform of the object.</p>
-<figure class="highlight cs"><figcaption><span>NextSnapshot()</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">private</span> RecordingData.RecordData? _desiredMoveLocation = <span class="literal">null</span>;</div><div class="line"></div><div class="line"><span class="comment">//MOVE DESIRED LOCATION TO NEXT LOCATION</span></div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">NextSnapshot</span>(<span class="params"></span>)</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">var</span> data = recordingData.GetNextDataLine();</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (_desiredMoveLocation.HasValue &amp;&amp; !data.HasValue) <span class="comment">//If we previously had move location and now we do not</span></div><div class="line">    &#123;</div><div class="line">        <span class="comment">//END OF REPLAY - YOU MAY WANT TO REMOVE THE REPLAY OBJECT FROM SCENE NOW</span></div><div class="line">    &#125;</div><div class="line">    _desiredMoveLocation = data;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>We then move the object each update frame using the <strong>Lerp</strong> function (this helps keep the movement smooth).</p>
-<figure class="highlight cs"><figcaption><span>Move Object</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Update</span>(<span class="params"></span>)</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">if</span> (_desiredMoveLocation.HasValue)</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">var</span> playbackRate = recordingData.RecordedRate;</div><div class="line">        <span class="keyword">var</span> amount = Math.Abs(Time.deltaTime) / playbackRate;</div><div class="line">        <span class="keyword">var</span> p = Vector3.Lerp(Transform.position, _desiredMoveLocation.Value.Position, amount);</div><div class="line">        <span class="keyword">var</span> r = Quaternion.Lerp(Transform.rotation, _desiredMoveLocation.Value.Rotation, amount);</div><div class="line"></div><div class="line">        Transform.position = p;</div><div class="line">        Transform.rotation = r;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<div class="bs-callout bs-callout-warning"><h4 id="This-is-not-the-only-way"><a href="#This-is-not-the-only-way" class="headerlink" title="This is not the only way"></a>This is not the only way</h4><p>There are many many ways of doing this.  I am outlining how I did it.<br>I have simplified my implementation for the purposes of this post (to outline roughly how it was done).<br>Any feedback or improvements are welcome :)</p>
-</div>
-<div class="bs-callout bs-callout-primary"><h4 id="Have-a-question"><a href="#Have-a-question" class="headerlink" title="Have a question?"></a>Have a question?</h4><p>Feel free to ask me anything (I have overlooked some internal workings in this post).<br>I also have a Unity3d Forum WIP post for this game prototype (in progress):<br><a href="https://forum.unity3d.com/threads/wip-time-game-time-travel.435684/" target="_blank" rel="external">https://forum.unity3d.com/threads/wip-time-game-time-travel.435684/</a></p>
-</div>
-<div class="bs-callout bs-callout-primary"><h4 id="More-Info"><a href="#More-Info" class="headerlink" title="More Info?"></a>More Info?</h4><p>I have not gone into any detail on how the replay data can be saved and loaded between games (I have implemented this in my prototype).<br>I can try and write a post outlining this if this is of interest?</p>
-</div>
-]]></content>
+&lt;p&gt;I will briefly outline how I implemented time travel in Unity3d.&lt;br&gt;As the title suggests, this method will be the same if you are trying to create some sort of replay system.&lt;/p&gt;
+&lt;h2 id=&quot;Record&quot;&gt;&lt;a href=&quot;#Record&quot; class=&quot;headerlink&quot; title=&quot;Record&quot;&gt;&lt;/a&gt;Record&lt;/h2&gt;&lt;p&gt;The first thing we need to do is to record our players movement.&lt;br&gt;The easiest thing to do seems to be to record the players position and rotation (Transform).&lt;/p&gt;
+&lt;p&gt;For this we create an object which will be used to hold the recorded information.&lt;/p&gt;
+&lt;figure class=&quot;highlight cs&quot;&gt;&lt;figcaption&gt;&lt;span&gt;RecordingData.cs&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;RecordingData&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;float&lt;/span&gt; RecordedRate &amp;#123; &lt;span class=&quot;keyword&quot;&gt;get&lt;/span&gt;; &lt;span class=&quot;keyword&quot;&gt;set&lt;/span&gt;; &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; List&amp;lt;RecordData&amp;gt; recordedData = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; List&amp;lt;RecordData&amp;gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; RecordData&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; Vector3 Position &amp;#123; &lt;span class=&quot;keyword&quot;&gt;get&lt;/span&gt;; &lt;span class=&quot;keyword&quot;&gt;set&lt;/span&gt;; &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; Quaternion Rotation &amp;#123; &lt;span class=&quot;keyword&quot;&gt;get&lt;/span&gt;; &lt;span class=&quot;keyword&quot;&gt;set&lt;/span&gt;; &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;AddDataLine&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;RecordData data&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        recordedData.Add(data);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; pointer = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;MoveToStartOfData&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        pointer = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; RecordData? GetNextDataLine()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; count = recordedData.Count;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        RecordData? data = &lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (count &amp;gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &amp;amp;&amp;amp; pointer &amp;lt; count &amp;amp;&amp;amp; pointer &amp;gt;= &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) &lt;span class=&quot;comment&quot;&gt;// not empty and pointer is within range and pointer not negative&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            data = recordedData[pointer];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;        &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        pointer++;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; data;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Note&quot;&gt;&lt;a href=&quot;#Note&quot; class=&quot;headerlink&quot; title=&quot;Note&quot;&gt;&lt;/a&gt;Note&lt;/h4&gt;&lt;p&gt;This can be extended to record more information in the future (maybe &lt;strong&gt;Scale&lt;/strong&gt;?)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;We then need to call a method which records the data.&lt;/p&gt;
+&lt;figure class=&quot;highlight cs&quot;&gt;&lt;figcaption&gt;&lt;span&gt;TakeSnapShot()&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; RecordingData recordingData = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; RecordingData();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;TakeSnapshot&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; t = Transform;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; data = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; RecordData()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        Position = t.position,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        Rotation = t.rotation&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    recordingData.AddDataLine(data);    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;We need to call the &lt;strong&gt;TakeSnapshot&lt;/strong&gt; method at a known interval.&lt;br&gt;I have used coroutines to ensure a consistent sample of data.&lt;br&gt;In the below example we are using &lt;strong&gt;0.05 seconds&lt;/strong&gt; which is a rate of 20fps.&lt;br&gt;This seems to offer a smooth enough playback rate (discussed later in this article). &lt;/p&gt;
+&lt;figure class=&quot;highlight cs&quot;&gt;&lt;figcaption&gt;&lt;span&gt;Record Coroutine&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;bool&lt;/span&gt; DoRecording = &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;StartRecording&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    DoRecording = &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    StartCoroutine(RecordingTimer(&lt;span class=&quot;number&quot;&gt;0.05&lt;/span&gt;f, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;f));&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//RECORDING LOOP&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;IEnumerator &lt;span class=&quot;title&quot;&gt;RecordingTimer&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;float&lt;/span&gt; sampleRate&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    recordingData.RecordedRate = sampleRate;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; (DoRecording) &lt;span class=&quot;comment&quot;&gt;// Repeat until DoRecording is false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        TakeSnapshot();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;yield&lt;/span&gt; return new &lt;span class=&quot;title&quot;&gt;WaitForSeconds&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;recordingData.RecordedRate / Time.timeScale&lt;/span&gt;)&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Note&quot;&gt;&lt;a href=&quot;#Note&quot; class=&quot;headerlink&quot; title=&quot;Note&quot;&gt;&lt;/a&gt;Note&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;DoRecording&lt;/strong&gt; can be set to false to stop recording.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;Replay&quot;&gt;&lt;a href=&quot;#Replay&quot; class=&quot;headerlink&quot; title=&quot;Replay&quot;&gt;&lt;/a&gt;Replay&lt;/h2&gt;&lt;p&gt;Then we just need to play this data back.  Again this is done with a coroutine.&lt;/p&gt;
+&lt;figure class=&quot;highlight cs&quot;&gt;&lt;figcaption&gt;&lt;span&gt;Playback Coroutine&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;bool&lt;/span&gt; DoPlayback = &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;StartPlayback&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    DoPlayback = &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    recordingData.MoveToStartOfData(); &lt;span class=&quot;comment&quot;&gt;//Move to start of playback&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    StartCoroutine(PlaybackTimer());&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;This is the same as the recording loop except it calls Next SnapShot().&lt;/p&gt;
+&lt;figure class=&quot;highlight cs&quot;&gt;&lt;figcaption&gt;&lt;span&gt;Playback Loop&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//PLAYBACK LOOP&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;IEnumerator &lt;span class=&quot;title&quot;&gt;PlaybackTimer&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; (DoPlayback) &lt;span class=&quot;comment&quot;&gt;// Repeat Until DoPlayback is false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        NextSnapshot();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;yield&lt;/span&gt; return new &lt;span class=&quot;title&quot;&gt;WaitForSeconds&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;recordingData.RecordedRate / Time.timeScale&lt;/span&gt;)&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;The &lt;strong&gt;NextSnapshot&lt;/strong&gt; method simply retrieves the desired transform of the object.&lt;/p&gt;
+&lt;figure class=&quot;highlight cs&quot;&gt;&lt;figcaption&gt;&lt;span&gt;NextSnapshot()&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; RecordingData.RecordData? _desiredMoveLocation = &lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//MOVE DESIRED LOCATION TO NEXT LOCATION&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;NextSnapshot&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; data = recordingData.GetNextDataLine();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (_desiredMoveLocation.HasValue &amp;amp;&amp;amp; !data.HasValue) &lt;span class=&quot;comment&quot;&gt;//If we previously had move location and now we do not&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;//END OF REPLAY - YOU MAY WANT TO REMOVE THE REPLAY OBJECT FROM SCENE NOW&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    _desiredMoveLocation = data;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;We then move the object each update frame using the &lt;strong&gt;Lerp&lt;/strong&gt; function (this helps keep the movement smooth).&lt;/p&gt;
+&lt;figure class=&quot;highlight cs&quot;&gt;&lt;figcaption&gt;&lt;span&gt;Move Object&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Update&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (_desiredMoveLocation.HasValue)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; playbackRate = recordingData.RecordedRate;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; amount = Math.Abs(Time.deltaTime) / playbackRate;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; p = Vector3.Lerp(Transform.position, _desiredMoveLocation.Value.Position, amount);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; r = Quaternion.Lerp(Transform.rotation, _desiredMoveLocation.Value.Rotation, amount);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        Transform.position = p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        Transform.rotation = r;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;This-is-not-the-only-way&quot;&gt;&lt;a href=&quot;#This-is-not-the-only-way&quot; class=&quot;headerlink&quot; title=&quot;This is not the only way&quot;&gt;&lt;/a&gt;This is not the only way&lt;/h4&gt;&lt;p&gt;There are many many ways of doing this.  I am outlining how I did it.&lt;br&gt;I have simplified my implementation for the purposes of this post (to outline roughly how it was done).&lt;br&gt;Any feedback or improvements are welcome :)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;Have-a-question&quot;&gt;&lt;a href=&quot;#Have-a-question&quot; class=&quot;headerlink&quot; title=&quot;Have a question?&quot;&gt;&lt;/a&gt;Have a question?&lt;/h4&gt;&lt;p&gt;Feel free to ask me anything (I have overlooked some internal workings in this post).&lt;br&gt;I also have a Unity3d Forum WIP post for this game prototype (in progress):&lt;br&gt;&lt;a href=&quot;https://forum.unity3d.com/threads/wip-time-game-time-travel.435684/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://forum.unity3d.com/threads/wip-time-game-time-travel.435684/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;More-Info&quot;&gt;&lt;a href=&quot;#More-Info&quot; class=&quot;headerlink&quot; title=&quot;More Info?&quot;&gt;&lt;/a&gt;More Info?&lt;/h4&gt;&lt;p&gt;I have not gone into any detail on how the replay data can be saved and loaded between games (I have implemented this in my prototype).&lt;br&gt;I can try and write a post outlining this if this is of interest?&lt;/p&gt;
+&lt;/div&gt;
+</content>
     
     <summary type="html">
     
@@ -228,92 +228,92 @@
     <published>2014-08-07T13:35:54.000Z</published>
     <updated>2016-08-22T07:58:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer</p>
-<h2 id="Calibration-Cube"><a href="#Calibration-Cube" class="headerlink" title="Calibration Cube."></a>Calibration Cube.</h2><p>As you can see the auto leveling has now stopped my prints from leaning to one side:</p>
+    <content type="html">&lt;p&gt;I Haven’t had much spare time to post any updates lately. Here are some prints that have been done with my printer&lt;/p&gt;
+&lt;h2 id=&quot;Calibration-Cube&quot;&gt;&lt;a href=&quot;#Calibration-Cube&quot; class=&quot;headerlink&quot; title=&quot;Calibration Cube.&quot;&gt;&lt;/a&gt;Calibration Cube.&lt;/h2&gt;&lt;p&gt;As you can see the auto leveling has now stopped my prints from leaning to one side:&lt;/p&gt;
 
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/cube_a.jpg">
-								<img src="/content/images/3d-printing/cube_a_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/cube_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/cube_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/cube_b.jpg">
-								<img src="/content/images/3d-printing/cube_b_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/cube_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/cube_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/cube_c.jpg">
-								<img src="/content/images/3d-printing/cube_c_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/cube_c.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/cube_c_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
 
-<h2 id="Elephant"><a href="#Elephant" class="headerlink" title="Elephant."></a>Elephant.</h2>
+&lt;h2 id=&quot;Elephant&quot;&gt;&lt;a href=&quot;#Elephant&quot; class=&quot;headerlink&quot; title=&quot;Elephant.&quot;&gt;&lt;/a&gt;Elephant.&lt;/h2&gt;
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/elephant_a.jpg">
-								<img src="/content/images/3d-printing/elephant_a_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/elephant_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/elephant_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/elephant_b.jpg">
-								<img src="/content/images/3d-printing/elephant_b_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/elephant_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/elephant_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
 
-<h2 id="Octopus"><a href="#Octopus" class="headerlink" title="Octopus"></a>Octopus</h2>
+&lt;h2 id=&quot;Octopus&quot;&gt;&lt;a href=&quot;#Octopus&quot; class=&quot;headerlink&quot; title=&quot;Octopus&quot;&gt;&lt;/a&gt;Octopus&lt;/h2&gt;
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/octopus_a.jpg">
-								<img src="/content/images/3d-printing/octopus_a_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/octopus_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/octopus_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/octopus_b.jpg">
-								<img src="/content/images/3d-printing/octopus_b_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/octopus_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/octopus_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printing/octopus_c.jpg">
-								<img src="/content/images/3d-printing/octopus_c_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printing/octopus_c.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printing/octopus_c_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
-]]></content>
+</content>
     
     <summary type="html">
     
@@ -336,49 +336,49 @@
     <published>2014-06-19T12:43:03.000Z</published>
     <updated>2016-08-22T07:57:57.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Video of the G29 (Auto level) command.</p>
-<div style="max-width: 700px"><br>  <div class="video-container"><iframe src="//player.vimeo.com/video/98630132" frameborder="0" allowfullscreen></iframe></div><br></div>
+    <content type="html">&lt;p&gt;Video of the G29 (Auto level) command.&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;  &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/98630132&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
 
-<p>This process involves using 3 Force Sense Resistors (FSR’s) in order to use the actual print head as the z-probe.</p>
-<p>Code can be found in Johan’s Github Branch:</p>
-<p><a href="https://github.com/jcrocholl/Marlin/tree/fsr" title="https://github.com/jcrocholl/Marlin/tree/fsr" target="_blank" rel="external">github.com/jcrocholl/Marlin/tree/fsr</a></p>
-<p>Here are some images of how the sensors are attached to the printer (under the bed):</p>
+&lt;p&gt;This process involves using 3 Force Sense Resistors (FSR’s) in order to use the actual print head as the z-probe.&lt;/p&gt;
+&lt;p&gt;Code can be found in Johan’s Github Branch:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jcrocholl/Marlin/tree/fsr&quot; title=&quot;https://github.com/jcrocholl/Marlin/tree/fsr&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github.com/jcrocholl/Marlin/tree/fsr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are some images of how the sensors are attached to the printer (under the bed):&lt;/p&gt;
 
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/auto-bed-levelling/fsr_a.jpg">
-								<img src="/content/images/auto-bed-levelling/fsr_a_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/fsr_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/fsr_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/auto-bed-levelling/fsr_b.jpg">
-								<img src="/content/images/auto-bed-levelling/fsr_b_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/fsr_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/fsr_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/auto-bed-levelling/electronics_a.jpg">
-								<img src="/content/images/auto-bed-levelling/electronics_a_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/electronics_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/electronics_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/auto-bed-levelling/electronics_b.jpg">
-								<img src="/content/images/auto-bed-levelling/electronics_b_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/auto-bed-levelling/electronics_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/auto-bed-levelling/electronics_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
-]]></content>
+</content>
     
     <summary type="html">
     
@@ -401,19 +401,19 @@
     <published>2014-05-05T13:44:08.000Z</published>
     <updated>2016-10-10T20:21:12.000Z</updated>
     
-    <content type="html"><![CDATA[<p>I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:</p>
-<a class="image-link" href="/content/images/conky-config/Conky_Config.png" title=""><img src="/content/images/conky-config/Conky_Config_thumb.png" alt=""></a>
-<p>In order to recreate this config you will need the following:</p>
-<p><a href="https://aur.archlinux.org/packages/conky-colors/" target="_blank" rel="external">https://aur.archlinux.org/packages/conky-colors/</a><br><a href="https://aur.archlinux.org/packages/conky-nvidia/" target="_blank" rel="external">https://aur.archlinux.org/packages/conky-nvidia/</a><br><a href="https://www.archlinux.org/packages/?name=lm_sensors" target="_blank" rel="external">https://www.archlinux.org/packages/?name=lm_sensors</a></p>
-<p>Here is the conky config file (feel free to copy as needed):<br><a href="https://gist.github.com/Gaweph/63d48a9c43e1b256ca8c8a9a7717fed7" target="_blank" rel="external">https://gist.github.com/Gaweph/63d48a9c43e1b256ca8c8a9a7717fed7</a></p>
-<div class="gist" style="overflow: auto; max-height: 400px;"><br>  <script src="https://gist.github.com/Gaweph/63d48a9c43e1b256ca8c8a9a7717fed7.js"></script><br></div>
+    <content type="html">&lt;p&gt;I have had a couple of queries regarding my conky config that can be seen on my new arch desktop screenshot:&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/conky-config/Conky_Config.png&quot; title=&quot;&quot;&gt;&lt;img src=&quot;/content/images/conky-config/Conky_Config_thumb.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+&lt;p&gt;In order to recreate this config you will need the following:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://aur.archlinux.org/packages/conky-colors/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://aur.archlinux.org/packages/conky-colors/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://aur.archlinux.org/packages/conky-nvidia/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://aur.archlinux.org/packages/conky-nvidia/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.archlinux.org/packages/?name=lm_sensors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.archlinux.org/packages/?name=lm_sensors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is the conky config file (feel free to copy as needed):&lt;br&gt;&lt;a href=&quot;https://gist.github.com/Gaweph/63d48a9c43e1b256ca8c8a9a7717fed7&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://gist.github.com/Gaweph/63d48a9c43e1b256ca8c8a9a7717fed7&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gist&quot; style=&quot;overflow: auto; max-height: 400px;&quot;&gt;&lt;br&gt;  &lt;script src=&quot;https://gist.github.com/Gaweph/63d48a9c43e1b256ca8c8a9a7717fed7.js&quot;&gt;&lt;/script&gt;&lt;br&gt;&lt;/div&gt;
 
-<p><strong>wlp4s0</strong> and <strong>enp3s0f0</strong> are the network device IDS, so you will need to substitute your own.</p>
-<p>If you would like to modify the icons then theres lots of them in the ttf:<br><a href="https://github.com/helmuthdu/conky_colors/tree/master/fonts/conkycolors" target="_blank" rel="external">https://github.com/helmuthdu/conky_colo … onkycolors</a></p>
-<div class="bs-callout bs-callout-warning"><h4 id="PLEASE-NOTE"><a href="#PLEASE-NOTE" class="headerlink" title="PLEASE NOTE:"></a>PLEASE NOTE:</h4><p>I’m sure there’s a better way of getting the CPU temps.  Please let me know if this is the case.<br>I’m not sure that the Ethernet if else statements are working correctly.</p>
-</div>
-<div class="bs-callout bs-callout-default"><h4 id="FURTHER-READING"><a href="#FURTHER-READING" class="headerlink" title="FURTHER READING:"></a>FURTHER READING:</h4><p>Here’s some lovelly looking conky-colors stuff:<br><a href="http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180" target="_blank" rel="external">http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180</a><br>And the conky Git pagee if you want to see the source and who made it:<br><a href="https://github.com/helmuthdu/conky_colors" target="_blank" rel="external">https://github.com/helmuthdu/conky_colors</a></p>
-</div>]]></content>
+&lt;p&gt;&lt;strong&gt;wlp4s0&lt;/strong&gt; and &lt;strong&gt;enp3s0f0&lt;/strong&gt; are the network device IDS, so you will need to substitute your own.&lt;/p&gt;
+&lt;p&gt;If you would like to modify the icons then theres lots of them in the ttf:&lt;br&gt;&lt;a href=&quot;https://github.com/helmuthdu/conky_colors/tree/master/fonts/conkycolors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/helmuthdu/conky_colo … onkycolors&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;PLEASE-NOTE&quot;&gt;&lt;a href=&quot;#PLEASE-NOTE&quot; class=&quot;headerlink&quot; title=&quot;PLEASE NOTE:&quot;&gt;&lt;/a&gt;PLEASE NOTE:&lt;/h4&gt;&lt;p&gt;I’m sure there’s a better way of getting the CPU temps.  Please let me know if this is the case.&lt;br&gt;I’m not sure that the Ethernet if else statements are working correctly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;FURTHER-READING&quot;&gt;&lt;a href=&quot;#FURTHER-READING&quot; class=&quot;headerlink&quot; title=&quot;FURTHER READING:&quot;&gt;&lt;/a&gt;FURTHER READING:&lt;/h4&gt;&lt;p&gt;Here’s some lovelly looking conky-colors stuff:&lt;br&gt;&lt;a href=&quot;http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://helmuthdu.deviantart.com/art/CONKY-COLORS-244793180&lt;/a&gt;&lt;br&gt;And the conky Git pagee if you want to see the source and who made it:&lt;br&gt;&lt;a href=&quot;https://github.com/helmuthdu/conky_colors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/helmuthdu/conky_colors&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
     
     <summary type="html">
     
@@ -438,46 +438,46 @@
     <published>2014-02-18T15:31:50.000Z</published>
     <updated>2016-10-10T20:11:59.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Here is a video of my printer doing a calibration.</p>
-<div style="max-width: 700px"><br><div class="video-container"><iframe src="//player.vimeo.com/video/86994938" frameborder="0" allowfullscreen></iframe></div><br></div>
+    <content type="html">&lt;p&gt;Here is a video of my printer doing a calibration.&lt;/p&gt;
+&lt;div style=&quot;max-width: 700px&quot;&gt;&lt;br&gt;&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/86994938&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;
 
-<p>Calibrating the print head height is proving to be quite difficult. A good article on this can be found here:</p>
-<p><a href="http://minow.blogspot.co.uk/index.html#4918805519571907051" title="Minow - Calibrating a Delta 3D Printer" target="_blank" rel="external">Minow - Calibrating a Delta 3D Printer</a></p>
-<div class="bs-callout bs-callout-default"><h4 id="Delta-Printers-Only"><a href="#Delta-Printers-Only" class="headerlink" title="Delta Printers Only"></a>Delta Printers Only</h4><p>This calibration process is for a delta style printers only (like my 3DR)</p>
-</div>
-<p>As you can see the prints are getting significantly better.</p>
+&lt;p&gt;Calibrating the print head height is proving to be quite difficult. A good article on this can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://minow.blogspot.co.uk/index.html#4918805519571907051&quot; title=&quot;Minow - Calibrating a Delta 3D Printer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Minow - Calibrating a Delta 3D Printer&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Delta-Printers-Only&quot;&gt;&lt;a href=&quot;#Delta-Printers-Only&quot; class=&quot;headerlink&quot; title=&quot;Delta Printers Only&quot;&gt;&lt;/a&gt;Delta Printers Only&lt;/h4&gt;&lt;p&gt;This calibration process is for a delta style printers only (like my 3DR)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see the prints are getting significantly better.&lt;/p&gt;
 
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_a.jpg">
-								<img src="/content/images/3d-printer-calibration/calibration_a_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-calibration/calibration_a.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_a_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_b.jpg">
-								<img src="/content/images/3d-printer-calibration/calibration_b_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-calibration/calibration_b.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_b_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-calibration/calibration_c.jpg">
-								<img src="/content/images/3d-printer-calibration/calibration_c_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-calibration/calibration_c.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-calibration/calibration_c_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
 
-<p>Its not quite there, but I would say its close.</p>
-]]></content>
+&lt;p&gt;Its not quite there, but I would say its close.&lt;/p&gt;
+</content>
     
     <summary type="html">
     
@@ -500,15 +500,15 @@
     <published>2014-02-16T16:13:54.000Z</published>
     <updated>2016-06-22T19:51:06.000Z</updated>
     
-    <content type="html"><![CDATA[<p>After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.</p>
-<p>Here is what I finally have (I went for XFCE because it is lightweight).</p>
-<a class="image-link" href="/content/images/a_week_with_arch/arch_desktop.png" title="I am happy with the results"><img src="/content/images/a_week_with_arch/arch_desktop_thumbnail.png" alt="I am happy with the results"></a>
-<h2 id="What-I-like"><a href="#What-I-like" class="headerlink" title="What I like"></a>What I like</h2><p>I’m very happy with the speed and ease of use so far.</p>
-<p>Arch makes no assumptions, this means you literally have to configure everything.  An example of this is that I could not get thunar to auto mount and add a desktop icon for my USB drives.  After some research (amazing Arch documentation) this was simply a case of enabling the thunar volume manager alongside lxpolkit.</p>
-<h2 id="Bottom-Line"><a href="#Bottom-Line" class="headerlink" title="Bottom Line"></a>Bottom Line</h2><p>Things may take a little longer to get working and configured.  but this results in no cruft at all in your system, and you leave knowing how things work in much more depth and are then able to problem solve in future.  And when something does’t work you really get to go into the documentation (of which there is ample amounts of information on everything).</p>
-<p>I would say that I have learnt more on how a linux distribution works in my first week with arch, than I have in around 3 years of Ubuntu and Mint.</p>
-<p>There is something very satisfying about knowing exactly what is running on your system.</p>
-]]></content>
+    <content type="html">&lt;p&gt;After a week using Arch, getting the desktop just the way I want it, and generally getting to grips with what it means to have to read up on everything you install and configure; I must say I like Arch.&lt;/p&gt;
+&lt;p&gt;Here is what I finally have (I went for XFCE because it is lightweight).&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/a_week_with_arch/arch_desktop.png&quot; title=&quot;I am happy with the results&quot;&gt;&lt;img src=&quot;/content/images/a_week_with_arch/arch_desktop_thumbnail.png&quot; alt=&quot;I am happy with the results&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;What-I-like&quot;&gt;&lt;a href=&quot;#What-I-like&quot; class=&quot;headerlink&quot; title=&quot;What I like&quot;&gt;&lt;/a&gt;What I like&lt;/h2&gt;&lt;p&gt;I’m very happy with the speed and ease of use so far.&lt;/p&gt;
+&lt;p&gt;Arch makes no assumptions, this means you literally have to configure everything.  An example of this is that I could not get thunar to auto mount and add a desktop icon for my USB drives.  After some research (amazing Arch documentation) this was simply a case of enabling the thunar volume manager alongside lxpolkit.&lt;/p&gt;
+&lt;h2 id=&quot;Bottom-Line&quot;&gt;&lt;a href=&quot;#Bottom-Line&quot; class=&quot;headerlink&quot; title=&quot;Bottom Line&quot;&gt;&lt;/a&gt;Bottom Line&lt;/h2&gt;&lt;p&gt;Things may take a little longer to get working and configured.  but this results in no cruft at all in your system, and you leave knowing how things work in much more depth and are then able to problem solve in future.  And when something does’t work you really get to go into the documentation (of which there is ample amounts of information on everything).&lt;/p&gt;
+&lt;p&gt;I would say that I have learnt more on how a linux distribution works in my first week with arch, than I have in around 3 years of Ubuntu and Mint.&lt;/p&gt;
+&lt;p&gt;There is something very satisfying about knowing exactly what is running on your system.&lt;/p&gt;
+</content>
     
     <summary type="html">
     
@@ -519,9 +519,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
-    
       <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
     
   </entry>
   
@@ -532,14 +532,14 @@
     <published>2014-02-12T09:27:40.000Z</published>
     <updated>2016-06-22T21:40:02.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Something-New"><a href="#Something-New" class="headerlink" title="Something New"></a>Something New</h2><p>I have been contemplating re-installing my main OS.  Currently I’m running <a href="https://www.linuxmint.com/" target="_blank" rel="external">Mint</a> ( 14 - Cinnamon) and Windows 7.  I have always wanted to install <a href="https://www.gentoo.org/get-started/" target="_blank" rel="external">Gentoo</a>, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.</p>
-<h2 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h2><p>I have been looking at <strong>Arch Linux</strong>, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full <strong>Gentoo</strong> install.</p>
-<p>One thing I would like to highlight is that the <a href="https://wiki.archlinux.org/index.php/Installation_guide" target="_blank" rel="external"><strong>DOCUMENTATION IS AMAZING!</strong></a>, really really helpful, if you need to know it, it’s in there.  Check out the <a href="https://wiki.archlinux.org/index.php/Beginners" title="Beginners Guide" target="_blank" rel="external">Beginners Guide</a> if you need help getting going.</p>
-<p>After 2 hours of work, here is what I have:</p>
-<p>(It still needs a lot of work, this is simply the stock xfce, with chromium installed)</p>
-<a class="image-link" href="/content/images/arch-linux-new-install/arch_initial_screenshot.png" title="Even after hours of work it looks terrible"><img src="/content/images/arch-linux-new-install/arch_initial_screenshot_thumbnail.png" alt="Even after hours of work it looks terrible"></a>
-<div class="bs-callout bs-callout-default"><p>Something to note is that  my previous install of <strong>Mint</strong> had encrypted my home folders with <strong>ecryptfs </strong>(standard ubuntu encryption).  This was easily used with my new install by following the Auto-Mount steps in <a href="https://wiki.archlinux.org/index.php/ECryptfs" title="ecryptfs Arch Guide" target="_blank" rel="external">this guide</a>.</p>
-</div>]]></content>
+    <content type="html">&lt;h2 id=&quot;Something-New&quot;&gt;&lt;a href=&quot;#Something-New&quot; class=&quot;headerlink&quot; title=&quot;Something New&quot;&gt;&lt;/a&gt;Something New&lt;/h2&gt;&lt;p&gt;I have been contemplating re-installing my main OS.  Currently I’m running &lt;a href=&quot;https://www.linuxmint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mint&lt;/a&gt; ( 14 - Cinnamon) and Windows 7.  I have always wanted to install &lt;a href=&quot;https://www.gentoo.org/get-started/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gentoo&lt;/a&gt;, but I just can’t bring myself to doing it, everything I read suggests it will take hours upon hours to install.  Then there’s the maintenance, apparently everything is compiled at install time, which can increase installation times.&lt;/p&gt;
+&lt;h2 id=&quot;Arch&quot;&gt;&lt;a href=&quot;#Arch&quot; class=&quot;headerlink&quot; title=&quot;Arch&quot;&gt;&lt;/a&gt;Arch&lt;/h2&gt;&lt;p&gt;I have been looking at &lt;strong&gt;Arch Linux&lt;/strong&gt;, and I think this provides a good middle ground.  You get to build a system running only what you configure and install, but it seems easier and less daunting that a full &lt;strong&gt;Gentoo&lt;/strong&gt; install.&lt;/p&gt;
+&lt;p&gt;One thing I would like to highlight is that the &lt;a href=&quot;https://wiki.archlinux.org/index.php/Installation_guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;DOCUMENTATION IS AMAZING!&lt;/strong&gt;&lt;/a&gt;, really really helpful, if you need to know it, it’s in there.  Check out the &lt;a href=&quot;https://wiki.archlinux.org/index.php/Beginners&quot; title=&quot;Beginners Guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Beginners Guide&lt;/a&gt; if you need help getting going.&lt;/p&gt;
+&lt;p&gt;After 2 hours of work, here is what I have:&lt;/p&gt;
+&lt;p&gt;(It still needs a lot of work, this is simply the stock xfce, with chromium installed)&lt;/p&gt;
+&lt;a class=&quot;image-link&quot; href=&quot;/content/images/arch-linux-new-install/arch_initial_screenshot.png&quot; title=&quot;Even after hours of work it looks terrible&quot;&gt;&lt;img src=&quot;/content/images/arch-linux-new-install/arch_initial_screenshot_thumbnail.png&quot; alt=&quot;Even after hours of work it looks terrible&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;p&gt;Something to note is that  my previous install of &lt;strong&gt;Mint&lt;/strong&gt; had encrypted my home folders with &lt;strong&gt;ecryptfs &lt;/strong&gt;(standard ubuntu encryption).  This was easily used with my new install by following the Auto-Mount steps in &lt;a href=&quot;https://wiki.archlinux.org/index.php/ECryptfs&quot; title=&quot;ecryptfs Arch Guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;this guide&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content>
     
     <summary type="html">
     
@@ -550,9 +550,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
-    
       <category term="software" scheme="randomsyntax.net/tags/software/"/>
+    
+      <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
     
   </entry>
   
@@ -563,62 +563,62 @@
     <published>2014-01-31T00:00:00.000Z</published>
     <updated>2016-08-22T07:57:32.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Too-Hot"><a href="#Too-Hot" class="headerlink" title="Too Hot"></a>Too Hot</h2><p>While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.</p>
+    <content type="html">&lt;h2 id=&quot;Too-Hot&quot;&gt;&lt;a href=&quot;#Too-Hot&quot; class=&quot;headerlink&quot; title=&quot;Too Hot&quot;&gt;&lt;/a&gt;Too Hot&lt;/h2&gt;&lt;p&gt;While trying to calibrate my hot end I set my extruder speed too high which meant that the plastic was being pushed into the hot end faster than it could be extruded.&lt;/p&gt;
 
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-leaking/leaking.jpg">
-								<img src="/content/images/3d-printer-leaking/leaking_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/leaking.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/leaking_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-leaking/disasembly2.jpg">
-								<img src="/content/images/3d-printer-leaking/disasembly2_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/disasembly2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/disasembly2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-leaking/disasembly.jpg">
-								<img src="/content/images/3d-printer-leaking/disasembly_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/disasembly.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/disasembly_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
 
-<h2 id="Back-in-business"><a href="#Back-in-business" class="headerlink" title="Back in business"></a>Back in business</h2><p>After taking it apart I found that it was due to the inner <a href="http://reprap.org/wiki/PLA" target="_blank" rel="external">PLA</a> of the <a href="http://reprap.org/wiki/Jhead" target="_blank" rel="external">JHead</a> slipping a bit inside.  I have now reconstructed the hot end and its clean and tight.</p>
+&lt;h2 id=&quot;Back-in-business&quot;&gt;&lt;a href=&quot;#Back-in-business&quot; class=&quot;headerlink&quot; title=&quot;Back in business&quot;&gt;&lt;/a&gt;Back in business&lt;/h2&gt;&lt;p&gt;After taking it apart I found that it was due to the inner &lt;a href=&quot;http://reprap.org/wiki/PLA&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PLA&lt;/a&gt; of the &lt;a href=&quot;http://reprap.org/wiki/Jhead&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JHead&lt;/a&gt; slipping a bit inside.  I have now reconstructed the hot end and its clean and tight.&lt;/p&gt;
 
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-leaking/cleaned1.jpg">
-								<img src="/content/images/3d-printer-leaking/cleaned1_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/cleaned1.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/cleaned1_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-leaking/cleaned2.jpg">
-								<img src="/content/images/3d-printer-leaking/cleaned2_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-leaking/cleaned2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-leaking/cleaned2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
-]]></content>
+</content>
     
     <summary type="html">
     
@@ -640,112 +640,112 @@
     <published>2014-01-23T00:00:00.000Z</published>
     <updated>2016-08-22T07:57:20.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>I was inspired to create this printer after seeing a very informative video by <a href="http://richrap.blogspot.co.uk/" target="_blank" rel="external">Richard Horne</a> on his <a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">3DR RepRap Delta Printer</a> (his tutorial series on the printer is very helpful and covers all aspects of the build process).<br>The printer is a Delta printer (a design made famous by <a href="https://github.com/jcrocholl" target="_blank" rel="external">jcrocholl</a> and his <a href="https://github.com/jcrocholl/rostock" target="_blank" rel="external">Rostock</a> printer.</p>
-<div class="bs-callout bs-callout-default"><h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><p><a href="https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2" target="_blank" rel="external">RichRap 3DR Firmware</a><br><a href="http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html" target="_blank" rel="external">Assembly Tutorial Series</a></p>
-</div>
-<h2 id="Photos"><a href="#Photos" class="headerlink" title="Photos"></a>Photos</h2>
+    <content type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;I was inspired to create this printer after seeing a very informative video by &lt;a href=&quot;http://richrap.blogspot.co.uk/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Richard Horne&lt;/a&gt; on his &lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3DR RepRap Delta Printer&lt;/a&gt; (his tutorial series on the printer is very helpful and covers all aspects of the build process).&lt;br&gt;The printer is a Delta printer (a design made famous by &lt;a href=&quot;https://github.com/jcrocholl&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jcrocholl&lt;/a&gt; and his &lt;a href=&quot;https://github.com/jcrocholl/rostock&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Rostock&lt;/a&gt; printer.&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;&lt;h4 id=&quot;Links&quot;&gt;&lt;a href=&quot;#Links&quot; class=&quot;headerlink&quot; title=&quot;Links&quot;&gt;&lt;/a&gt;Links&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/RichRap/MARLIN_FIRMWARE_for_3DR_V2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;RichRap 3DR Firmware&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://richrap.blogspot.co.uk/2013/07/3dr-reprap-delta-printer-part-1-release.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Assembly Tutorial Series&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;Photos&quot;&gt;&lt;a href=&quot;#Photos&quot; class=&quot;headerlink&quot; title=&quot;Photos&quot;&gt;&lt;/a&gt;Photos&lt;/h2&gt;
 	
-    	<!-- Gallery -->
-		<div class="gallery">
-			<div class="row">        
+    	&lt;!-- Gallery --&gt;
+		&lt;div class=&quot;gallery&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;        
 				
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/Electronics1.jpg">
-								<img src="/content/images/3d-printer-build/Electronics1_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Electronics1.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Electronics1_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/Electronics2.jpg">
-								<img src="/content/images/3d-printer-build/Electronics2_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Electronics2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Electronics2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/Electronics3.jpg">
-								<img src="/content/images/3d-printer-build/Electronics3_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Electronics3.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Electronics3_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/base.jpg">
-								<img src="/content/images/3d-printer-build/base_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/base_with_alu_extrusions.jpg">
-								<img src="/content/images/3d-printer-build/base_with_alu_extrusions_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base_with_alu_extrusions.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base_with_alu_extrusions_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/Base_alu_closeup.jpg">
-								<img src="/content/images/3d-printer-build/Base_alu_closeup_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/Base_alu_closeup.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/Base_alu_closeup_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/base_top_carriage.jpg">
-								<img src="/content/images/3d-printer-build/base_top_carriage_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base_top_carriage.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base_top_carriage_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/base_top_carriage2.jpg">
-								<img src="/content/images/3d-printer-build/base_top_carriage2_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/base_top_carriage2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/base_top_carriage2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/carriage.jpg">
-								<img src="/content/images/3d-printer-build/carriage_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/carriage.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/carriage_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/carriage_with_wire.jpg">
-								<img src="/content/images/3d-printer-build/carriage_with_wire_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/carriage_with_wire.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/carriage_with_wire_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/axis_motors.jpg">
-								<img src="/content/images/3d-printer-build/axis_motors_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/axis_motors.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/axis_motors_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/axis carriage2.jpg">
-								<img src="/content/images/3d-printer-build/axis carriage2_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/axis carriage2.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/axis carriage2_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/axis_carriage_3.jpg">
-								<img src="/content/images/3d-printer-build/axis_carriage_3_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/axis_carriage_3.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/axis_carriage_3_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/hotend.jpg">
-								<img src="/content/images/3d-printer-build/hotend_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/hotend.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/hotend_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
-                		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-							<a class="image-link" href="/content/images/3d-printer-build/readytoprint.jpg">
-								<img src="/content/images/3d-printer-build/readytoprint_thumb.jpg" class="img-thumbnail img-responsive">
-							</a>
-						</div>
+                		&lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12&quot;&gt;
+							&lt;a class=&quot;image-link&quot; href=&quot;/content/images/3d-printer-build/readytoprint.jpg&quot;&gt;
+								&lt;img src=&quot;/content/images/3d-printer-build/readytoprint_thumb.jpg&quot; class=&quot;img-thumbnail img-responsive&quot;&gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
 					
 				
-			</div>
-		</div>
+			&lt;/div&gt;
+		&lt;/div&gt;
 	
 
-]]></content>
+</content>
     
     <summary type="html">
     
