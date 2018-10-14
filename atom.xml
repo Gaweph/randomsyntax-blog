@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="randomsyntax.net/"/>
-  <updated>2017-07-08T08:46:31.000Z</updated>
+  <updated>2018-10-14T15:52:03.365Z</updated>
   <id>randomsyntax.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="randomsyntax.net/timegame-webgl-002/"/>
     <id>randomsyntax.net/timegame-webgl-002/</id>
     <published>2017-07-08T08:37:00.000Z</published>
-    <updated>2017-07-08T08:46:31.000Z</updated>
+    <updated>2018-10-14T15:52:03.365Z</updated>
     
     <content type="html">&lt;p&gt;A new build of my time game prototype is available.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Gaweph/TimeGame-WebGL-Demo/master/V0.02/V0.02.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -28,7 +28,7 @@
 &lt;p&gt;The game can be played online &lt;a href=&quot;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;&lt;br&gt;(full link: &lt;em&gt;&lt;a href=&quot;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.02/&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
 &lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Feedback-welcome&quot;&gt;&lt;a href=&quot;#Feedback-welcome&quot; class=&quot;headerlink&quot; title=&quot;Feedback welcome&quot;&gt;&lt;/a&gt;Feedback welcome&lt;/h4&gt;&lt;p&gt;Any feedback would be appreciated. Is it obvious what to do?&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;V0-02&quot;&gt;&lt;a href=&quot;#V0-02&quot; class=&quot;headerlink&quot; title=&quot;V0.02&quot;&gt;&lt;/a&gt;V0.02&lt;/h4&gt;&lt;p&gt;If you are interested in reading my other posts relating to this project then check out:&lt;br&gt;&lt;a href=&quot;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;V0-02&quot;&gt;&lt;a href=&quot;#V0-02&quot; class=&quot;headerlink&quot; title=&quot;V0.02&quot;&gt;&lt;/a&gt;V0.02&lt;/h4&gt;&lt;p&gt;If you are interested in reading my other posts relating to this project then check out:&lt;br&gt;&lt;a href=&quot;https://blog.randomsyntax.net/categories/Gamedev/Timegame/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://blog.randomsyntax.net/categories/Gamedev/Timegame/&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </content>
     
@@ -55,13 +55,13 @@
     <link href="randomsyntax.net/timegame-3-webgl-demo/"/>
     <id>randomsyntax.net/timegame-3-webgl-demo/</id>
     <published>2016-12-29T21:23:00.000Z</published>
-    <updated>2017-07-07T09:11:56.000Z</updated>
+    <updated>2018-10-14T15:51:55.150Z</updated>
     
     <content type="html">&lt;p&gt;I have created a WEBGL build of the time machine proof of concept game.  You should be able to play directly below.&lt;/p&gt;
 &lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Too-boring&quot;&gt;&lt;a href=&quot;#Too-boring&quot; class=&quot;headerlink&quot; title=&quot;Too boring?&quot;&gt;&lt;/a&gt;Too boring?&lt;/h4&gt;&lt;p&gt;Im sorry for the lack of levels and content.&lt;br&gt;This project was mainly for me to try and see what would be needed to implement the time travel piece of functionality&lt;/p&gt;
 &lt;/div&gt;
 &lt;iframe src=&quot;https://gaweph.github.io/TimeGame-WebGL-Demo/V0.01//&quot; width=&quot;1024&quot; height=&quot;700&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;Explanation&quot;&gt;&lt;a href=&quot;#Explanation&quot; class=&quot;headerlink&quot; title=&quot;Explanation&quot;&gt;&lt;/a&gt;Explanation&lt;/h4&gt;&lt;p&gt;I have tried to explain how some of the game mechanics work in my previous posts.&lt;br&gt;&lt;a href=&quot;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.randomsyntax.net/categories/Gamedev/Timegame/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-primary&quot;&gt;&lt;h4 id=&quot;Explanation&quot;&gt;&lt;a href=&quot;#Explanation&quot; class=&quot;headerlink&quot; title=&quot;Explanation&quot;&gt;&lt;/a&gt;Explanation&lt;/h4&gt;&lt;p&gt;I have tried to explain how some of the game mechanics work in my previous posts.&lt;br&gt;&lt;a href=&quot;http://blogs.randomsyntax.net/categories/Gamedev/Timegame/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://blog.randomsyntax.net/categories/Gamedev/Timegame/&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;h4 id=&quot;Just-ask&quot;&gt;&lt;a href=&quot;#Just-ask&quot; class=&quot;headerlink&quot; title=&quot;Just ask :)&quot;&gt;&lt;/a&gt;Just ask :)&lt;/h4&gt;&lt;p&gt;If you need any further explanation or help then feel free to ask :)  I’ll try my best to answer.&lt;/p&gt;
 &lt;/div&gt;</content>
