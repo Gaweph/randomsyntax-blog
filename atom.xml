@@ -49,9 +49,9 @@
     <link href="randomsyntax.net/marching-squares/"/>
     <id>randomsyntax.net/marching-squares/</id>
     <published>2019-07-08T23:00:00.000Z</published>
-    <updated>2019-07-30T16:19:37.399Z</updated>
+    <updated>2019-07-30T16:20:53.495Z</updated>
     
-    <content type="html"><![CDATA[<p>My initial implementation of the <strong>Marching Squares</strong> algorithm,  I was insipred after reading <a href="http://jamie-wong.com/2014/08/19/metaballs-and-marching-squares/" target="_blank" rel="external">Metaballs and Marching Squares</a> by <strong>Jamie Wong</strong></p><p><div id="sketch" style="position:relative; margin: 10px; width: 50px; height: 500px;"></div><script src="/content/js/marching-squares/lib/p5.js"></script><script src="/content/js/marching-squares/lib/p5.dom.min.js"></script><script src="/content/js/marching-squares/build/build.js"></script></p><p><a href="https://gaweph.github.io/p5-live-examples/Random/MarchingSquares/" target="_blank" rel="external">Full screen version</a></p><p><a href="https://github.com/Gaweph/p5-live-examples/tree/master/Random/MarchingSquares" target="_blank" rel="external">Source</a></p><p><div class="bs-callout bs-callout-info"><p>Linear interpolation version can be found herehttps://blog.randomsyntax.net/marching-squares-linear-interpolation/</p></div></p>]]></content>
+    <content type="html"><![CDATA[<p>My initial implementation of the <strong>Marching Squares</strong> algorithm,  I was insipred after reading <a href="http://jamie-wong.com/2014/08/19/metaballs-and-marching-squares/" target="_blank" rel="external">Metaballs and Marching Squares</a> by <strong>Jamie Wong</strong></p><div id="sketch" style="position:relative; margin: 10px; width: 50px; height: 500px;"></div><script src="/content/js/marching-squares/lib/p5.js"></script><script src="/content/js/marching-squares/lib/p5.dom.min.js"></script><script src="/content/js/marching-squares/build/build.js"></script><p><a href="https://gaweph.github.io/p5-live-examples/Random/MarchingSquares/" target="_blank" rel="external">Full screen version</a></p><p><a href="https://github.com/Gaweph/p5-live-examples/tree/master/Random/MarchingSquares" target="_blank" rel="external">Source</a></p><div class="bs-callout bs-callout-info"><p>Linear interpolation version can be found here<br><a href="https://blog.randomsyntax.net/marching-squares-linear-interpolation/" target="_blank" rel="external">https://blog.randomsyntax.net/marching-squares-linear-interpolation/</a></p></div>]]></content>
     
     <summary type="html">
     
@@ -345,9 +345,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="software" scheme="randomsyntax.net/tags/software/"/>
-    
       <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
+    
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
     
   </entry>
   
@@ -372,9 +372,9 @@
       <category term="Misc" scheme="randomsyntax.net/categories/Misc/"/>
     
     
-      <category term="software" scheme="randomsyntax.net/tags/software/"/>
-    
       <category term="setup" scheme="randomsyntax.net/tags/setup/"/>
+    
+      <category term="software" scheme="randomsyntax.net/tags/software/"/>
     
   </entry>
   
